@@ -34,7 +34,7 @@ filter:
     </div>
     <div id='footer'>
       <p>
-        <a href='/' title="Back to homepage" >Home</a>
+        <a href='/' title="Back to homepage" >Home</a> <a href='http://www.hendrikvolkmer.de/impressum.html' rel="nofollow">Impressum</a>
       </p>
       <p class='rights'>
         Copyright

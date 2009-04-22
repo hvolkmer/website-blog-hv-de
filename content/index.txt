@@ -1,5 +1,6 @@
 ---
 title:      Refactoring life. Mercilessly.
+description: "Blog of Hendrik Volkmer - articles about technologies like Rails and OpenSolaris, Programming languages in general, agile software development, testing, design and life"
 created_at: 2009-04-10 13:09:47.526917 +02:00
 filter:     erb
 dirty:      true
@@ -16,7 +17,16 @@ dirty:      true
 </div>
 <%= pagination_links %>
 
-<h2> Browsing </h2>
-<% if @page.url =~ /\/$/ %>
-  You can also browse by <%= link_to("Category", "/category") %> or tag <%= link_to("Tag", "/tags") %>
-<% end %>
+<h2>Browsing</h2>
+
+You can also browse by <%= link_to("Category", "/category") %> or tag <%= link_to("Tag", "/tags") %>
+
+<h2>Links</h2>
+
+<ul>
+  <li><a href="http://www.imedo.de">Gesundheitsportal imedo.de</a></li>
+  <li><a href="http://www.marcelscherf.com">Marcel Scherf</a></li>
+  <li><a href="http://www.christianangele.de">Christian Angele</a></li>
+  <li><a href="http://www.timobenz.de">Timo Benz</a></li>
+</ul>
+

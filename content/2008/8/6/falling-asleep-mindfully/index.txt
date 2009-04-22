@@ -1,0 +1,19 @@
+--- 
+title: Falling asleep mindfully
+sections: 
+- english
+- life
+tags: 
+- sleep
+filter: 
+- textile
+description: Ever noticed the moment you fall asleep?
+blog_post: true
+layout: post
+created_at: 2008-08-06 13:09:47.526917 +02:00
+---
+
+
+When I was going to sleep yesterday I realized that I pictured my thoughts and wondered if I can consciously realize the moment I fall asleep. There weren't many thoughts. It was like a big black void and some "thoughts" where flying around. Then they started to disappear, fading out or just going away. Then I thought: "I'm.... going... to fall asleep.... now". Then I was asleep. I think it's the second time that had this experience. It's quite intersting.
+
+Did this ever happen to you?

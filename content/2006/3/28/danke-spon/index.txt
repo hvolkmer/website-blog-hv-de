@@ -1,0 +1,22 @@
+--- 
+title: Danke SPON...
+sections: 
+- german
+- life
+tags: 
+- allgemeines
+filter: 
+- textile
+description: Spiegel Online gibt nun bei DVD Tipps an, welche Tonspur vorhanden ist
+blog_post: true
+layout: post
+created_at: 2006-03-28 13:09:47.526917 +02:00
+---
+
+Jetzt steht auf der Seite zum Thema DVD-Beilegern ein Hinweis zur Tonspur:
+<blockquote>Die meisten der DVDs, die kostenlos Zeitschriften beigelegt werden, verfügen leider nur über eine deutsche Tonspur. Zudem sind die Angaben der Verlage über die Ausstattung der DVDs äußerst lückenhaft. Deshalb gilt: Wo das nicht anders vermerkt ist, verfügt die DVD nur über eine deutsche Tonspur.</blockquote>
+Quelle:<a href="http://www.spiegel.de/netzwelt/netzkultur/0,1518,408125-2,00.html"> http://www.spiegel.de/netzwelt/netzkultur/0,1518,408125-2,00.html</a>
+
+Leider etwas spät für mich, aber immerhin steht's nun da...
+
+Siehe auch: "Der Griff ins Kl^H^HZeitschriftenregal":/2006/03/05/der-griff-ins-kl-h-hzeitschriftenregal/

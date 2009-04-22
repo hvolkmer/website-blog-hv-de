@@ -1,0 +1,47 @@
+--- 
+title: Some thoughts
+sections: 
+- english
+- life
+- art-and-design
+tags: 
+- life
+- toughts
+- ted
+filter: 
+- textile
+description: A list of really inspiring and cool thoughts by Stefan Sagmeister
+blog_post: true
+layout: post
+created_at: 2008-10-01 13:09:47.526917 +02:00
+---
+
+
+... not my own... well actually most of them are.
+
+<blockquote>
+* helping other people helps me
+* having guts always works out for me
+* thinking life will be better in the future is stupid. i have to live now
+* starting a charity is surprisingly easy
+* being not truthful works against me
+* everyting i do always comes back to me
+* assuming is stifling
+* drugs feel great in the beginning and become a drag later on
+* over time i get used to everything and start taking for granted
+* money does not make me happy
+* travelling alone is helpful for a new perspective on life
+* keeping a diary supports personal development
+* trying to look good limits my life
+* material luxuries are best enjoyed in small doses
+* worrying solves nothing
+* complaining is silly. either act or forget
+* actually doing the things I set out to do increases my overall level of satisfaction
+* everybody thinks they are right
+* low expectations are a good strategy
+* whatever I want to explore professionally, its best to try it out for myself first
+* everybody who is honest is interesting
+</blockquote>
+by "Stefan Sagmeister":http://sagmeister.com/sagmeister.html
+
+via [ "Stefan Sagmeister: Things I have learned in my life so far":http://www.ted.com/index.php/talks/stefan_sagmeister_on_what_he_has_learned.html ]

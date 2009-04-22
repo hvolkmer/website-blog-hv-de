@@ -1,0 +1,29 @@
+--- 
+title: "Useful error messages... "
+sections: 
+- english
+- sysadm
+tags: 
+- linux
+- error
+- broken
+filter: 
+- textile
+description: A collection of useful(or less) error messages. Part I.
+blog_post: true
+layout: post
+created_at: 2007-01-21 12:09:47.526917 +01:00
+---
+
+... are great. Here's one I came across while trying to recover data from a hard disk image of a broken hard disk:
+
+<pre>
+core backup # xfs_repair -f data.image
+Phase 1 - find and verify superblock...
+superblock read failed, offset 249108103168, size 2048, ag 0, rval 58
+
+fatal error -- Success
+core backup #
+</pre>
+
+fatal error -- Success. Now that's a useful message, isn't it? Btw. the image wasn't recoverable... 

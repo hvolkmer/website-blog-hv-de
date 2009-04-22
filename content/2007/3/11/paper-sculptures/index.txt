@@ -1,0 +1,22 @@
+--- 
+title: Paper sculptures
+sections: 
+- english
+- art-and-design
+tags: 
+- art
+- paper
+- colorful
+filter: 
+- textile
+description: Beautiful paper sculptures by Jen Stark
+blog_post: true
+layout: post
+created_at: 2007-03-11 12:09:47.526917 +01:00
+---
+
+Amazing paper sculptures by "Jen Stark":http://www.jenstark.com/sculpture_01.html: 
+
+!http://blog.hendrikvolkmer.de/assets/2008/4/30/PaperAnomaly.jpg!
+
+[via "Valuesofn":http://www.valuesofn.com/blog/2007/03/jens-starks-paper-sculptures.html]

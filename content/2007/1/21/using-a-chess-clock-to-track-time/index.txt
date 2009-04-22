@@ -1,0 +1,20 @@
+--- 
+title: Using a chess clock to track time
+sections: 
+- english
+tags: 
+- programming
+- productivity
+- time
+- tracking
+- podcast
+- idea
+filter: 
+- textile
+description: "Productivity hack: Use a chess clock to track time"
+blog_post: true
+layout: post
+created_at: 2007-01-21 12:09:47.526917 +01:00
+---
+
+In the current <a href="http://www.drunkandretired.com/2007/01/19/drunkandretiredcom-podcast-episode-79-applying-dynamic-languages-to-http-client-in-java-hitlers-monads-pgp-and-email-charles-day-getting-to-continuous-personal-improvement-and-backlogs/">DrunkAndRetired.com episode</a> <a href="http://www.cogentdude.com/">Charles</a> explains that he uses a chess clock to track his real working time. So one clock shows the time spent on work and the other one the time spent on making coffee, eating, surfing the web <a href="http://dilbert.com/">reading</a> <a href="http://questionablecontent.net/">comics</a> etc. I like the idea of tracking your real net amount of time spent on actual work. So I need to get a chess clock and try it out...

@@ -1,0 +1,68 @@
+--- 
+description: "Mitgebloggt: Killerspiele bei Christiansen - eine Diskussion, wie man sie im Fernsehen eben erwartet."
+title: Killerspiele bei Christiansen
+sections: 
+- german
+- politics
+- life
+tags: 
+- allgemeines
+- killerspiele
+- politics
+filter: 
+- textile
+blog_post: true
+layout: post
+created_at: 2006-11-28 12:09:47.526917 +01:00
+---
+
+<p>Ich habe gestern mehr oder weniger zufällig Chrstiansen angeschaut und da ich gerade Emails gecheckt hatte, war der Rechner noch an. Als ich dann das Thema "Killerspiele" bzw. Gewalt bei Jugendlichen mitbekommen habe, dachte ich. Da tippst du mal selbst bissle mit und bloggst das dann. Hier das das Ergebnis. Ist 'ne Art Protokoll. Eigene Kommentare sind kursiv.</p>
+<p>Titel der Sendung war "Randale, prügeln, "ballern" - was tun gegen Gewalt?"</p>
+<p>Gäste in der Diskussionsrunde sind:</p>
+<ul>
+<li>Willi Lemke (Senator für Bildung und Wissenschaft in Bremen, SPD)</li>
+<li>Ralf Möller (Schauspieler)</li>
+<li>Susanne Fröhlich (Autorin, Moderatorin)</li>
+<li>Udo Nagel (Innensenator von Hamburg, parteilos)</li>
+<li>Harald Dörig (Förderverein Gutenberg-Gymnasium Erfurt)<br /></li></ul>
+<p>Im Studiopublikum</p>
+<ul>
+<li>Christian Chmiel (mehrfacher Meister "counter strike")</li>
+<li>Önder Kurt (Streetworker in Berlin-Wedding)</li>
+<li>Dieter Bergmann (Berater für Seniorensicherheit)</li></ul>
+<p>Ziemlich schnell ist man sich einig: Probleme liegen in der Familie, zu wenige Dialoge, Emotionale Verwahrlosung. Aber trotzdem: "Killerspiele" müssen weg. <em>What? Wo ist da der zusammenhang? </em>Christiansen schlägt Internet Überwachung vor! Suchbegriffe nach "Amok" etc. <em>Das ist DIE Lösung.</em> Problem bei Jugendlichen ist laut Herrn Nagel: Alle wissen was, aber keiner sagt bescheid. Amokläufe wird man nie verhindern können, sagt Hr. Nagel. Wili Lemke meint, "Killerspiele" seien der falsche Einstieg in eine solche Diskussion. Killerspiele seien blöd, aber keine Ursache! "Alle Studien zeigen - diese Spiele sind gefährlich". sagt Fr. Fröhlich. Gibt aber zu, dass es einen Schwarzmarkt gibt. Sie ist auch für Ganztagsschulen für Kinder.</p>
+<p>Chrstiansen geht immer wieder auf die Computerspiele los. Zum zweiten mal ein wird ein Ausschnitt von Counter Strike gezeigt. Nur Tötungszenen werden gezeigt. Keine taktischen Aspekte oder irgendwelche Details von Maps. Teams sind nicht erkennbar. Das Counter-Terrorist-Team gewinnt. <em>Passender wäre hier zum Thema "Terrorists win" gewesen.</em></p>
+<p>Wili Lemke ist auch gegen Spiele, sagt aber auch, dass "Spiele weg - Problem gelöst" nicht stimmt. <em>Man hat den Eindruck als wäre er eigentlich gar nicht so sehr gegen diese Spiele. Aber irgendwie sagt er dann doch nicht "Die Spiele sind nicht das Problem - also lassen wir die mal komplett aus der Diskussion raus".</em></p>
+<p><em>Ich muss eben mal lachen.</em> Herr Nagel von der Polizei sagt "Verbote lösen Probleme hat man ja z.B bei Drogen gesehen.". <em>Genau - Heroin und Crack, etc ist verboten und deswegen gibt's ja auch keine Probleme mit diesen Drogen mehr in Deutschland.</em></p>
+<p>Fr. Fröhlich meint "Ursache verbieten".</p>
+<p>Lemke meint, Verbot bringt nix. Weil Jugendliche Alles wieder runterladen. "Was denken Sie wie lange ein Jungendlicher braucht, sich sowas wieder aus dem Internet zu laden? 5 Minuten?"</p>
+<p>Herr Dörig ist auch für Verbot - bei "hoher Schwelle". Er sieht CS als eher Strategiespiel. Kurz Applaus im Publikum.</p>
+<p>Jetzt im Publikum der Pro-Spiele Gast: Christian Chmiel. War Zivildienstleistender und ist Gewaltgegner. Spielt seit 7 Jahren und es hat ihm offentsichtlich nicht geschadet.</p>
+<p>Herr Nagel kann Spiele die einen Totungsaspekt haben nicht als Strategiespiel sehen.</p>
+<p>Für Christiansen ist "Internet" = "Killerspiel".</p>
+<p>Es stellt sich heraus: Waffen sind verboten und es wird ein Schwarzmarkt geben. <em>Sehe nur ich hier eine Parallele zum Killerspielverbot?</em></p>
+<p>Möller: Berieselung ist das Problen (Fernsehen etc. ) Die Selbstachtung bei Jungendlichen fehlt.</p>
+<p><em>Es ist unglaublich, wie Fr. Christiansen manchmal ihre Zähne nicht auseinander bekommt.</em></p>
+<p>Hr. Lemke meint, dass Problem sei zu wenig Zuwendung. Kinder müssen durch Liebe gestärkt werden.</p>
+<p><em>Alle denken irgendwie: Killerpsiele ist nicht das Problem. Aber trotzdem sollte man die erstmal verbieten.</em></p>
+<p>Flimausschnitt von Film "Pathfinder" mit Ralf Möller. Man sieht ein wenig Schwertmetzelei. Nix besonderes. Kein Blut o.ä.. Ist wohl ab 12 Jahre, der Film. Möller kann das kaum glauben, meint der sei in USA bestimmt ab 13 bzw. ab 17/18 (nennt das ...-Rating-Pendant für dieses Alter).</p>
+<p>Großer Unterschied: Selbst machen bei Spiel - nur angucken beim Film. Fr. Fröhlich "alle Studien" sagen: Die Menge des Konsums ist entscheidend.</p>
+<p>Hr. Möller hat den Abschiedsbrief wirklich gelesen. Sieht daraus: Großer Leistungsdruck in der Gesellschaft.</p>
+<p>Fr. Fröhlich findet "jede Untersuchng" toll. <em>Schön, dass sie alle gelesen hat.</em></p>
+<p>5% der Spieler werden zu Amokläufern bzw. Gewalttätern (Fr. Fröhlich) "95% aller Computerspieler sind ja nicht gewalttätig".</p>
+<p>Müller stellt die Kampagne "<a href="http://www.ralf-moeller.de/sonstiges/starketypen.php">Starke Typen</a>" vor. Ziel istWerte vermitteln. Zeigen, wie schwer es für ihn selbst (und andere) war erfolgreich zu werden. Es sollen Perspektiven vermittelt werden. Dazu werden Unternehmer sowie Leute aus Sportvereinen an Schulen gebracht um zu erzählen und auch Ausbildungsplätze anzubieten.</p>
+<p><br />
+Publikumsgast: Önder Kurzt:<br />
+Frust und Perspektivlosigkeit bei Jugendlichen ist das Hauptproblem.<br />
+Unternehmen haben teilweise noch Vorurteile gegenüber "Menschen mit Migrationshintergrund"</p>
+<p><br />
+Lemke: Jeder Schüler hat Stärken! Die Stärken müssen gefunden werden. Diese Schüler müssen in Praktikumsplätze vermittelt werden. Unternehmemer müssen mit machen.</p>
+<p>Fröhlich: Die Änderungen müssen finanziert werden. Unterstützung von Schülern etc. Schüler müssen lernen mit Aggression und Frustration unzugegen.</p>
+<p>Döring: Haftplatz ist teurer als Schulbildung. Geld sollte für Förderung der Schulen etc. eingesetzt werden.</p>
+<p>Nagel: Nicht nur Werte sind wichtig. Sondern auch Grenzen. <em>Ich glaube zu wissen, was er meint. Kam aber irgendwie so als der Hardliner rüber. Nach dem Motto: Das ganze Pädagogenzeugs bringt doch nix. Man muss einfach hart durchgreifen.</em></p>
+<p><br />
+<em>Es stellt sich für mich über die ganze Sendung hinweg irgendwie immer wieder der Grundtenor da: Im Endeffekt sind alle einig, das Killerspiele sind nicht die Ursache von Amokläufen sind, aber das Problem mit der Schule etc. zu lösen, wäre zu schwer, also verbieten wir mal die Spiele. Dann haben wir wenigstens etwas getan.</em></p>
+<p><em>Glücklicherweise wurde das Killerspielthema nur am Anfang etwas durchgekaut, danach war das ne relativ sinnvolle Diskussion. Komischerweise sind Themen wie Gewalt in anderen Medien (Fernsehen, Kino) bzw. Gewalt unter Jugendlichen nicht tiefergehend diskutiert worden.</em></p>
+<p><em>Immer mal wieder kam ein Satz nach dem Motto "ja, diese Killerspiele sind ja ganz böse - wenn auch nicht ursächlich für Gewalttaten - und müssen weg.".</em></p>
+<p><em>Meine Meinung dazu, habe ich ja vor kurzem schon beschrieben: Wenn man mit entsprechenden Werten aufwächst, dann hat man auch kein Problem damit am Computer Pixelgestalten (auch Menschen) zu zerfetzen und dies im echten Leben nicht zu tun. Mal abgesehen davon, dass es zwischen verschiedenen Egoshootern gravierende Unterschiede gibt.</em></p>
+<p><em>Wenn man jedoch sowieso keine hohe Achtung vor dem Leben an sich hat, dann sieht man vielleicht keinen Unterschied zwischen den Pixeln auf dem Bildschirm und einem echten Menschen und bringt dann vielleicht beide um. Das Problem ist hier jedoch nicht das Spiel - das vielleicht sogar die Hemmschwellle NOCH weiter runtersetzt - sondern die fehlende Wertvorstellung am Anfang. Und genau da sollte man ansetzen und nicht an den Symptomen rumdoktern und die Spiele verbieten.</em></p>

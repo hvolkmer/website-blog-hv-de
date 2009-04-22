@@ -1,0 +1,51 @@
+--- 
+title: Java like experiences with merb
+sections: 
+- coding
+- english
+tags: 
+- java
+- merb
+- tests
+- development
+filter: 
+- textile
+description: I got rather frustrated while updating a merb up to the current merb version. It reminded my of web application devlopment with Java.
+blog_post: true
+layout: post
+created_at: 2008-09-09 13:09:47.526917 +02:00
+---
+"Java":http://www.java.com/? "merb":http://merbivore.com/? What do they have in common? They are both multithreaded, fast, modular? You can choose which ORM, templating and JavaScript and testing framework you want to use? 
+
+With all these things being true, they have another thing in common: It can be very frustrating to develop a web app using these technologies.
+
+I played around with merb at the beginning of the year just because it was something new and I like new things. I used something like 0.3.0 which as the version number suggests is an early development release. Things are supposed to change. And they have. merb was splittet into "merb-core":http://github.com/wycats/merb-core/tree/master and "merb-more":http://github.com/wycats/merb-more/tree/master and lots of other gems. Which in itself is a good idea but made it real hard to figure out what you really need.
+
+Engouraged by the infos I got in the BoF session about merb by "Yehuda Katz":http://yehudakatz.com/ at "RailsConf Europe":http://en.oreilly.com/railseurope2008/public/content/home, I wanted to play around with some new merb features.
+
+On Saturaday I "ported" a very small (as in "the standard blog" app) merb 0.3.0 app to the current 0.9.5. And by "ported" I really mean: I've thrown the old implementation away and rewrote it from scratch - because after an hour or so of hunting errors and trying to find missing gems that I needed,  I figured it would be easier to start with a new 0.9.5 app.
+
+It's a little bit ironic that the merb guys want to create a public API that doesn't change often and yet it changed very often until now. You can't really blame them - there is no official release yet - it's a development version - but it makes playing around with this kind of thing really hard. I almost was at the point where I said "F' it, i'll use Rails and be happy with it" - which would have missed the point of playing around with merb.
+
+To play with merb you have to read the code. There is documentation which is ok on some parts and missing on other but there are no useful tutorials or blog post. Ok, there are... but you have no idea which version of merb they are about so they're pretty much useless: If you don't use the exact version of merb the tutorial was written for it won't work. - That's a general problem with tutorials/blog posts for new technologies (I experienced the same with some rspec posts). So please, if you write a post or tutorial, mention which version of the tools you're using.
+
+So to summarize what do I like and don't like about merb:
+
+I like
+* the modular architechture (construction kit: pic what you need), merb-slices, etc.
+* that it is small and thus a good fit for focussed services
+* that it orm, js library, rendering framework agnostic
+* the idea of a public api that doesn't change often
+* that there's no real magic inside the code
+* that it's rack based
+
+I don't like
+* the naming of the gems. It's "merb_activerecord":http://github.com/wycats/merb-plugins/tree/master/merb_activerecord but "merb-assets":http://github.com/wycats/merb-more/tree/master/merb-assets. Why is it "-" one time and "_" the other time. If there's some kind of logic behind that I was not smart enough to figure it out.
+* the merb-more gems sometimes just don't work. e.g. form_for doesn't work for me in 0.9.5 - and there are no specs/tests for it! Or at least I didn't find them. 
+* that it is hard to get started with, especially if you're a spoiled Rails child. There should be a generator "merb-gen app --rails-like" which should hook you up with alle the things that rails has (and merb has as well if you choose the according orm, js, helper gems, etc.)
+* that things like pagination are quite hard (there's "merb_paginate":http://github.com/myobie/merb_paginate/tree/master + "will_paginate":http://github.com/mislav/will_paginate/tree/master and it works) - This isn't really a merb problem and more a problem of how some rails plugins are too rails focussed - hopefully this will change when there are more Ruby web frameworks out there
+
+"So you just wanted to write a rant and say the J-Word, Hendrik?" - Not really. I think merb is a great framework but, as every piece of software  has some flaws, all of them can easily be fixed and let's see what merb 1.0 will bring us. If you want to try out merb I recommend waiting until 1.0 (which is due in about a month) - or take the latest checkout from github where maybe everything is ok.
+
+And if you use merb for something in production and don't have tests (which is a bad idea in the first place), write them before you even think about upgrading to a newer version. This experience has once again shown the value of tests for me.
+

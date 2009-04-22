@@ -1,0 +1,54 @@
+--- 
+title: HTTP-Referer and redirect_to :back
+sections: 
+- english
+- coding
+tags: 
+- rails
+- referer
+- redirect
+filter: 
+- erb
+- textile
+description: Using redirect_to :back in Rails without HTTP referer is not supported by default. It's possible with this snippet of code
+blog_post: true
+layout: post
+created_at: 2007-03-08 12:09:47.526917 +01:00
+---
+
+Rails has a convenient way of going back to the URI you just came from: redirect_to :back. Internally this redirect is done by a redirect to the referring URI using the "HTTP-Referer-Header":http://www.rfc-editor.org/rfc/rfc2616.txt . While this is convenient and works most of the time, it relies on the fact that the client's browser sends the referer-header field. If it doesn't, the "redirect_back method throws a RedirectBackError":http://api.rubyonrails.org/classes/ActionController/Base.html#M000271 . 
+
+The Rails source itself suggests that we should catch this exception if we want to impelement some kind of fallback behavoir. Apparently not many people have ever done this. At least noone seemes to talk about it. So I will.
+
+Most of the browsers will send a Referer header, but the main problem, I see, is corporate firewalls. Most of them are configured to eleminate the Referer-Header for outgoing requests. So if someone behind such a firewall tried to access your web application which is relying on a Referer-based redirect, it won't work. 
+
+And the Referer field is optional (at least as I understand "rfc2616":http://www.rfc-editor.org/rfc/rfc2616.txt ).
+
+Now for the solution I went for. It may not be perfect, but it works. 
+
+And this in your application.rb (Inspired by "this post":http://rails.co.za/articles/2006/03/20/jumpback)
+
+<pre class="prettyprint">
+<code>
+before_filter :jumpback
+protected
+  def jumpback
+    session[:jumpback] = session[:jumpcurrent]
+    session[:jumpcurrent] = request.request_uri
+  end  
+
+ def rescue_action_in_public(exception)
+    case exception
+     when ::ActionController::RedirectBackError
+       jumpto = session[:jumpback] || {:controller => "/my_overview"}
+       redirect_to jumpto
+     else
+       super
+     end
+  end
+</code>
+</pre>
+
+Now the redirect_to :back will work without referer header.
+
+Update: It's obviously a bad idea to overwrite rescue_action in ActionController::Base. And it's not really neccessary. There's rescue_action_in_public for exactly that purpose. I updated the code above to reflect that change.

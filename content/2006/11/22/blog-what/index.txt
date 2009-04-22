@@ -1,0 +1,22 @@
+--- 
+title: Blog-what?
+sections: 
+- english
+tags: 
+- allgemeines
+- meta
+- erlebtes
+- windows
+filter: 
+- textile
+description: Funny dictionary thin with blogdesk
+blog_post: true
+layout: post
+created_at: 2006-11-22 12:09:47.526917 +01:00
+---
+
+That's funny. A desktop blogging client which spell check dictionary doesn't know the word "blog". It doesn't know "blogging" either.
+
+<img height="213" alt="log-desk" src="http://sundevil.de/hendrik/wp-content/uploads/2006/11/log-desk.jpg" width="450" />
+
+Apart from that I really like <a href="http://www.blogdesk.org/">BlogDesk</a> so far.

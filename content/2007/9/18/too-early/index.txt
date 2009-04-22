@@ -1,0 +1,24 @@
+--- 
+title: Too early
+sections: 
+- english
+- life
+- coding
+tags: 
+- coffee
+- railsconfeurope07
+- sleep
+filter: 
+- textile
+description: I arrived early.
+blog_post: true
+layout: post
+created_at: 2007-09-18 13:09:47.526917 +02:00
+---
+
+
+
+
+It's not that easy to get up at 7 o'clock. It's even harder if you realize that you could have slept almost an hour more... Someone told us yesterday that the keynote speech would start at 8:15 so we managed to get here at 8 just to realize that the keynote will start at 9. At least we'll get good seats then.
+
+I'll try to get some coffee now... I really need it.

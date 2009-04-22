@@ -1,0 +1,31 @@
+--- 
+title: Strange errors and simple solution
+sections: 
+- english
+- coding
+tags: 
+- rails
+- rake
+- error
+- message
+- mysql
+filter: 
+- textile
+description: Strange Rails errors with Object::ViewTranslation
+blog_post: true
+layout: post
+created_at: 2007-04-07 13:09:47.526917 +02:00
+---
+
+
+If you get strange errors like 
+
+<pre class="prettyprint">
+<code>
+cannot remove Object::ViewTranslation
+</code>
+</pre>
+
+if you execute rake tasks, just install the mysql client library and everything works fine. At least for me.
+
+I wrote about "useful error messages":/2007/1/21/usefull-error-messages before.

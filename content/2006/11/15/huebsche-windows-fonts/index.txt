@@ -1,0 +1,28 @@
+--- 
+title: "H\xC3\xBCbsche Windows Fonts"
+sections: 
+- german
+tags: 
+- windows
+- fonts
+filter: 
+- textile
+description: Anti-Aliased fonts unter Windows. "Consolas" ist hybsch.
+blog_post: true
+layout: post
+created_at: 2006-11-15 12:09:47.526917 +01:00
+---
+
+Gestern habe ich <a href="http://www.microsoft.com/typography/ClearTypeInfo.mspx">ClearType</a> entdeck: Anti-Aliasing für Windows Fonts. Keine Ahnung warum das jahrelang an mir vorbei gegangen ist. Dazu die passende <a href="http://www.microsoft.com/downloads/details.aspx?familyid=22e69ae4-7e40-4807-8a86-b3d36fab68d3&amp;displaylang=en">Consolas Font</a> (wer kein Visual Studio hat, kann mit Hilfe von Google auch andere Quellen für die Schrift finden...) und schon sehen sogar Websphere Logmeldungen hübsch aus:
+
+<img height="79" alt="consola font" src="http://sundevil.de/hendrik/wp-content/uploads/2006/11/consola_font-1.jpg" width="321" />
+
+
+Sogar Java-Code kann damit schön aussehen:
+<img height="125" alt="consolas code" src="http://sundevil.de/hendrik/wp-content/uploads/2006/11/consolas_code.jpg" width="428" />
+
+Ein richtiger Augenschmaus ist Firefox 2.0 mit dem schicken Spiegeleffekt in den Tabs (keine Ahnung wie man das wirklich nennt. "Vista"-GUI?) und AA-Fonts:
+
+<img height="197" alt="aa firefox" src="http://sundevil.de/hendrik/wp-content/uploads/2006/11/aa_firefox.jpg" width="269" />
+
+Die Umstellung von normalen Schriften auf AA-Schriften ist erstmal echt ungewohnt. Man gewöhnt sich aber schnell dran und es sieht für meinen Geschmack deutlich besser, und runder, aus.

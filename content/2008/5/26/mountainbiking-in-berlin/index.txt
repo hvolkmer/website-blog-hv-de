@@ -1,0 +1,19 @@
+--- 
+title: Mountainbiking in Berlin
+sections: 
+- german
+- life
+tags: 
+- mountain
+- bike
+- berlin
+- grunewald
+filter: 
+- textile
+description: Es gibt in Berlin zwar keine 'echten' Berge, aber mountainbiken kann man dennoch
+blog_post: true
+layout: post
+created_at: 2008-05-26 13:09:47.526917 +02:00
+---
+
+... geht tatsächlich. Und zwar gar nicht so schlecht. Ich war am Wochenende mit "Christian":http://www.christianangele.de unterwegs. Es gibt sogar sogar einen Fotobeweis, für alle Ungläubigen, in seinem Bericht über unsere (kurze) "Mountainbike Tour in Berlin Grunewald":http://christianangele.de/2008/05/26/mountainbike-tour-berlin-grunewald/

@@ -1,0 +1,18 @@
+--- 
+title: Apple iPhone
+sections: 
+- english
+tags: 
+- mac
+- hardware
+filter: 
+- textile
+description: "iPhone: I want one."
+blog_post: true
+layout: post
+created_at: 2007-01-09 12:09:47.526917 +01:00
+---
+
+<p>It's there. The <a href="http://www.apple.com/iphone/">Apple iPhone</a>. I want to have one. That was the first thought after browsing through the product page. This is how mobile phone UIs should look like. The touch screen just looks awesome. I like the multiple touch points.</p>
+<p>People who know me already know that I like Apple products. But whatever your thoughts on all past apple products have been: This is a product that you can easily like.</p>
+<p>And Microsoft thought their Zune was innovative. Excuse me, I have to go to bed... laughing. ;-)</p>

@@ -1,0 +1,17 @@
+--- 
+title: Forbidden pictures from a train
+sections: 
+- politics
+- life
+tags: 
+- terrorists
+- pictures
+filter: 
+- textile
+description: This is silly. Don't take pictures form a train... or else you are a terrorist!
+blog_post: true
+layout: post
+created_at: 2007-11-09 12:09:47.526917 +01:00
+---
+
+Now "this":http://www.schneier.com/blog/archives/2007/11/taking_pictures.html is ridiculous. As if Terrorists haven't heard of "google maps":http://maps.google.com or knew how to buy paper based maps...

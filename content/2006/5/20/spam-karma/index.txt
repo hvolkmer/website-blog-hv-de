@@ -1,0 +1,16 @@
+--- 
+title: Spam-Karma
+sections: 
+- german
+tags: 
+- allgemeines
+- meta
+filter: 
+- textile
+description: Spamkampf mit Wordpress
+blog_post: true
+layout: post
+created_at: 2006-05-20 13:09:47.526917 +02:00
+---
+
+Nachem ich diese Woche ungefaehr 100 Mails von meinem Wordpress bekam, die mich auf zu moderierende Kommentare hingewiesen haben und diese allesamt Spam waren, habe ich mich entschieden <a href="http://unknowngenius.com/blog/wordpress/spam-karma/">Spam-Karma</a> zu installieren. Ging echt flott und hat alle "Kommentare" auch gleich richtig als Spam eingestuft. Mal schauen, wie sich das nun auf meine Mailbox auswirkt. Die normalen 50 Spam Mails pro Tag reichen eigentlich ;-). Thunderbird ist da mittlerweile schon sehr gut, was die Filterquote angeht.

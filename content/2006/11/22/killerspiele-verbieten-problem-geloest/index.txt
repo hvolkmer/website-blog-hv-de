@@ -1,0 +1,36 @@
+--- 
+title: "Killerspiele verbieten - Problem gel\xC3\xB6st."
+sections: 
+- german
+- politics
+tags: 
+- allgemeines
+- "1984"
+- killerspiele
+filter: 
+- textile
+description: "Wiederholt meine Meinung zum Thema \"Killerspiele\". Anl\xC3\xA4sslich des Vorfalls in Emsdetten."
+blog_post: true
+layout: post
+created_at: 2006-11-22 12:09:47.526917 +01:00
+---
+
+So einfach hätten es die Politiker gerne und wenn man die lauten Aufschreihe nach dem Vorfall in der Schule in Emsdetten vernimmt, dann muss man zu dem Schluss kommen, dass Politiker wirklich so denken.
+
+Ich frage ich mich dann immer, ob diese Menschen das einfach nicht besser wissen (und wirklich glauben was sie sagen) oder ob sie das einfach sagen, damit "Ruhe" ist, oder was gesagt wurde und eigentlich wissen, dass sie Bullshit verzapfen. Ich weiß auch nicht, welche Situation denn schlimmer ist.
+
+Im Jahre 2002 habe ich bereits kurz was zu dem Vorfall in Erfurt geschrieben. Damals unter der Thema <a href="/2002/7/23/zensur-im-internet/">Zensur</a>.
+
+Es gibt mehrere Gründe, warum ein Verbot von "Killerspielen" das Problem nicht löst.
+
+* Gehen wir mal davon aus, dass "Killerspiele" nichts mit dem Verhalten zu Tun haben. Davon gehe ich persönlich aus und bisher gibt es keine schlüssigen Untersuchungen die nahelegen, dass "Killerspiele" der Hauptgrund für Amokläufe sind. Wenn diese Spiele also nicht zu diesem Verhalten führen, warum sollte man diese dann verbieten? Warum soll Tausenden friedlichen Menschen ein Unterhaltungsmedium vorenthalten bleiben, weil ein Mensch einen Fehler begeht?
+* Gehen wir davon aus, dass wirklich die "Killerspiele" Auslöser für das Verhalten waren. Was würde ein Verbot dann bringen? Waffenbesitz ist in Deutschland sehr eingeschränkt und quasi für den normalsterblichen "verboten". Hat das diesen Menschen davon abgehalten Waffen zu besitzen und sie einzusetzen, um Menschen zu töten?
+* Generell lösen Verbote das Problem nicht. Wer sich den <a href="http://www.n-tv.de/734961.html">Abschiedsbrief</a> des 18-Jährigen durchgelesen hat und immer noch glaubt, dass "Killerspiele" der Auslöser des Durchdrehens waren, der kann wohl lesen, aber nicht verstehen. Ich frage mich, wie viele Politiker wirklich diesen Brief mal gelesen haben und überlegen, was die wirklichen Gründe für das Verhalten sind.
+
+Ich denke, der Täter war einfach zur verzweifelt und wollte Aufmerksamkeit. Die hat er jetzt bekommen. Das Bild was sich mir durch den Brief erschließt ist das eines intelligenten, jungen Menschen, der verzweifelt ist und keinen Sinn mehr im Leben sieht. Für mich ist das kein blutrünstiger, durch Computerspiele abgerichteter Irrer, der meint, Spiele in die Realität umsetzen zu müssen, sondern einfach ein sehr verzweifelter Mensch, der keinen Ausweg mehr aus seiner Situation sieht und ein letztes Mal - vielleicht ein einziges Mal - Beachtung finden will. Leider ist es heutzutage so, dass man durch schlechte Taten leichter Beachtung findet, als durch gute.
+
+Hier ein allgemeines Problem in unserer Gesellschaft zu sehen und DIESES Problem zu adressieren, halten Politiker wohl nicht für nötig - oder sie sehen es wirklich nicht, was sehr traurig wäre. Das ist leider auch etwas komplexer und schwieriger als "Wir verbieten Killerspiele und alles wird gut" und nicht sehr medienwirksam.
+
+h2. Weitere Artikel zu diesem Thema
+* <a href="http://www.spiegel.de/wissenschaft/mensch/0,1518,449843,00.html">Rohrkrepierer gegen Ballerspiele</a>
+* <a href="http://www.heise.de/newsticker/Kritik-an-naiver-Scheindebatte-um-das-Verbot-von-Killerspielen--/meldung/81375">Kritik an "naiver Scheindebatte" um das Verbot von "Killerspielen"</a></div>

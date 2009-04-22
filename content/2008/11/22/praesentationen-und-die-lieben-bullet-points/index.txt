@@ -1,0 +1,26 @@
+--- 
+title: "Präsentationen und die lieben Bullet Points"
+sections: 
+- german
+- life
+tags: 
+- webmontag
+- praesentationen
+filter: 
+- textile
+description: "Bullet points in Power Point Präsentationen nerven. Entfernt Sie! Alle."
+blog_post: true
+layout: post
+created_at: 2008-11-22 12:09:47.526917 +01:00
+---
+
+
+Wer kennt das nicht: Man sieht oder hört etwas, was man vorher noch nie gesehen oder gehört hat und danach kann man es nicht mehr ignorieren. Sei es ein kleiner Kratzer im Autolack, ein bestimmtes Wort was manche Leute besonders oft sagen, oder - worum es hier nun gehen soll - Aufzählungspunkte in Präsentationen. Natürlich habe ich die "Bullet points" schon immer gesehen, aber seit ich "presentationzen":http://www.presentationzen.com in meinem RSS-Reader habe, nehme ich die Folien von Präsentationen anders wahr. Die "Bullet points" werden fast zu "bullets", die vom Beamer abgefeuert meinen Kopf treffen und den ganzen Inhalt töten. - OK, man muss nicht übertreiben, aber ich sehe diese Viecher nun deutlich intensiver.
+
+Egal ob bei firmeninternen Präsentationen, bei Vorträgen auf Konferenzen, User-Group treffen oder bei Vortägen, die man im Internet so sehen kann (z.B. bei "InfoQ":http://www.infoq.com, oder "TED":http://www.ted.com ). Ich frage mich nun immer: Was machen diese Punkte denn da? Welche Information wollen sie mir vermitteln? Wäre es nicht sinnvoller, einfach die Worte auf die Folie zu schreiben ohne die Punkte? Vielleicht ein Bild dazu? 
+
+Schlimmer als die Punkte an sich sind aber zu volle Folien. Früher habe ich nur gedacht "oh... da ist aber viel drauf". Nun erschlägt mich die Vielzahl an Informationen fast. In Seth Godins "Really bad powerpoint":http://www.sethgodin.com/freeprize/reallybad-1.pdf steht: Niemals mehr als sieben Wörter pro Folie. NIE. Mehr als ein Satz (bei Zitaten auch mal zwei oder drei) sollte wirklich nicht auf einer Folie stehen. Die Zuschauer sollten bei einem Vortrag zuhören und nicht die Folien lesen müssen.
+
+Wenn ich mich an mein Studium erinnere: Da gab es teilweise Folien mit 7 Sätzen oder 70 Wörtern... Als ich mir vor drei Wochen beim "25 Jährigen Jubiläum des Studiengangs Wirtschaftsinformatik an der BA-Stuttgart":http://www.ba-stuttgart.de/themen/aktuelles/meldung/2008/10/-62796fbe97.html die Vortäge anhörte, wurde ich wieder daran erinnert.
+
+Als Denkanstoß kann ich nur das Buch von "Presentation Zen von Garr Reynolds":http://www.amazon.de/gp/product/0321525655?ie=UTF8&tag=hendrvolkm-21 empfehlen (oder wer es auf deutsch lieber liest: "ZEN oder die Kunst der Präsentation":http://www.amazon.de/gp/product/3827327083?ie=UTF8&tag=hendrvolkm-21 ) - Das ganze gibt's auch im Internet kostenlos und aktuell (aber nicht so schön verpackt) als Blog: "presentationzen":http://www.presentationzen.com

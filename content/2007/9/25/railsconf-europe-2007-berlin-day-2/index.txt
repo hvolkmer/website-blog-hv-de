@@ -1,0 +1,82 @@
+--- 
+title: Railsconf Europe 2007 Berlin - Day 2
+tags: 
+- railsconfeurope07
+- day2
+filter: 
+- textile
+description: Railsconf Europe 2007 Berlin - Day 2 summary
+blog_post: true
+layout: post
+created_at: 2007-09-25 13:09:47.526917 +02:00
+---
+h2. Day 2
+  
+h3. Cyndi Mitchell "Bring Ruby to the Enterprise, Not the Other Way 'Round"
+
+I arrived a bit late for the first talk. Cyndi Mitchell had really nice slides (or IIRC just one "growing" slide).
+
+
+h3. Best Practices Marcel Molina Jr., Michael Koziarski
+
+Next up was "Best Practices Marcel Molina Jr., Michael Koziarski". I really should try to follow the "7x7 rule" more, which means max. 7 lines of code per controller and a maximum of 7 methods per controller. Everything else should probably "go into the model":http://weblog.jamisbuck.org/2006/10/18/skinny-controller-fat-model and/or in a separate controller. Another thing that I leared (once again) is that you really have to find the right level of abstraction for any method of code you write. One lined methods aren't bad (even if you end up with more code in the end - including the definitions). In fact they can make your code much more readable. e.g.:
+  
+<pre class="prettyprint">
+<code>
+  if user.credits > 15
+    do_expensive_stuff
+  end
+</code>
+</pre>
+
+  could be more readable if it was written like this
+
+<pre class="prettyprint">
+<code>
+def minimum_credits_for_transaction
+  15
+end
+
+def sufficient_credits_for(user)
+  user.credits > minimum_credits_for_transaction
+end
+
+if sufficient_credits_for(user)
+  do_expensive_stuff
+end
+</code>
+</pre>
+
+Another advantage they mentioned was that code like this could be easier tested. I agree to that extend that every method could be tested in seperation. On the other hand, the more specific the tests focus on implementation details, the more brittle they get. I'd probably only test if a use could "do_expensive_stuff" or not and not all methods in isolation.
+
+
+h3.  JRuby on Rails at ThoughtWorks by Ola Bini
+    
+The next talk I attended was "JRuby on Rails at ThoughtWorks by Ola Bini". Well, it seems as if JRuby is ready for production. If you'd like to deploy a Rails App with your infrastructure department which only supports Java App servers: No problem. Just install that "other Java library" (JRuby + Rails) and off you go. There are some performance problems with test cases run with Jruby but the overall performance aparently is quite good. I might have a look at "Mingle":http://studios.thoughtworks.com/mingle-project-intelligence the "first production ready JRuby application"
+  
+  
+h3. Creating Hybrid Web and Desktop Applications with Rails and Slingshot by Luke Crawford
+
+Hm... what can I say. I don't really get those Web-Apps for the desktop like "Slingshot":http://www.joyent.com/developers/slingshot/, "Google Gears":http://gears.google.com/ etc. They might be usefull for some szenarios but just the security problems which arise from this deployment model make it hard for me to see many places to use applications in this way.
+ 
+h3. Outsourcing to Open Source by Tobias Luetke
+  
+This has been a really great talk. Tobias explained how open souring parts of "Shopify":http://www.shopify.com namely "Liquid":http://www.liquidmarkup.org and "AchtiveMerchant":http://www.activemerchant.org/ helped both his company and the open source community. After the talk he mentioned that Shopify uses "Solr":http://lucene.apache.org/solr/ for full text search. We currently use "ferret":http://ferret.davebalmain.com/trac/ which sometimes can be a bit quirky.
+  
+  
+h3. Extending Rails to Use the Presenter by Pattern Jay Fields 
+
+"I'm sorry it didn't work." - I don't now if that was what Jay Fields actually said, but that's basically a summary of his talk. He and his team tried the Presenter Pattern, first it seemed to work and then it failed and they went back to MVC. End of story, end of talk. 
+   
+h3. PhD on Rails: An Introduction to the Metadata Cascade by Sam Aaron
+
+I didn't know what I had to expect exactly although Sam explained his PhD topic to me before. I have to say: Great talk! Entertaining, nice slides, of cource the three colour transition ;-), and a "DSL":http://sam.aaron.name/2007/6/3/wish-upon-a-dsl created in BDD Style. That was a good presentation for the Conference to end with.
+
+h3. Fin
+
+The ending was a bit strange, though. I didn't listen to the announcments in the morning (because I was a bit late), so I had no idea what was supposed to happen after the last talk. Last year, Dave Thomas gave his very inspiring keynote, then everybody (not everybody but some smaller or bigger groups of people) went out to Pubs, had a few beers, talked etc. - This year was different. Noone seemed to know what should happen. Some people gathered at the hotel bar to have a beer, most people just left. 
+
+The conference itself was a bit like Rails 2.0: Nothing that groundbreaking and new, but very usefull small, increments of usefull information and of course very nice people :)
+  
+
+That's it for now. I will put in some links to speaker's blogs, slides, additional information later.

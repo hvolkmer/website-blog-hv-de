@@ -1,0 +1,23 @@
+--- 
+title: Beautiful new BMW design
+sections: 
+- english
+- art-and-design
+tags: 
+- design
+- bmw
+- innovation
+filter: 
+- textile
+description: Video about the new beautiful BMW design
+blog_post: true
+layout: post
+created_at: 2008-06-13 13:09:47.526917 +02:00
+---
+
+Check this out:
+
+<object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/kTYiEkQYhWY&#38;hl=en"></param><embed src="http://www.youtube.com/v/kTYiEkQYhWY&#38;hl=en" type="application/x-shockwave-flash" width="425" height="344"></embed></object>
+<p>
+[ via <a href="http://www.37signals.com/svn/posts/1075-bmws-fascinating-gina-light-visionary-model-design-study">SvN</a> ]
+</p>

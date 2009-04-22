@@ -1,0 +1,24 @@
+--- 
+title: "Massengr\xC3\xBC\xC3\x9Fe"
+sections: 
+- german
+- life
+tags: 
+- life
+- greetings
+- personal
+- friends
+filter: 
+- textile
+description: "Ich finde 'Massengr\xC3\xBC\xC3\x9Fe' unpers\xC3\xB6nlich und nicht toll. Warum erkl\xC3\xA4re ich hier"
+blog_post: true
+layout: post
+created_at: 2007-01-03 12:09:47.526917 +01:00
+---
+
+<p>Moderne Kommunikationsmittel sind schon toll. Man kann auf ein Mal viele Leute erreichen und Informationen verbreiten. Sei es per E-Mail, SMS oder - wie hier - mit einem Blog.</p>
+<p>Weihnachten ist nun vorbei, das neue Jahr hat begonnen und es sind sicher wieder einige Millionen E-Mails mit Weihnachts- und Neujahrsgrüßen verschickt worden. Dabei ist mir aufgefallen, dass es zwei Arten von Gruß-Mails/SMS gibt: Persönliche und Unpersönliche.</p>
+<p>Wenn in einer Nachricht "Hallo Hendrik" steht, dann weiß ich, dass sich der Absender oder die Absenderin Gedanken gemacht hat, dass er/sie mir eine Nachricht schreibt. Wenn hingegen "Hallo du/ihr!" oder sowas in der Art drin steht, dann weiß ich das als Empfänger nicht. Das soll nun nicht bedeuten, dass ich solche Nachrichten nicht schätze. Es gibt nur keine Möglichkeit zu erkennen, ob hier willkürlich mal das ganze Adressbuch markiert (oder die Gruppe "Bekannte und Freunde" o.ä.), ein Text eingegeben und dann mal auf "absenden" geklickt wurde.</p>
+<p>In letzterem Fall würde ich gar behaupten, dass der Absender/die Absenderin gar keine Grüße sendet. Ok, das mag jetzt etwas philosophisch und haarspalterisch klingen, aber "Wann ist ein Gruß ein Gruß?" Für mich bedeutet ein Gruß oder ein Glückwunsch, dass ich zumindest kurz an den Empfänger denke und mir überlege, wie es ihm/ihr wohl gerade geht und dann eben schreibe, dass ich den Empfänger oder die Empfängerin grüße, ihm "Frohe Weihnachten" oder ihr "Ein Frohes neues Jahr" wünsche.</p>
+<p>Wer das hier liest und mir einen "generischen Gruß" gesendet hat, mag bitte nicht böse sein. Wie ich oben schrieb, kann es gut sein, dass alle Empfänger der Nachricht von Hand ausgesucht wurden und somit eigentlich doch in die von mir erfundene "echte Gruß" Kategorie fallen. Es gibt nur keine Möglichkeit das herauszufinden.</p>
+<p>Was ich mit diesem Post bewirken will ist, dass alle, die - wie immer auch - Grüße versenden, kurz darüber nachdenken, ob es vielleicht besser ist, einen persönlichen Gruß zu versenden. Der Empfänger könnte es zu schätzen wissen. Ich tue es bestimmt. :)</p>

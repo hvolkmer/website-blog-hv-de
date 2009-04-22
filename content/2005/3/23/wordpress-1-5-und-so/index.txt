@@ -1,0 +1,19 @@
+--- 
+title: Wordpress 1.5 und so
+sections: 
+- german
+tags: 
+- meta
+filter: 
+- textile
+description: Umstellung meines Blogs auf Wordpress 1.5
+blog_post: true
+layout: post
+created_at: 2005-03-23 12:09:47.526917 +01:00
+---
+
+Ich habe am Wochenende auf Wordpress 1.5 umgestellt und festgestellt, dass das Kubrick-Theme da Standard ist. Ich hatte es kurz vor dem Update auf mein Wordpress 1.2 installiert. Noja... richtig individuell ist es nicht, aber dafür sieht's schick aus.
+
+Mittlerweile ist inhaltlich alles in Wordpress gewandert. Seit 1.5 gibt es ja so eine Art CMS-Funktion über "Manage Pages", die ich für die statischen Seiten genutzt hab.
+
+So. Genug der Meta-Bloggerei. Bald gibt's hier wieder hinhaltlich hochwerte Einträge (hähä). Dann liest das Ding hier vielleicht auch mal jemand ;-)

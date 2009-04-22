@@ -1,0 +1,31 @@
+--- 
+title: PC-Schlaftest bestanden
+sections: 
+- german
+tags: 
+- hardware
+filter: 
+- textile
+description: Neuer PC ohne spezielle Silenthardware ist erstaunlich leise
+blog_post: true
+layout: post
+created_at: 2004-12-03 12:09:47.526917 +01:00
+---
+
+Ich bin seit ca. 6 Jahren auf der Suche nach dem "lautlosen PC" oder zumindest einem geräuscharmen PC. Bis jetzt ohne Erfolg. Ich habe von Lüfterregelung, Festplattenentkopplung und Gehäusedämmung allerhand versucht und es gab immer irgend etwas, das doch noch lärmte.
+
+Vor ein paar Wochen haben sich meine Eltern einen neuen PC zugelegt. Dem Aldi-PC zum trotz ein Custom-made-Gerät von <a href="http://www.upg.de">UPG</a> - meinem Standard-PC-Händler. Als "Geräuschquellen" sind enthalten: 
+
+* <a href="http://www.arctic-cooling.com/cpu2.php?idx=31&disc=">Arctic Cooling Ultra Silent TC</a> auf einem AMD Athlon 64 3000+
+* Samsung P80 80 GB HD mit <a href="http://www.aconto.de/">NoVibes HD Rahmen</a>
+* <a href="http://shop.upg.de/index.html?prdi=NETFOR003">Forton / Source Netzteil</a> soweit ich weiß ohne Lüftermodifikationen
+
+
+Also eigentlich keine extreme "Silent-Hardware". Das Ding ist echt leise! Und das sage ich nun nach besagten 6 Jahren nicht erfolgreicher Hardware-Leisemach-Zeit. Ich habe allerhand gelesen über leise Lüfter, leise HD-Rahmen etc. und bin bis zu letzt immer wieder enttäuscht worden. Letztes Beispiel: Silentmaxx HD-Rahmen. Kostet 50 EUR und die HDs sind nachher lauter als zuvor (ich muss allerdings zugeben, dass ich das Ding bis jetzt nur extern betrieben habe und nicht über die Entkopplungsnoppen aufgehangen habe... kommt noch mal irgendwann)
+
+Ich habe vorhin den "Schlaftest" gemacht. Also PC aufgestellt in ca. 2m Entfernung zum Bett, PC eingeschaltet, hingelegt, und gehört... die Umgebungsgeräusche waren lauter.
+
+Das lässt hoffen. Der c't-Artikel "Hyperventilatoren
+30 leise Kühlsysteme für Athlon-64- und Pentium-4-Prozessoren" (c't 24/04, Seite 202) macht ebenfalls Mut. Ebenso wie das in der gleichen c't getestete Whipser-System "NoiseMagic Highpower PC". 3350 EUR wär mir das zwar nicht wert, es enthält aber allerhand nachamenswerte Ideen zur Systemkühlung.
+
+Mit einem AMD 64 Prozessor ist dank Cool'n'Quiet und guter CPU-Kühler (z.B. der Thermalright XP-120 mit NMT 120W F/2GL Lüfer von aconto.de) und einen entsprechend geregeltem Netzteil(-Lüfter) auch mit weniger Geld ein leistungsfähiges und sehr leises System machbar! Endlich. Nun fehlt mir nur noch das Geld für sowas ;-)

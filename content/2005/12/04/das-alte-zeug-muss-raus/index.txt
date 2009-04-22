@@ -1,0 +1,21 @@
+--- 
+title: Das alte Zeug muss raus!
+sections: 
+- german
+tags: 
+- hardware
+filter: 
+- textile
+description: Eine Liste meiner alten Hardware. Wer etwas haben will, einfach melden!
+blog_post: true
+layout: post
+created_at: 2005-12-04 12:09:47.526917 +01:00
+---
+
+Ich habe mir heute mal die Mühe gemacht und alte Hardware sortiert, rausgeschmissen und das was übrig geblieben ist in einer kleinen <a href="http://sundevil.de/hendrik/wp-content/Hardwareinventar.pdf">Inventarliste</a> zusammengefasst. 
+
+Da ich keinerlei Verwendung für die auf der Liste befindliche Hardware habe, ist sie hiermit sozusagen zum Abschuss freigegeben. Wer Interesse an dem einen oder anderen Teilchen haben sollte, kann sich <a href="mailto:solaris@sundevil.de">bei mir melden</a>. Das meiste davon ist Kleinkram, dafür möchte ich kein Geld sehen. Ich bin froh, wenn ich die ganzen Kabel los bin. Fast alle Teile der Liste wären quasi gegen eine Versandkostenerstattung zu haben. Bei manchen Teilen fänd ich es fair, wenn ich ein paar Cents zusätzlich sehen könnte. Rechenbeispiel: Duron-Board mit CPU, Netzteil und 2 GB Platte: 1 Flasche Rotwein - trocken aus dem Jahr 2003 am besten - oder so ;-)
+
+Falls jemand ne Adresse hat oder ne Organisation kennt, wo man sowas irgendwie wohltätig abgeben kann (so ala Möbel beim Roten Kreuz), bitte auch einfach melden. Ich höre da zwar immer ein paar Dinge, aber wirklich konkret kenne ich da nix.
+
+Wäre ja schade, wenn die ganze funktionierende Hardware auf dem Müll landen würde.

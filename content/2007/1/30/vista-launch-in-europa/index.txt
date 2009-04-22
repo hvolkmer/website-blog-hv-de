@@ -1,0 +1,25 @@
+--- 
+title: Vista Launch in Europa
+sections: 
+- german
+tags: 
+- mac
+- microsoft
+- fun
+filter: 
+- textile
+description: Vista launches. Yaay. I like Mac OS X more.
+blog_post: true
+layout: post
+created_at: 2007-01-30 12:09:47.526917 +01:00
+---
+
+Heute ist es soweit! Endlich ist es da, das tolle neue Betriebsystem vom sympatischen Hersteller aus Redmond. Ich habe es bisher selbst noch nicht getestet, aber allerhand Infos im Netz dazu gelesen.
+
+Ich bin zu dem Schluß gekommen, dass Windows Vista zu 95% von Mac OS X abgekupfert ist, was die Features angeht. Aber wenn man das genauer anschaut, stellt sich das als falsch herraus. Den Beweis liefert David Pogue in <a href="http://youtube.com/watch?v=TaIUkwPybtM">diesem Video</a>. Apple sieht das etwas anders (siehe Video von der <a href="http://youtube.com/watch?v=N-2C2gb6ws8">WWDC06</a> ).
+
+Und die norwegischen <a href="http://www.engadget.com/2007/01/29/microsoft-demoes-vista-on-an-imac">Microsoft-Mitarbeiter zeigen Vista sogar öffentlich auf 'nem iMac</a>.
+
+Ich freue mich schon auf das neue Mac OS. Mal schauen, was da wieder als Kopiervorlage dabei sein wird ;-)
+
+Am wichtigesten bleibt aber: Jeder soll das System nehmen, das einem am meisten zusagt. Es hat keinen Wert andere von seinem Lieblings-OS zu überzeugen und andere damit dann unglücklich zu machen. Da hat keiner was von.

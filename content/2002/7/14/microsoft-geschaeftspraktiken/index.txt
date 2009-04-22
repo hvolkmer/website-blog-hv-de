@@ -1,0 +1,29 @@
+--- 
+title: "Microsoft Gesch\xC3\xA4ftspraktiken"
+sections: 
+- german
+- politics
+tags: 
+- "1984"
+- windows
+filter: 
+- textile
+description: "Microsoft nutzt interessante Praktiken, um eine h\xC3\xB6here Marktdurchdrigung zu erreichen. Einige werden hier beleuchtet."
+blog_post: true
+layout: post
+created_at: 2002-07-14 13:09:47.526917 +02:00
+---
+
+Ich hatte schon immer eine Abneigung gegen die Geschäftspraktiken vom Microsoft. In letzter Zeit häufen sich jedoch die Dreistigkeiten dieser Firma, um ihren Machtbereich weiter auszubreiten bzw. zu sichern, da durch Linux, *BSD und Mac OS X wohl doch ernster zu nehmende Konkurrenten auf den Markt drücken.
+
+Fangen wir mit der Sache an, die MS wahrscheinlich am meisten zur derzeitigen Marktstellung verholfen bzw. zu ihrer Festigung beigetragen hat: Die sogenannten OEM-Verträge mit PC-Herstellern. Diese Verträg sind streng geheime Abkommen, die bevorzugten Herstellern erhebliche Preisnachlässe gewähren, wenn sie ihre PCs mit vorinstalliertem Windows ausliefern. In solchen Verträgen wird dann u.a. auch festgelegt, dass keine Konkurrenzsoftware auf den verkauften PCs installiert sein darf. So ist es einem Händler nicht möglich z.B. Mozilla als Standardbrowser zu installieren, ohne einen weithaus höheren Preis für Windows zu bezahlen. Diese Verträge waren sicherlich einer der Gründe warum es OS/2 nicht als Alternative geschafft hat, oder der Internet Explorer jetzt der Quasi-Standard bei Webbrowsern ist. Mit der gleichen Taktik versucht MS nun den Media Player als Standard Applikation für Multimediainhalte zu etablieren.
+
+Microsoft kommt aber neuerdings mit ganz anderen Dreistigkeiten daher. In einer Lizenz zum im Mai (oder so) erscheinenen Media Player Update wird MS das Recht eingeräumt automatisch Updates auf dem Computer des Benutzers zu installieren, die illegale Kopien von Software oder anderem copyright geschützem Material verhindert. Das wäre dann der erste Schritt in die Richtung, dass MS die Kontrolle über die Softwareinstallationen bzw. Daten auf dem eigenen PC hat! Diese Lizenz wurde mittlerweile wieder etwas geändert, da MS doch gemerkt hat, dass sich die Anwender nicht alles gefallen lassen bzw. der Rummel um diese Änderung ihnen doch irgendwie Angst gemacht haben muss.
+
+Die neuste Unverschämtheit aus dem Hause Microsoft ist folgende: Die Softwarelizenzen können bald nicht mehr einmalig erworben werden, sondern nur noch jährlich gemietet werden. Das heißt, man ist verpflichtet jedes Jahr neu die Lizenz zu bezahlen, sonst funktioniert die Software nicht mehr. Um diese Politik durchzusetzen wird MS demnächst sicher ihre Kunden zwingen auf eine Software umzusteigen, die dieses Lizenzmodell enthält indem sie den Support für alle alten Softwareversionen einstellt.
+
+Privatanwender können vielleicht noch einige Zeit mit der alten Software arbeiten, bis die neuen Versionen verbreitet sind und wie immer bei MS Produkten nicht sehr kompatibel mit den alten sein werden (z.B. Dateiformate bei den "Office" Produkten).
+
+Ein weiterer intressanter Punkt sind die Teilweise Verfassungswidrigen Lizensbestimmungen, welche es dem Nutzer verbieten, Kritik an MS Software zu äßen (z.B. Frontpage Lizenz). Siehe dazu <a href="http://slashdot.org/article.pl?sid=01/09/21/1438251">Artikel auf /.</a>
+
+Da die US-Gerichte/Regierung nicht in der Lage sind, bzw nicht die Absicht haben, MS in ihren gesetzeswidrigen Machenschaften zu stoppen, ist die einzige Möglichkeit Microsofts Verhalten entgegen zu wirken der Boykott der Produkte, und das Hinweisen auf die Vorgehensweise von MS. Die meisten merken nämlich gar nicht, wie sie verarscht werden... 

@@ -1,0 +1,19 @@
+--- 
+title: Webmontag in Stuttgart am 23.10.2006
+sections: 
+- german
+- life
+tags: 
+- allgemeines
+- webmontag
+filter: 
+- textile
+description: Webmontag in Stuttgart
+blog_post: true
+layout: post
+created_at: 2006-10-16 13:09:47.526917 +02:00
+---
+
+Nächste Woche ist wieder <a href="http://webmontag.de/">Webmontag</a> in Stuttgart. Ich werde wahrscheinlich dort sein. Näher kann er kaum kommen: Die Veranstaltung wird ca. 10 Gehminuten von hier entfernt sein.
+
+Da ich jetzt zumindest zum letzten Stuttgarter Webmontag einen Vergleich habe, bin ich mal gespannt wie es so wird.

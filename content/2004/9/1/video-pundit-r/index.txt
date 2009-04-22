@@ -1,0 +1,50 @@
+--- 
+title: Video Pundit-R
+sections: 
+- german
+- sysadm
+tags: 
+- hardware
+- unix
+filter: 
+- textile
+description: VDR Video Hardware Projekt mit einem Asus Pundit-R und einer DVB-S Karte (Hauppauge Nexus-S)
+blog_post: true
+layout: post
+created_at: 2004-09-01 13:09:47.526917 +02:00
+---
+
+Die nächsten Einträge in der Hardware-Kategorie drehen sich um die Video-PC-Einrichtung auf folgender Hardware:
+
+* Punidt -R<
+* 256 MB RAM</li>
+* Samsung Spinpoint SP103N 120GB </li>
+* Hauppauge Nexus-S rev2.1 oder 2.2 </li> 
+* LG GSA-4120B DVD Brenner </li> 
+
+Software:
+
+* Betriebsystem: Linux</li>
+* Video-Software: VDR</li>
+
+Das ganze soll ein schöner, praktischer DVB-S Digital Video Rechner Rekorder werden
+
+Zunächst habe ich mein Glück mit <a href="http://www.linvdr.org/">linvdr 0.6</a> versucht. Die Installation ging problemlos. Nachdem ich die anfangs defekte Samsung HD (HDUTIL meinte: "Media error") gegen eine neute getauscht hatte, bootete der Rechner auch.
+
+Die ersten Probleme gab's dann mit der Fernbedienung. Die funktionierte zwar wunderbar. Aber nach zu viel rungedrücke, stürzte der Rechner nach einem Kernel Oops ab...
+
+Also die <a href="http://www.heise.de/ct/ftp/projekte/vdr/">c't VDR Distribution</a> runtergeladen und damit probiert. Installation soweit ok. Es viel mir nur auf, dass die Netzwerkkarte nicht erkannt wird.
+
+Na super.
+
+<code>modprobe b44</code>
+
+funktionierte nicht. Das geht bei meinem <a href="http://www.asuscom.de/products/desktop/pundit/overview.htm">Punidt</a> (ohne R!) wunderbar. In dem -R ist ein komplett anderes Board verbaut mit ganz anderem Chipsatz.
+
+Nach ein bißchen Recherche fand ich herraus, dass es sich um eine 3Com Karte handelt, die aber nicht mit dem "normalen" 3Com Treiber funktioniert bzw. nicht erkannt wird. Nach <a href="http://www.fedoraforum.org/forum/showthread.php?t=2885">wildem Treiber-Code-gepatche</a> soll das ganze funktionieren. Als Kernel-Coder-Leihe würde ich sagen, bei dem Patch wird einfach die PCI -ID der Karte in den Code getan, damit er die Karte erkennt und gut ist.
+
+Jedenfalls ist auf der c't VDR CD kein Kernel-Source drauf... Super! Also müsste ich den Kernel Code irgendwie auf den Rechner bekommen (UBS-Stick, CD, Digi-Cam ;-)) und dann dort rumcompilen und dann mal probieren ob das geht.
+
+Auf der CD fehlt natürlich auch das "fbtv"-Paket, so dass ich hier noch nicht mal den vdr auf dem Monitor testen kann. Einen Fernseher mit Scart/Chinch-Eingang habe ich gerade nicht zur Hand...
+
+Whatever... für heute ist erstmal Schluss mit VDR-en.

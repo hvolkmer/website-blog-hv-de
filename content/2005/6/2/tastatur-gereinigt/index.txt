@@ -1,0 +1,18 @@
+--- 
+title: Tastatur gereinigt
+sections: 
+- german
+tags: 
+- hardware
+- mac
+filter: 
+- textile
+description: "Mac-Tastatur Reinigung nach Anleitung durchgef\xC3\xBChrt."
+blog_post: true
+layout: post
+created_at: 2005-06-02 13:09:47.526917 +02:00
+---
+
+Heute hab ich mal meine Apple Pro Keyboard meines iMacs zerlegt. Das ganze ging wunderbar nach <a href="http://www.technology.niagarac.on.ca/people/bgracey/prokeyboardrepair.html">Anleitung</a>. Dabei kam allerhand Staub, Krümel und anderes Zeug, was sich eben so nach 3 Jahren Benutzung in einer Tastatur ansammelt, zu Tage. Nun ist die Tastatur wieder sauber. Sie sieht aus wie neu und fühlt sich auch so an. Beim Tippen werden die Tasten eben nicht mehr von riesigen Staubmengen aufgehalten.
+
+Kleiner Tipp zum machmachen: Ein 1.27mm Inbusschlüssel (also 0.05 Zoll) ist in normalen Baumärkten schwer zu finden. Obi und Zweygart hatten sowas hier nicht. Bei <a href="http://www.conrad.de">Conrad</a> bin ich dann fündig geworden. Für 4 EUR gibt's da einen "Wiha PicoFinish 263 P", mit dem die Keyboard-Demontage klappt.

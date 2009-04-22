@@ -1,0 +1,24 @@
+--- 
+title: Fedora Core 5 installiert
+sections: 
+- german
+- sysadm
+tags: 
+- unix
+- xen
+- vmware
+- initng
+filter: 
+- textile
+description: Fedora Core 5 installation vollendet, inkl. initng, VMWare und bald auch Xen
+blog_post: true
+layout: post
+created_at: 2006-03-27 13:09:47.526917 +02:00
+---
+
+Am Wochenende hab ich mal FC5 installiert und damit gleich die Neu-Partitionierung meines Rechners (war vorher eher so ein Test-Layout) verbunden. Klappte alles wundbar, nach ein paar Tricks.
+
+Der Drucker, mein Samsung ML-1610 funktioniert mit CUPS wie vorher auch mit dem ML-1710-Treiber. VMware ging nach ein paar Fehlfehrsuchen mit dem FC-2.5.15-Kernel nach <a href="http://clunixchit.blogspot.com/2006/03/dave-joness-2616-12064fc5.html">dieser Anleitung</a> ohne Probleme. Netter Nebeneffekt: ein aktueller Kernel - ohne selbstkompilieren zu müssen. - Man wird faul mit der Zeit *g*
+<a href="http://initng.thinktux.net/">initNG</a> läuft in der Version 0.5.5 auch gut. Gestoppt habe ich die Unterschiede zum normalen Init in der Version noch nicht. Dabei habe ich noch ein <a href="http://initng.thinktux.net/ticket/540">Problem mit dem Fedora RPM-Spec für initNG</a> gefunden - und war damit wohl <a href="http://initng.thinktux.net/ticket/539">nicht alleine</a>.
+
+Mal schauen, wie die <a href="http://www.xensource.com/products/xen/index.html">Xen</a>-Integration nun so aussieht. Damit das endlich mal auf den Heimserver kommt. Gibt's für Xen eigentlich auch fertige Images von verschiedenen Linux Distributionen, wie für den VMware Player? - *notier* mal danach suchen.

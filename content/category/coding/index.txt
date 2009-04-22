@@ -1,0 +1,18 @@
+---
+title:      "Category: Coding"
+created_at: 2009-04-15 17:40:09.742911 +02:00
+filter:     erb
+dirty:      true
+autogenrated: true
+---
+<div class='index' id='body'>
+<%
+  articles = articles_in_category("coding")
+  articles.delete(@page)
+  paginate(articles, 10) do |page|
+-%>
+  <%= render :partial => '/article_list', :locals => { :page => page } %>
+<% end -%>
+</div>
+
+<%= pagination_links %>

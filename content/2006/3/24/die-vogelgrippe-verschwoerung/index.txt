@@ -1,0 +1,23 @@
+--- 
+description: "Nette Verschw\xC3\xB6rungstheorie zum Thema Vogelgrippe"
+title: "Die Vogelgrippe-Verschw\xC3\xB6rung"
+sections: 
+- german
+- politics
+tags: 
+- allgemeines
+- erlebtes
+filter: 
+- textile
+blog_post: true
+layout: post
+created_at: 2006-03-24 12:09:47.526917 +01:00
+---
+
+Das ist kein Titel von einem neuen Kinofilm und auch keine Reportage auf RTL2... Ich habe gestern per Mail einen Text bekommen, der aber durchaus diesen Titel tragen könnte.
+
+Irgendwie klingt er auch in sich logisch. Man mache sich selbst ein Bild (nach Recheche über Google gefunden - Quellenangaben waren bei der Mail keine dabei.):
+
+<a title="Vogelgrippe oder Pharmamarketing" href="http://www.tierschutz-online.de/index.php?option=com_content&task=view&id=171&Itemid=1"> 				Vogelgrippe oder Pharma-Marketing?</a>
+
+Man sieht auch hier wieder, wie sehr wir doch von den Medien abhängen bzw. uns beeinflussen lassen. Ob man die Geschichte nun glaubt oder nicht... ich finde sie macht zumindest nachdenklich.

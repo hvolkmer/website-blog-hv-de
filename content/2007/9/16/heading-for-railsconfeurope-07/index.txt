@@ -1,0 +1,22 @@
+--- 
+title: Heading for RailsConfEurope 07
+sections: 
+- english
+- coding
+- life
+tags: 
+- aiport
+- railsconfeurope07
+filter: 
+- textile
+description: Almost mobile blogging on my way to RailsConfEurope 2007
+blog_post: true
+layout: post
+created_at: 2007-09-16 13:09:47.526917 +02:00
+---
+
+I remember sitting here almost exactly one year ago, without a Mac and without a job where I can do Rails development full time. I'm lucky that I can say: the dark days of Java development are over :). Wow, it's really been one year since the last Rails Conf Europe. Time progresses fast. I'm really excited to hear interesting speakers and talk to people who also do Rails stuff or are interested in doing it. You can get a vast amount of conference material (videos, slides) on the internet these days, but you cannot get the "conference feeling", the conversations with other people and all that stuff. And that's what I like the most about these conferences. Especially with the Ruby and Rails communities, where the people seem to be particularly nice and friendly. 
+
+Last year I deceided to arrive in the morning. It was stressfull. I had to get up really early and almost didn't make it in time for the opening keynote. And I wasn't able to attend the Rails-Pizza-Event thing. So this year I will arrive a day before the conference which opens the opportunity to attend the Bratwurst-on-Rails event this evening. 
+
+German Airports suck btw. At least this tiny one in Stuttgart. Although there's a WLAN you have to pay for it. When will free Wifi be available everywhere or at least at airports?

@@ -1,0 +1,26 @@
+--- 
+title: Zu Ihrer Sicherheit...
+tags: 
+- allgemeines
+- "1984"
+- erlebtes
+filter: 
+- textile
+description: "Gr\xC3\xBCne Sicherheitsfeatures an Geldautomaten"
+blog_post: true
+section: 
+- german
+- life
+layout: post
+created_at: 2005-10-05 13:09:47.526917 +02:00
+---
+
+... haben unsere Geldautomaten nun den grünen Karteneinschubschutz. - Oder sowas. Das steht seit ein paar Monaten bei den Geldautomaten der LBBW (jetzt BW-Bank) auf den Monitoren und dort, wo man die Karte einführt ist so eine grün-durchsichtige Plastikführung.
+
+Warum ich das hier schreibe? Ich möchte gern wissen, wofür dieses Teil wirklich gut ist. "Zu meiner Sicherheit". Coole Sache, das. Äh ja und wie jetzt? Wird dadurch verhindert, dass ich aus versehen die Karte abbreche und dann mit der Spitzen kannte wohlmöglich die Bank überfalle oder wie? Ich versteh es nicht. Ich bin immer kurz davor in die Bank reinzulatschen und die Leute am Schalter zu fragen: "Wie um alles in der Welt wird MEINE Sicherheit durch ein grünes, durchsichtiges Stück Plastik vor dem Karteneinschub am Geldautomaten erhöht."
+
+Ich glaube, dass mach ich wirklich bald... Dieser Spruch da ist doch total bekloppt. Würde da stehen "Zum Schutz vor Abbrechen Ihrer Karte" oder irgendsowas - ok. Aber einfach "Zu Ihrer Sicherheit" - Das ist wieder tolles Sicherheits-Buzzword-Gelaber. Außer mir stört sich da wahrscheinlich keiner dran... Ottonormalgeldautomatenbenutzer lesen das und denken sich "Oh-ho! Super. Mehr Sicherheit".
+
+Das liegt vielleicht auch daran, dass ich vor kurzem <a href="http://schneier.com/book-beyondfear.html">Beyond Fear</a> gelesen habe und ich nun immer erstmal alles, was irgendwie "mehr Sicherheit" verspricht analysiere... Ist ein sehr empfehlenswertes Buch btw. Lässt sich gut lesen und durch die netten Anekdoten aus Tierwelt und Geschichte ist das Buch - trotz des ernsten Themas - teilweise sogar richtig lustig. 
+
+Also falls jemand rausgefunden hat, wofür das Teil wirklich da ist, möge hier bitte einen Kommentar hinterlassen.

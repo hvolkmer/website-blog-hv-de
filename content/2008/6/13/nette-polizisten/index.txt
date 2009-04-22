@@ -1,0 +1,24 @@
+--- 
+title: Nette Polizisten in Berlin
+sections: 
+- german
+- life
+tags: 
+- berlin
+- polizei
+- fahrrad
+filter: 
+- textile
+description: Es gibt in der Tat sehr nette Polizisten in Berlin. Muss auch mal gesagt werden.
+blog_post: true
+layout: post
+created_at: 2008-06-13 13:09:47.526917 +02:00
+---
+
+Als ich letztens morgens mit dem Fahrrad zur Arbeit fuhr vielen mir die vielen Polizisten um die Kreuzung auf, in deren Nähe ich wohne. Ich wurde dann auch gleich von einem Polizisten mit Funkgerät in Zivil angehalten mit dem Hinweis, dass die Polizei gerade eine Kontrolle von Fahrradfahrern durchführt.
+
+Ich hatte zwar Licht und Steckschutzbleche dran, aber es gab sicher das ein oder andere Ding an meinem Fahrrad auszusetzen, was nicht ganz StVZO konform war. Und ich dachte schon, "Verdammt... nun bist du mindestens 15 EUR los". Es fing auch schon gut an "Sie wissen ja, dass man eigentlich nicht auf dem Gehweg fahren darf..." - doch dann kam alles ganz anders.
+
+"... würd ich auch machen. Auf der Straße ist es teilweise echt zu gefährlich." Der nette Polizist wies mich noch darauf hin, dass ich aufpassen soll, wenn ich abbiege (LKWs) und ich auf Fußgänger achten soll. Es müsste ja nicht sein, dass ich der 16. Verkehrstote in einem Jahr bin - 15 gab es wohl letztes Jahr.
+
+Ich war echt überrascht. Bisher hatte ich zwar nie wirklich Probleme mit der Polizei, aber das war dennoch ungewöhnlich nett.

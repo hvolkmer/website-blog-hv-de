@@ -1,0 +1,24 @@
+--- 
+title: "Do you like \xEF\xA3\xBF?"
+sections: 
+- english
+- life
+- art-and-design
+tags: 
+- apples
+- pears
+filter: 
+- textile
+description: There's a character for the apple apple. What?
+blog_post: true
+layout: post
+created_at: 2008-08-07 13:09:47.526917 +02:00
+---
+
+
+And with  I might mean <a href="http://www.apple.com">Apple</a> or the fruit <a href="http://en.wikipedia.org/wiki/Apple">apple</a>.
+
+Ok. This entry is totally useless... I just wanted to use the  sign ;-) - Does that "" even look like an Apple on windows machines? Is it a UTF-8 character?
+
+<b>Update</b>:
+Apparently it's the unicode character 63743 in the <a href="http://sitening.com/extras/utf-8-character-html-encoding/">UTF-8 private space</a>. And it depends on the font if it really gets displayed as "the Apple apple". Interesting.

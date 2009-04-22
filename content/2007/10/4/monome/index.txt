@@ -1,0 +1,27 @@
+--- 
+title: Monome 40h
+sections: 
+- coding
+- art-and-design
+tags: 
+- design
+- device
+- midi
+- osc
+- programmable
+- interface
+filter: 
+- textile
+description: Monome 40h - Beautiful music, usb hardware device
+blog_post: true
+layout: post
+created_at: 2007-10-04 13:09:47.526917 +02:00
+---
+
+This is an fantastic and yet very simple device: 64 buttons, 64 leds, no inside logic  
+
+!http://blog.hendrikvolkmer.de/assets/2007/10/4/monome_on_flickr.jpg!:http://www.flickr.com/photos/bdu/133709235/
+
+If you want to know what you can do with it, check out the website of the "creators":http://monome.org or some of the "youtube videos":http://www.youtube.com/results?search_query=monome&search=Search
+
+[via: "37signals":http://www.37signals.com/svn/posts/616-cool-design-detail-at-monome ]

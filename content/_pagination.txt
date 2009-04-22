@@ -1,0 +1,7 @@
+---
+filter: erb
+---
+<%= link_to("First Page", @pager.first) if show_first_page?(current_url) %>
+<%= link_to("Previous Page", @pager.prev) if @pager.prev? %>
+<%= link_to("Next Page", @pager.next) if @pager.next? %>
+<%= link_to("Last Page", @pager.last) if show_last_page?(current_url) %>

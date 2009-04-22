@@ -1,0 +1,24 @@
+--- 
+title: Usefull error messages - Part III
+sections: 
+- english
+- sysadm
+tags: 
+- error
+- useful
+- message
+filter: 
+- erb
+- textile
+description: A collection of useful(or less) error messages. Part III.
+blog_post: true
+layout: post
+created_at: 2007-04-27 13:09:47.526917 +02:00
+---
+
+Today I found another one:
+<pre class="prettyprint">
+<code>
+postfix/qmgr[10675]: warning: problem talking to service rewrite: Success
+</code>
+</pre>

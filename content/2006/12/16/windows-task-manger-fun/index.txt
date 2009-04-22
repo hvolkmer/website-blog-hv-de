@@ -1,0 +1,22 @@
+--- 
+title: Windows Task manger fun
+sections: 
+- english
+- sysadm
+tags: 
+- erlebtes
+- windows
+filter: 
+- textile
+description: I had a lot of fun with windows task manager... again
+blog_post: true
+layout: post
+created_at: 2006-12-16 12:09:47.526917 +01:00
+---
+
+
+
+
+<p>I never liked Windows, but in the last years I learned to live with it. But sometimes it reminds me why I will never ever even consider liking it. Check this out:</p>
+<p><img height="382" alt="taskmanager" src="http://sundevil.de/hendrik/wp-content/uploads/2006/12/taskmanager.jpg" width="447" /></p>
+<p>Some process got wild and I wanted to kill it using the Task Manager - which apparently caused the task manager to go nuts as well. I've seen processes which I couldn't kill in Linux but I never saw "kill" itself go crazy.</p>

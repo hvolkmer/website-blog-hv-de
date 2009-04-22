@@ -1,0 +1,27 @@
+--- 
+title: RailsConf Europe quotes
+sections: 
+- english
+- coding
+- life
+tags: 
+- quotes
+- railsconf
+filter: 
+- textile
+description: Some quotes from RailsConf Europe 08
+blog_post: true
+layout: post
+created_at: 2008-09-05 13:09:47.526917 +02:00
+---
+
+There were a lot of cool presentations at RailsConf Europe this year. I'll write some summaries later.
+
+For now, here are some quotes I really liked:
+<blockquote>
+"Java is to Javascript what car is to carpet" - at BoF "Xing on Rails"
+</blockquote>
+
+<blockquote>
+"Using tables to store objects is like driving your car home and then disassembling it to put it in the garage. It can be assembled again in the morning, but one eventually asks whether this is the most efficient way to park a car." - Esther Dyson (was quoted in the Maglev BoF) 
+</blockquote>

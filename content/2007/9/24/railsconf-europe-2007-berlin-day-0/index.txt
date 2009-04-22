@@ -1,0 +1,76 @@
+--- 
+title: Railsconf Europe 2007 Berlin - Day 0
+sections: 
+- english
+- coding
+- life
+tags: 
+- railsconfeurope07
+- day0
+filter: 
+- textile
+description: Railsconf Europe 2007 Berlin - Day First day summary
+blog_post: true
+layout: post
+created_at: 2007-09-24 13:09:47.526917 +02:00
+---
+h2. Day 0: (Tutorial day)
+
+h3. Ruby (and Rails) Testing Techniques: Charity Tutorial Chad Fowler, Marcel Molina Jr.
+
+There was quite a queue in front of the check in counter (about 50m long). While I was waiting there, at some point, somewone said: You can register later. Just go to the session you want to see. So I just jumped in to the next room which happened to be the room where the testing tutorial with Chad Folwer and Marcel Molina jr. was held. It was very interesting to see who these guys not only did pair programming but pair teaching. Marcel really loves long expressive method names and almost never uses "magic numbers" in his code and test code. So instead of saying:
+ 
+<pre class="prettyprint">
+<code>
+  Card.new(:number => 5 )
+</code>
+</pre>
+  
+he would write
+<pre class="prettyprint">
+<code>
+  Card.new(:number => low_card_number )
+  
+  and then define a helper method
+
+  def low_card_number
+    5
+  end
+</code>
+</pre>
+ 
+ I think that this approach is really valuable but, as with everything, you can overdo it. If I only had really small and only a few test cases for a small class, I probably wouldn't write as much helpers as Marcel did.
+ 
+ Marcel never uses def.self some_method for defining class methods but always 
+
+<pre class="prettyprint">
+ <code>
+ class << self
+    def some_method
+    
+    end
+ end
+</code> 
+</pre>
+
+ At first I did't really see the advantage of that but when Chad explained why he does it that way, it became quite clear:
+ 
+ - you can structure your classes better: all class methods are in on place
+ - it is more DRY than writing "def self." all the time
+ 
+ 
+h3. Scaling a Rails Application from the Bottom Up in Europe Jason Hoffman
+  
+I've been to Jason's "Rails a system view" talks last year and realized that this years talk basically was a updated version of last year. Which isn't a bad thing. There just wasn't that much new stuff in it for me this time.
+
+But what came out again was: There is no "Rails scaling problem". "Can Rails scale?" as a question doesn't really make sense. There's nothing in Rails which makes it hard to scale. The fact that it's statless and shared nothing is actually a good thing if you want to scale. The bottlenecks are in front of Rails (Load balancer, network) or behind (database, network).
+  
+h3. Keynote: Dave Thomas
+  
+I liked Dave Thomas' Keynote very much. It was very inspiring and he once again underlined that all programmers should take pride in what they do and should sign their work like artists do. Here is a "good summary of his keynote":http://rails.nomad-labs.com/?p=14 
+
+  
+h3.  Bof 
+
+I had no idea what a "Birds of a Feathers session" was and I still haven't figured it out. At least I think it was very usefull and there will come something out of our session. We talked about Rails documentation in general and how we could i18ize it. There's a "google group about i18zing the rails documentation":http://groups.google.com/group/international-rails-documentation if you'd like to join the conversation.
+  

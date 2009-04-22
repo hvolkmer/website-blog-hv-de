@@ -1,0 +1,18 @@
+--- 
+title: Too late
+sections: 
+- english
+- life
+tags: 
+- late
+- flight
+- train
+filter: 
+- textile
+description: I was too late because of the airline.
+blog_post: true
+layout: post
+created_at: 2007-09-24 13:09:47.526917 +02:00
+---
+
+The last time I've been to Berlin we went back to Stuttgart by train. Of course, it was late. This time I traveled by plane so everything should be fine. Wrong! My flight was 90 minutes delayed... At least I had internet access at the aiport and my battery was almost full...

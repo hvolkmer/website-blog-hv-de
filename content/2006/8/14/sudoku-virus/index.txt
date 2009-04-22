@@ -1,0 +1,15 @@
+--- 
+title: Sudoku-Virus
+sections: 
+- german
+tags: 
+- allgemeines
+filter: 
+- textile
+description: Der Sudoku Virus hat auch mich gefangen
+blog_post: true
+layout: post
+created_at: 2006-08-14 13:09:47.526917 +02:00
+---
+
+Ich habe mich ja nun relativ lange gehalten... Aber immun bin ich dann doch nicht. Der Sudoku-Virus hat mich nun auch erreicht. Zum Glück gibt's im Internet ja genügend <a href="http://soduko.org/sudoku-list.php">Rätsel for free.</a>

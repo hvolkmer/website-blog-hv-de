@@ -1,0 +1,17 @@
+--- 
+title: English content
+sections: 
+- english
+tags: 
+- allgemeines
+- meta
+filter: 
+- textile
+description: Now also in English
+blog_post: true
+layout: post
+created_at: 2006-10-04 13:09:47.526917 +02:00
+---
+
+I decided to put some English content up. It will be mostly development and technical stuff. I will not mark the posts as English or German or use some multi language plugin. Just read the article and you'll know which language it is written in.
+I thought this through many times and I don't know what the best approach to a multi language blog may be. I've never done one before. So maybe I'll write some stuff of interest to some people in the world. And as more people speak English than German, well, English is the language to take. Also, writing in English may help me improving my English skills. So, if you find some severe gramatical mistakes, don't hesitate to correct me.

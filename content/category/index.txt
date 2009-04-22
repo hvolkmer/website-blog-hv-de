@@ -1,0 +1,16 @@
+---
+title:      Category index
+created_at: 2009-04-10 13:09:47.526917 +02:00
+filter:     erb
+dirty:      true
+---
+<ul>
+<%
+  articles = @pages.find(:all, :in_directory => @page.dir, :recursive => true, :sort_by => "title") {   |page| page.url !~ /xml/ }
+  articles.delete(@page)
+  articles.each do |page|
+-%>
+  <li><%= link_to(page.title.split(":").last, page) %> (<%= link_to("#{page.title.split(":").last.strip} Feed", "#{page.url}feed.xml") %>) </li>
+<% end -%>
+</ul>
+

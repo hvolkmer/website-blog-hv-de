@@ -1,0 +1,21 @@
+--- 
+title: DSL down
+sections: 
+- german
+- life
+tags: 
+- allgemeines
+filter: 
+- textile
+description: DSL Ausfall in Ehningen macht mein DSL Model kaputt. Na toll.
+blog_post: true
+layout: post
+created_at: 2004-09-21 13:09:47.526917 +02:00
+---
+
+Gestern war in Ehningen (oder Teilen davon) Stromausfall. Da ich so intelligent war meinen Server nicht an die USV anzuschließem (also den Strom schon, aber nicht die Datenverbindung) ist er nach dem die USV aus war schön runtergekracht. Macht aber nix, alle Daten haben zum Glück überlebt.
+
+Anders das DSL Modem. Das war tot. Komischerweise ging es einem Bekannten zwei Straßen weiter genau so. DSL Modem kaputt. Von den neu erworbenen zwei DSL Modems war das erste dann wieder gleich kaputt. Also nochmal zum T-Punkt und schließlich ging's dann mit dem neuen, sowohl bei mir als auch bei meinem Bekannten.
+
+Kostenpunkt: 89 EUR. Wahrscheinlich war ein Fehler bei der Telekom schlud am Ableben der Modems, aber wie beweist man das nun? Am besten gar nicht. Das spart Stress, erleichtert aber den Geldbeutel :/
+

@@ -1,0 +1,21 @@
+--- 
+title: Remote system management using MS Windows
+sections: 
+- english
+- sysadm
+tags: 
+- erlebtes
+- windows
+filter: 
+- textile
+description: Remote management with Windows is really painful sometimes.
+blog_post: true
+layout: post
+created_at: 2006-12-07 12:09:47.526917 +01:00
+---
+
+or: Remote access the painful way
+
+If you are lucky enough to use the RDC protocol it's not that painful. But if you are forced to use something like PC Anywhere via a dialup line and then VNC to another machine. Oh boy, that's just pure pain. I had to do something like this yesterday and I really wished I had a simple SSH connection.
+
+Who came up with this stupid "a server OS needs a GUI, too"-idea in the first place? Being forced to use a GUI on a server is just plain stupid and being forced to use it for Remote Access is even worse. I know there's SSH for Windows and stuff... but it's not in the standard distribution and probably never will be. I don't want to imagine the Vista based Server OS from Microsoft and how the GUI will look then.

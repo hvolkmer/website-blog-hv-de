@@ -1,0 +1,36 @@
+--- 
+title: I'm blogging this...
+sections: 
+- german
+tags: 
+- allgemeines
+- 1984
+- mac
+- unix
+- meta
+filter: 
+- textile
+description: Der erste Eintrag mit einer Blogsoftware...
+blog_post: true
+layout: post
+created_at: 2004-08-16 13:09:47.526917 +02:00
+---
+
+Ich blogge dies...
+
+Mein erster Blog-Eintrag. Meine Homepage verstaubt schon fast, also musste was her, um sie aktuell zu halten und irgendwelche Leute dazu zu bewegen öfter mal hier her zu schauen. Und da Deutschland ja sowieso so wenige Blogger hat, werde ich nun versuchen diesen Mißstand zu beheben ;-)
+
+Was wird hier gebloggt?
+
+Gedanken und Kommentare zu Themen, die teilweise Durchaus als sinnfrei zu bezeichen sein koennten. Ich habe mir zunächst mal folgende Kategorien ausgedacht:
+
+* Mac - Alles zum Thema Mac, Mac OS X, hilfreiche Programme, Erfahrunge etc. 
+* Unix - Diverses zum Thema Unix, darunter zaehle ich auch Linux...  
+* Windows - Gleiches wie oben zur zum Thema Windows eben  
+* Hardware - Betriebsystemunabhaengiges zum Thema Hardware  
+* 1984 - Dinge zum Thema Überwachung in der heutigen (digitalen) Gesellschaft  
+* Allgemeines - Alles, was in keine andere Kategorie passt  
+
+Ich behalte mir erstmal das Recht vor, hier alles wild durcheinander zu würfeln, Permalinks zu zerstören und dergleichen mehr... bis ich das hier alles mal ein bisschen unter Kontrolle habe. Wenn ich merke, dass hier ein paar Leute wirklich was lesen, werde ich mich natuerlich um ein wirklich funktionierendes Archiv bemühen.
+
+Das ganze hier läuft unter Movable Type 3.01D. Ich habe von dem System bis jetzt keine Ahnung (ok, es läuft, aber das war's schon). Demnächst werde ich dann mal die Templates anpassen und meine Homepage auch mal mit einem neuen CSS ausstatten...

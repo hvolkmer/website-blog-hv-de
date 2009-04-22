@@ -1,0 +1,71 @@
+--- 
+title: Siemens SP65 mit iSync 1.5
+sections: 
+- german
+- sysadm
+tags: 
+- hardware
+- mac
+- howto
+filter: 
+- textile
+description: "Anleitung / Howto: Siemens S65 oder SP65 mit iSync 1.5 synchronisieren - Mac OS X"
+blog_post: true
+layout: post
+created_at: 2005-05-05 13:09:47.526917 +02:00
+---
+
+<img src='http://www.sundevil.de/hendrik/pics/isync.jpg' alt='iSync' align="left" />
+Gestern kam mein neues Mobiltelefon aka "Handy" ;-) an. Es ist ein <a href="http://communications.siemens.com/cds/frontdoor/0,2241,de_de_0_87805_rArNrNrNrN,00.html"> Siemens SP65</a>. Das ist quasi ein S65 mit Zusatzfeature "keine Kamera". Klingt komisch, ist aber so. 
+
+<img src='http://www.sundevil.de/hendrik/pics/siemens_sp65.jpg' alt='Siemens SP65' align="right" />
+Da das Sychronisieren mit dem <a href="http://www.fscklog.com/2004/09/siemens_s65_mit.html">S65 und iSync</a> - obwohl <a href="http://www.apple.com/macosx/features/isync/devices.html">offiziell nicht unterstützt</a> - funktioniert, dachte ich mir, dann wird das mit dem SP65 ja auch einfach ohne Probleme gehen. 
+
+Das Telefon wird per Bluetooth als Mobiltelefon erkannt und eine Kopplung ist möglich. Das Übertragen von Dateien funktioniert auch. Allerdings erkennt iSync das Telefon nicht.
+
+Nach mehrstündiger Web-Recherche und diversen Suchen im lokalen Dateisystem nach "siemens" bzw. "s55" (damit geht's ja offiziell) habe ich schließlich eine Lösung gefunden. Um den Sync hinzubekommen muss man folgende Dinge tun:
+
+h2. BTConduit_phones.plist anpassen
+
+Die Datei <code>/System/Library/CoreServices/SyncServer.app/Contents/Resources/SupportedBluetoothDevices/ BTConduit_phones.plist</code> anpassen. Aus "S55" einfach "SP65" machen (mit TextEdit oder unter der Konsole mit vi). Der Eintrag sieht dann in etwa so aus:
+
+<pre class="prettyprint"><code>
+<key>+CGMI
+
+SIEMENS--separator--+CGMM
+
+SP65</key>
+<string>bttool</string>
+</code></pre>
+
+h2. iSync starten und koppeln
+
+Die Kopplung vom Telefon aus einleiten. (vorher darf keine Bluetooth-Verbindung zwischen Telefon und Mac eingerichtet sein. Ggf. über die Bluetooth-Einstellungen die Verbindung löschen. Nicht nur die Favoriten!)
+
+h2. Gerät suchen
+
+"Gerät suchen" in iSync - Das Telefon müsste in iSync angezeigt werden - nicht im "Suchen"-Fenster, sondern direkt in der iSync-Leiste. Evtl. Testweise einen Sync ausführen - wird aber nicht klappen.</li>
+
+h2. iSync beenden
+
+Wichitg: iSync beenden bevor die <code>BTConduitDefaults.plist</code> angepasst wird.
+
+h2. BTConduitDefaults.plist anpassen
+
+Die Datei <code>/Library/Application Support/SyncService/501/BTConduitDefaults.plist</code> öffnen. Den Wert von <code>kBTConduitModelKey</code> in der Datei ändern: unknown -> S55. Das Ergebnis sieht so aus (Ausschnitt):
+
+<pre class="prettyprint"><code>
+<key>kBTConduitModelKey</key>
+<string>S55</string>
+</code></pre>
+
+h2. iSync starten
+
+Fröhlich synchronisieren. Fertig.
+
+Bei mir funktioniert dann der Sync wunderbar. Kalender und Telefonbuch werden abgeglichen. Das <a href="http://www.fscklog.com/2004/10/nachtrag_zu_s65.html">Problem mit den Umlauten</a> wegen UTF-7 / UTF-8 tritt bei mir nicht auf. Die paar Adressbucheinträge mit ö, die ich habe werden korrekt übertragen. Vielleicht hat Siemens in der Tat UTF-7 Support in der aktuellen Firmware mit drin (laut *#06# habe ich Version 47).
+
+Einziges Problem. Man kann nur einmal pro iSync-Start synchronisieren, dann geht's nicht mehr. iSync beenden und neu starten und man kann wieder einmal. Ist nicht gerade hybsch, aber es geht.
+
+Ich wünsche viel Spaß beim Nachbauen, falls es jemand tut. Für alle Angaben kein Gewähr... Your milage may vary =)
+

@@ -1,0 +1,96 @@
+--- 
+title: Wireless Link
+sections: 
+- german
+- sysadm
+tags: 
+- hardware
+- unix
+- howto
+filter: 
+- textile
+description: Verlinkung meines WLANs mittels Zyxel Prestige 660HW-67 und Linksys WRT54G unter Zuhilfenahme von OpenWRT
+blog_post: true
+layout: post
+created_at: 2005-04-10 13:09:47.526917 +02:00
+---
+
+<img src='http://www.sundevil.de/hendrik/pics/WRT54Gl.jpg' alt='WRT54G 1.0' align="left"/>
+<img src='http://www.sundevil.de/hendrik/pics/arcordslwlanmodem100.gif' alt='Arcor-DSL WLAN-Modem 100' align="right" />
+Ich habe es nun endlich geschafft eine stabile kabellose Verbindung zwischen meinem Arcor Router (basiert auf Zyxel Prestige 660HW-67) und dem kabelbasiertem Netz hinbekommen. Dazu habe ich meinen <a href="http://www.linksys.com/international/product.asp?coid=8&ipid=455">Linksys WRT54G </a><acronym title="Wireless Local Area Network" lang="en">WLAN</acronym>-Router mit <a href="http://openwrt.org/">OpenWRT</a> geflasht und beim ersten Versuch probiert das ganze  <acronym title="Local Area Network" lang="en">LAN</acronym> einfach per Wireless-Bridge anzschließen. Das ging jedoch nicht so gut. Die Verbindung war zwar da - pings gingen durch - aber surfen war nur teilweise möglich. War irgendwie nicht sehr stabil. Rumspielen mit txpower etc. hat auch nichts gebracht.
+
+Also habe ich versucht den Router im "echten" Client-Modus zu betreiben und zu routen. Zum Glück beherrscht der Arcor Router  <acronym title="Routing Information Protocol" lang="en">RIP</acronym>. Eine statische Route ins interne Netz hätte es auch getan, aber die kann man - zumindest auf dem Webinterface nicht einstellen. Über das Telnet interface ist das vielleicht möglich, aber ich habe mich für <acronym title="Routing Information Protocol" lang="en">RIP</acronym> entschieden.
+
+Auf dem WRT54g (Version 1.0 - die Version mit den vielen <acronym title="Light Emitting Diode" lang="en">LED</acronym>s) habe ich quagga zebra installiert. Dazu habe ich den Router erstmal per <acronym title="Wide Area Network" lang="en">WAN</acronym>-Interface ins Netz gehangen:
+<pre>
+nvram set wan_ipaddr=192.168.50.253
+nvram set wan_gateway=192.168.50.254 # Das ist mein Arcor router
+nvram set wan_dns=192.168.50.1              # Das ist core
+nvram commit
+reboot
+</pre>
+
+Dann erstmal die <acronym title="Wireless Local Area Network" lang="en">WLAN</acronym>-Verbindung zwischen den Routern herstellen:
+<pre>
+nvram set wl0_mode=wet    # sta wäre eigentlich Station-Mode, damit hatte ich aber keinen Erfolg...
+nvram set lan_ipaddr=192.168.40.1
+nvram set security_mode=wep
+nvram set wl0_wep=on
+nvram set wl0_key=5576F62595178EA5585790DFDD # Nein, das ist nicht mein echter WEP key
+nvram commit 
+reboot
+</pre>
+
+Ping auf den anderen Router. Geht.
+
+Nach dem reboot dann Zebra installieren:
+<pre>
+ipkg install quagga-ripd
+</pre>
+
+Wenn man nun zebra testweise starten möchte erhält man die Meldung:
+<pre>
+(Zebra)privs_init: could not lookup user root
+</pre>
+
+Das liegt daran, dass standardmäßig auf dem OpenWRT keine User installiert sind. Ich habe daraufhin den dropbear -ssh-Server installiert, was angesichts der unsicheren telnetverbindung sowieso eine gute Idee ist. Bei der Installation wird dann automatisch der User "root" angelegt.
+/etc/quagga/zebra.conf
+<pre>
+hostname rigel
+password geheim
+enable password geheim
+!
+! Interface's description. 
+!
+interface lo
+  description Loopback
+interface br0
+  description ethernet-wireless
+!
+! Static default route sample.
+!
+ip route 0.0.0.0/0 192.168.40.254
+!
+</pre>
+/etc/quagga/ripd.conf
+<pre>
+hostname rigel
+!
+router rip
+  network 192.168.50.0/24
+  network 192.168.40.0/24
+</pre>
+
+Nun noch die Startup Files anlegen:
+<pre>
+cat >/etc/init.d/S95zebra
+#!/bin/sh
+/sbin/zebra -d -f /etc/quagga/zebra.conf
+^D
+cat >/etc/init.d/S95ripd
+#!/bin/sh
+/sbin/ripd -d -f /etc/quagga/ripd.conf
+^D
+</pre>
+
+Dann hab ich noch die <acronym title="Internet Protocol" lang="en">IP</acronym>-Adresse des Arcor Routers auf 192.168.40.254 umgestellt und <acronym title="Routing Information Protocol" lang="en">RIP</acronym> aktiviert, die default routes auf den Clients im 50er Netz geändert, einmal rundum gepingt, ob sich alle Rechner sehen können und schon ging's über den Wireless Link ins Internet.

@@ -1,0 +1,41 @@
+--- 
+title: Webmontag in Stuttgart
+sections: 
+- german
+tags: 
+- allgemeines
+- webmontag
+descrription: Bericht vom Webmontag in Stuttgart am 31.07.2006
+filter: 
+- textile
+blog_post: true
+layout: post
+created_at: 2006-08-03 13:09:47.526917 +02:00
+---
+
+Es ist zwar nun schon Donnerstag, aber ich möchte hier trotzdem noch kurz ein paar Gedanken zum <a href="http://www.webmontag.de/doku.php?id=31.07.2006_stuttgart">Webmontag in Stuttgart</a> notieren. Falls ich nicht mehr alles korrekt in Erinnerung habe, bitte nicht zögern, offensichtliche inhaltiche Fehler per Kommetar zu korrigieren.
+Die Veranstaltung war mein erster Webmontag. Ich hatte vom Webmontag an sich über das <a href="http://www.netzpolitik.org">netzpolitik-Blog</a> erfahren, wußte aber bisher nicht, dass sowas auch in Stuttgart stattfindet. Das habe ich dann jedoch zufällig mitbekommen und habe gleich mal am Montag vorbeigeschaut.
+
+Die Vorträge waren interessant, wobei ich als eigentlich eher technisch interessierter Mensch, die nicht-technischen Themen interessanter fand.
+
+Eine Inhaltliche Zusammenfassung gibt es bei <a href="http://www.theofel.de/archives/tags/webmontag/">Jan Theofel</a>. Was hier nun kommt ist ganz im Sinne der unten folgenden Definition des Bloggers meine Meinung zu den Vortraegen.
+
+<a href="http://www.dirk-baranek.de/">Dirk Baraneck</a> referierte über den Unterschied zwischen Journalisten und Bloggern. Kurz zusammengefasst: Journalisten werten Quellen aus und präsentieren objektiv Inhalte und stellen verschiedene Meinungen gegenüber. Blogger teilen ihre Subjektive Meinung mit.
+
+Wenn man mal drüber nachdenkt, ist das eigentlich ganz logisch. Bisher war mir das aber noch nicht so klar. - Hab wohl noch nie so recht wirklich drüber nachgedacht.
+
+<a href="http://www.squidoo.com/Oliver_Gassner/">Oliver Gassner</a> erzählte über "user generated content" und den Untergang der Zeitungen (grob gesagt). Der Gassner hat Scheisse erzählt. Hat er gesagt, könne man nun bloggen. Was ich nun getan habe. Stimmt aber nicht (alles klar?)
+
+Der Vortrag ging flott im Lessing-Stil los, und wurde dann etwas gemächlicher mit der Folienzahl. Fand ich jetzt aber nicht so tragisch, weil die Leertaste des Laptops selbst in der letzten Reihe noch deutlich zu hören war und langsam anfing zu nerven ;) - Der Vergleich zwischen redaktionellem Content und "user generated content' war fast ausschliesslich "offline" vs. "online" bzw. "Zeitungen" vs. "Blogger". Interessanterweise gibt es ja aber auch bei reinen Internet-News-Seiten schon Konkurrenz von der User-Front: z.B. <a href="http://www.slashdot.org">slashdot</a> vs. <a href="http://www.digg.com">digg</a>
+
+Der Vortrag zum Thema Innovationsprogramm Web 2.0 der MFG Baden-Württemberg war informativ. Gut, dass es solche Dinge gibt. :)
+
+Den Vortrag von Dr. Ulrike Burscheidt fand ich nun eher uninteressant, da mich das ganze an die Recht-Vorlesung aus meinem Studium erinnert hat, wo wir diese Themen (Urheberrecht im Web etc.) schon besprochen haben. Die Folien zu dem Vortrag hatten auch deutlich das höchte "Wort pro Folie"-Verhältnis, was für meinen Geschmack manche Folien einfach zum Worthaufen an der Leinwand machten, ohne Inhalte zu kommunizieren. Dass ich nun nicht allzuviel mitbekommen habe, kann aber auch einfach and der Tatsache liegen, dass ich das alles schon mal gehört hatte...
+
+Die Technikvorträge von  <a href="http://www.plusw.de/">Rolf Schaufelberger</a> und <a href="http://alvar.a-blast.org/">Alvar Freude</a> zum Thema mod_perl und Assotiationsblaster waren interessant. Der mod_perl-Vortrag war so gestaltet, dass auch Nicht-Techniker angesprochen waren. Allerdings glaube ich dass die meisten, die nichts mit Programmierung zu tun haben spätestens beim Erscheinen der (wenigen) Code-Zeilen abeschaltet haben. Denoch Respekt für die Vortragenden: Es ist sehr schwer, einem gemischten Publikum ein solches Thema vorzustellen.
+
+Generell fand ich vor allem die Diskussionen im Anschluss an die einzelnen Voträge, sowie das anschließende Zusammensitzen am besten. Die oft zitierte Forderung nach wenigeren/kürzeren Vorträgen kann ich nun nachvollziehen. Ich finde, dass die Diskussionen und damit die Interaktion zwischen den Teilnehmen im "offiziellen" Teil etwas zu kurz kamen. Wie nun durch etwas Recherche, sowie einige Anmerkungen von Teilnehmern, die schon auf anderen Webmontagen waren mitbekommen habe, ist der "offizielle Teil" in Stuttgart wohl sehr ausgeprägt und auch etwas überorganisiert.
+
+Ich hatte mir das alles auch etwas spontaner und mit mehr Interaktion vorgestellt.
+
+Mal schauen wie der Webmontag am 23. Oktober wird. Wenn ich Zeit habe, werde ich auf jeden Fall vorbeischauen. Der Termin findet nämlich ca. 10 Gehminuten von hier entfernt statt.

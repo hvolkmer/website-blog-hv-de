@@ -1,0 +1,28 @@
+--- 
+title: Waterfall 2006
+sections: 
+- english
+tags: 
+- podcast
+- fun
+filter: 
+- textile
+description: Join the Waterfall 2006 Conference!
+blog_post: true
+layout: post
+created_at: 2007-01-31 12:09:47.526917 +01:00
+---
+
+I just listened to the <a href="http://se-radio.net/index.php?post_id=116460">SE-Radio Episode 26</a>, where <a href="http://www.jeckstein.de/">Jutta Eckstein</a> mentioned the "Waterfall 2006":http://www.waterfall2006.com conference. If you have a look at the website and know only one or two of the names on the list and recognize the date of conference, you just know what this "conference" thing is about. If you want to have a laugh just read through the descriptions of the talks.
+
+The most surprising thing however was, that there apparently where people who thought this was a real thing and said things like "I always thought that people like Kent Beck would finally understand what is important". (Check out the podcast at about 25:00)
+
+If you click on the registration link you get this message:
+
+<blockquote>
+We're sorry but registration is not yet ready. Our software developers have a really wonderful design. They're almost done entering it into it a UML tool. They've told us not to worry and that finishing it will be "trivial" because "all that's left is the coding."
+
+We're not sure what features will be on the registration pages because the developers haven't talked to us about what we'd like but we're sure it will be wonderful. Meanwhile, you may want to plan on just showing up at the conference with a credit card and if there's space available, we'll let you in.
+</blockquote>
+
+All that happened about a year ago and I discovered it just now, but I think it's still funny, though.

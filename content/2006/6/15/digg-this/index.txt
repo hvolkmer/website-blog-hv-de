@@ -1,0 +1,15 @@
+--- 
+decription: Diggnation in the house. Gefunden via flickr...
+title: Digg this
+sections: 
+- german
+tags: 
+- allgemeines
+filter: 
+- textile
+blog_post: true
+layout: post
+created_at: 2006-06-15 13:09:47.526917 +02:00
+---
+
+Vor ein paar Tagen bin ich - ich glaube es war über ein paar Bilder mit Screenshots auf flickr - auf <a href="http://diggnation.com/">Diggnation</a> gestossen. Kann ich nur empfehlen. Ist eine lustige Sendung/Videopodcast oder wie auch immer man das heute nennt. Inhalt: Bier, Topstories von <a href="http://digg.com/">digg.com</a> und anderes Zeug was eigentlich überhaupt nichts mit alle dem zu tun hat. Sehr lustig.

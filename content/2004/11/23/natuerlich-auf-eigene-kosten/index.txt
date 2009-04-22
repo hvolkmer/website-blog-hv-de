@@ -1,0 +1,28 @@
+--- 
+title: "Nat\xC3\xBCrlich auf eigene Kosten..."
+sections: 
+- german
+- politics
+tags: 
+- "1984"
+filter: 
+- textile
+description: "\xC3\x9Cberwachung der eigenen Emails und man zahlt noch selbst daf\xC3\xBCr. Vielen Dank auch!"
+blog_post: true
+layout: post
+created_at: 2004-11-23 12:09:47.526917 +01:00
+---
+
+<a href="http://www.heise.de/newsticker/meldung/53559">heise online - Auf eigene Kosten abgehört</a>
+
+Auf welche Kosten auch sonst? Vielleicht bringt das ja was, dass die Leute endgültig aufwachen. Die Email-Überwachung durch die Provider wird außer hohe kosten und verlust von Bürgerrechten jedenfalls nichts bringen. 
+
+Ich werde mich jedoch nicht überwachen lassen. Ab 1.1.2005 verschicke ich nur noch verschlüsselte Mails. Geeigente Programme für diesen Schritt existieren für jedes gängige Betriebsystem und lassen sich einfach in Mailprogramme einbinden. Wer also mit mir in Zukunft per Mail kommunizieren will, sollte dies verschlüsselt tun und ebenfalls einen GPG/PGP-Schlüssel seinerseits anbieten, wenn man eine Antwort erwartet. <a href="http://www.sundevil.de/hendrik/kontakt/gpg-key.txt"> Mein GPG Key</a>
+
+Um das auch mit wenig Aufwand zu erreichen werde ich lustige Mailfilter einbauen, die alle nicht verschlüsselten Mails (nach Spam/back-/whitelist-Bearbeitung) mit entsprechendem Hinweis zurücksenden. 
+
+Und wer meint "och... überwachte Emails sind doch egal, ich habe doch nix zu verbergen. Wen Interessieren schon meine Mails". - Ich kanns echt nicht mehr hören - Dem kann ich nur sagen: Verschickt ab jetzt bitte nur noch Postkarten, ist eh billiger und warum Briefe? Habt ja nix zu verbergen.
+
+Schön anzuschauen, wie unser Grundgesetz immer mehr zerbröckelt: Art 19. GG. Abs 1.  "Das Briefgeheimnis sowie das Post- und Fernmeldegeheimnis sind unverletzlich."
+
+Na toll. Wer's glaub. Ok. Abs 2. sagt, Beschränkungen zum Schutze der demokratischen Grundordnung können Gesetze regeln... aber wie wird bitte die demokratische Grundordnung durch E-Mailüberwachung geschützt? Sie wird wohl eher zerstört...

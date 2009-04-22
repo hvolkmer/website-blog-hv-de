@@ -1,0 +1,22 @@
+--- 
+title: Installing Trac on Windows
+sections: 
+- english
+- sysadm
+tags: 
+- windows
+- trac
+- installation
+filter: 
+- textile
+description: "Installing Trac on Windows: Just don't..."
+blog_post: true
+layout: post
+created_at: 2007-02-21 12:09:47.526917 +01:00
+---
+
+
+<p>This is not a tutorial. There is a <a href="http://trac.edgewall.org/wiki/TracOnWindows">good one</a> on the TracWiki. I just want to tell everyone, that if you ever consider installing Trac on Windows, then just don't do it and install it on a *nix machine. This will save you a lot of time and nerves. There are even <a href="http://buildix.thoughtworks.com/">pre-build environments</a> available with <a href="http://subversion.tigris.org">SVN</a>, <a href="http://trac.edgewall.com">Trac</a> and <a href="http://cruisecontrol.sf.net">Cruisecontrol</a>.</p>
+<p>I spent almost an entire day to configure Trac on Windows. It's not funny. If you have to do it, be sure to use the <a href="http://trac.edgewall.org/wiki/TracModPython">mod_python setup</a>. It's far easier to install than trying to set up CGI on a Windows box (which I think would be the first and easiest setup on *nix machines). I may not be the smartest person on earth but the Apache error messages on Windows are just plain useless. I don't care if it's Apache's fault, Windows' fault or my own. It's <a href="http://www.thisisbroken.com/">just broken</a>.</p>
+<p>So if you have no other choice than using Windows, make sure that you use a plain Apache from <a href="http://httpd.apache.org">apache.org</a> - No <a href="http://www.apachefriends.org/">xampp</a>, <a href="http://typo3.org/download/installers/">Typo 3 package</a> or anything like that. Some of these packages come with their own version of Python which really fucks things up, if it's not the version you need). This will save you a lot of trouble.</p>
+<p>The main problem we had here was the "We already have an Apache on this server, so why not install on this one?"-thing. The Apache installation turned out to be one of the packages mentioned above which made things not really easier.</p>

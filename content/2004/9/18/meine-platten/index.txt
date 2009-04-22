@@ -1,0 +1,18 @@
+--- 
+title: Meine Platten
+sections: 
+- german
+tags: 
+- allgemeines
+- vinyl
+filter: 
+- textile
+description: Ich finde Discogs
+blog_post: true
+layout: post
+created_at: 2004-09-18 13:09:47.526917 +02:00
+---
+
+<a href="http://www.timobenz.de/">Timo</a> hat mir die praktische Seite <a href="http://www.discogs.com/">Discogs</a> gezeigt. Dort kann man seine Platten bzw. CD Sammlung eintragen. Das praktische ist, dass ziemliche viele Platten dort schon in der Datenbank eingepflegt sind und man sich seine Sammlung somit einfach zusammenklicken kann.
+
+<a href="http://www.discogs.com/collection?user=ulkbold">Meine Sammlung </a>ist mittlerweile auch fast vollständig dort enthalten. Die Liste kann man dann auch als Excel exportieren - leider jedoch nicht direkt als XML (ok, Excel -> XML geht auch, aber das ist ja umständlich). Mit so ner XML liste könnte man dann lustige Dinge tun, um das in die eigene Homepage zu integrieren. Vielleicht baue ich in einer ruhigen Minute mal etwas um die Daten da zu extrahieren...

@@ -1,0 +1,26 @@
+--- 
+title: Danke Hauppauge - Teil 2
+sections: 
+- german
+tags: 
+- hardware
+- windows
+filter: 
+- textile
+description: Fortsetzung der Installtions-Odysee der Hauppaugekarte
+blog_post: true
+layout: post
+created_at: 2005-04-04 13:09:47.526917 +02:00
+---
+
+Vor einem dreiviertel Jahr habe ich ja schonmal in <a href="/2004/08/16/danke-hauppauge/">Danke Hauppauge</a> beschrieben, welchen "Spaß" ich beim Einrichten einer Hauppauge WinTV Nova-S auf einem Windows-2000-System hatte.
+
+<img src='http://www.sundevil.de/hendrik/pics/HauppaugeNovas.jpg' alt='Hauppauge Nova-S (alt)' align='right'/>
+
+Letztes Wochenende wollte ich nun diese Karte in besagtem System gegen ein neueres Modell (mit Fernbedienungsanschluss) tauschen. Das erforderte ein Update der Hauppauge-Software von Version 2.17 auf 2.18c. Um es kurz zu machen: Die Installation (bzw. Deinstallation der alten Software) ging realitv problemlos. Das System stürtze allerdings nach ca. 20 Minuten fernsehen repoduzierbar ab. Software 2.17 mit der neuen Karte wäre sinnlos gewesen, da der einzige Grund für die Installation die Unterstützung der Fernbedienung war. Alte Karte mit neuer Software wäre ebenso sinnlos, da an der alten Karte kein Fernbedienungsanschluss dran ist.
+
+Im Endeffekt habe ich das System wieder in den "Urzustand" zurück versetzt: "alte" Karte und Software 2.17. Das läuft nun wieder stabil - ohne Fernbedienung.
+
+Es bleibt offen, ob nun die Software einen Schaden hat (was mich nicht wundern würde), oder die Karte. Seltsam ist das Verhalten jedenfalls. Für genaue Untersuchungen blieb keine Zeit, da ich nur auf Besuch vor Ort war und außerdem draußen die Sonne schien, deren Genuß auf jeden Fall einem verkorsten Windows-Rumtest-Nachmittag vorzuziehen ist.
+
+Sollte ich jemals für mich ein DVB-System bauen ist eh klar, dass da ein schmuckes Linux mit <a href="http://www.cadsoft.de/vdr/">VDR</a> drauf kommt. Das läuft bei zwei von mir eingerichteten Systemen (jeweils mit dem großen Bruder der Nova-S - der Nexus-S) problemlos.

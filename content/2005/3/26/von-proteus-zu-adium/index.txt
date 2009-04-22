@@ -1,0 +1,28 @@
+--- 
+title: Von Proteus zu Adium
+sections: 
+- german
+tags: 
+- mac
+- software
+- adium
+filter: 
+- textile
+description: Migration von Proteus zu Adium (Instant Messanger Software)
+blog_post: true
+layout: post
+created_at: 2005-03-26 12:09:47.526917 +01:00
+---
+
+<img src='http://www.sundevil.de/hendrik/pics/green.png' alt='Adium' align="left" />
+Bis vor kurzem habe ich noch den <acronym title="instant messenger" lang="en">IM</acronym>-Client Proteus genutzt. Proteus ist jedoch Shareware. Man kann alle Funktionen nutzen, aber die Zahlungsaufforderung immer wegzuklicken führt auf Dauer dann schon zu einem schlechten Gewissen. Auf der Suche nach irgendwelchen Wordpress-Sachen bin ich auf <a href="http://www.alexking.org/index.php?content=technology/software.php">Alex King's Homepage</a> auf <a href="http://adium.sourceforge.net/"> Adium X</a>  gestoßen. Adium X ist unter der <a href="http://www.fsf.org/copyleft/gpl.html">GNU General Public Licence</a> lizensiert und kostenlos erhältlich.
+
+Es  hat allerhand praktische Features, wie z.B. das Auto-resize der Kontaktliste, mehrere tabbed-Chat-Fenster, Bilder für jeden Kontakt, Anzeige der Idle-Time und lässt sich über <a href="http://www.adiumxtras.com/">diverse Extras </a>anpassen.
+
+Natürlich wollte ich beim Wechsel der Clients die alten Daten (Kontaktliste und Logs) übernehmen. Für die Logs gibt es ein Perl-Script (<a href="www.visualdistortion.org/misc/proteus_importer.tar.gz">proteus2adium.pl</a>). Für die Kontaktliste gibt es nichts (soweit ich das beurteilen konnte).
+
+Also habe ich mich daran gemacht, die Kontaktlisten von Proteus und Adium zu analsysieren. Beides sind <acronym title="eXtensible Markup Language" lang="en">XML</acronym>-Dateien. Proteus benutzt eine <a href="http://developer.apple.com/documentation/Cocoa/Conceptual/PropertyLists/Concepts/AboutPropertyLists.html">Apple Property-List</a> und Adium die Buddy-Liste von <a href="http://gaim.sf.net/">Gaim</a> bzw. libgaim. Bei 2x <acronym title="eXtensible Markup Language" lang="en">XML</acronym> kommt natürlich gleich <acronym title="Extensible Stylesheet Language Transformation" lang="en">XSLT</acronym> in den Sinn. Ging aber irgendwie nicht, weil die Property-List intern sehr ungleichmäßig verteilt war - Soll heißen: per XPath auf ein bestimmtes Element bekommt man z.B. nicht alle <acronym title="(ICQ) unique identification number" lang="en">UIN</acronym>s der Kontaktliste. Vielleicht habe ich auch die "plist" nicht richtig verstanden. Ich habe es jedoch irgendwann einfach aufgegeben.
+
+Dann habe ich angefangen ein Python-Script zu erstellen, dass die plist durchgeht und alle <acronym title="(ICQ) unique identification number" lang="en">UIN</acronym>s einsammelt, egal wie tief sie in "dict"- oder "array"-Elementen vergraben waren. Da ich hin und wieder auch für andere Sachen Python einsetze habe ich mir mal spontan <a href="http://pydev.sf.net/">pydev</a> angeschaut. Vor allem die <a href="http://www.logilab.org/projects/pylint">pylint</a>-Integration ist sehr praktisch.
+
+Letztendlich habe ich dann bemerkt, dass Proteus doch irgendwie die Server-side-Contact-List-Geschichte unterstützt und fast(!) alle Kontakte bereits in Adium drin waren. Aber eben nicht alle. Die fehlenden paar habe ich dann von Hand eingetragen. Ganz umsonst war das rumprogrammieren mit Python aber auch nicht. Nun weiß ich wenigstens (ein bißchen...), wie man <acronym title="eXtensible Markup Language" lang="en">XML</acronym>-Dokumente mit Python erstellt und "parsed".

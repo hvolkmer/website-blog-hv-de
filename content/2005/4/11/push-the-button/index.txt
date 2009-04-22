@@ -1,0 +1,21 @@
+--- 
+title: Push the button
+sections: 
+- german
+tags: 
+- mac
+- software
+filter: 
+- textile
+description: "Mini-Rewview: OneButton FTP Client"
+blog_post: true
+layout: post
+created_at: 2005-04-11 13:09:47.526917 +02:00
+---
+
+<img src='http://www.sundevil.de/hendrik/pics/onebutton.png' alt='one button' align='right' />
+Wenn man täglich Mac OS X benutzt wird, gewöhnt man sich bei aller Liebe zur command line (und <a href="http://www.ncftp.com/ncftp/">ncftp</a>) an die Vorteile der grafischen Oberfläche wie z. B. Drag&Drop.
+
+<a href="http://onebutton.org/">OneButton</a> ist ein FTP Client für Mac OS X (ab Panther), der mit einem schlichten, übersichtlichen GUI aufwartet, das eben nicht die für FTP Clients typischen 2 Spalten hat, sondern nur ein Fenster, dass auf Drag&Drop ausgelegt ist. Das Ding ist unter der GPL veröffentlicht und befindet sich noch im "Demo"-Statium, wie die Entwickler es nennen (Version 0.0.4). Dafür funktioniert es aber ganz gut.
+
+Ich nutze das Ding nun erst seit heute bin aber von der Oberfläche und der einfachen Bedienung sehr überzeugt. Einfach und gut. Nun denn: Push the button. =)

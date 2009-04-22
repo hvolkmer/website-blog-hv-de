@@ -1,0 +1,25 @@
+--- 
+title: Railsconf Europe 2007 Berlin - Wrap up
+sections: 
+- english
+- coding
+- life
+tags: 
+- railsconfeurope07
+- wrap-up
+filter: 
+- textile
+description: Railsconf Europe 2007 Berlin - Summary and Wrap up
+blog_post: true
+layout: post
+created_at: 2007-09-24 13:09:47.526917 +02:00
+---
+
+RailsConf Europe 2007 is over and it's time to wrap up.  So... I don't want reproduce the content of all the presentations I've attended because several other people already did. I'll just link to their posts. Instead I want to to give a subjective view of all the talks I've seen.  I have no idea if that's of any value to anybody else but maybe it is. No pictures this year... I was to lazy to bring my DSLR camera and forgot to borrow a smaller point and shoot cam... There are a lot of pictures of the event on "flickr":http://www.flickr.com/photos/tags/railsconfeurope07/ 
+
+Check out the days in order:
+
+ * "Day -1: Before Railsconf":/2007/9/24/railsconf-europe-2007-berlin-day-1
+ * "Day 0: Tutorial Day":/2007/9/24/railsconf-europe-2007-berlin-day-0
+ * "Day 1: First conference day":/2007/9/25/railsconf-europe-2007-berlin-day-1
+ * "Day 2: Second conference day":/2007/9/25/railsconf-europe-2007-berlin-day-2

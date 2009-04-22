@@ -1,0 +1,19 @@
+--- 
+title: Die obligatorischen 80x15
+sections: 
+- german
+tags: 
+- meta
+filter: 
+- textile
+description: Ich habe nun auch ganz viele 80x15 Pixel Banner auf meinem Blog. Endlich.
+blog_post: true
+layout: post
+created_at: 2004-11-05 12:09:47.526917 +01:00
+---
+
+Nun habe auch ich sie in meinem Blog: Die obligatorischen 80x15 Banner, die in keinem Blog fehlen dürfen! ;-)  Man könnte sie schon fast 0815-Banner nennen!
+
+Einige habe ich <a href="http://www.scheler.com/blogicons.php">hier</a> "geklaut", andere <a href="http://kalsey.com/tools/buttonmaker/">dort</a> generiert.
+
+Außerdem habe ich heute einige Spam-Filterworte hinterlegt, da schon nach wenigen Tagen Wordpress allerhand Spam-Comments zu finden waren. Das Homepagedesign ist immer noch nicht einheitlich. Vielleicht finde ich ja am Wochenende Zeit um das hier mal wieder in From zu bringen. Die <a href="http://www.sundevil.de/hendrik/netzwerk/">Computer-Info-Seite</a> wartet ja auch schon auf ein Update...

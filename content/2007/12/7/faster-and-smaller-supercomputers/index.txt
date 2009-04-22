@@ -1,0 +1,18 @@
+--- 
+title: "Faster and smaller supercomputers "
+sections: 
+- english
+tags: 
+- technology
+- research
+filter: 
+- textile
+description: Use light for internal communication to make computers faster. Beam me up scotty
+blog_post: true
+layout: post
+created_at: 2007-12-07 12:09:47.526917 +01:00
+---
+
+"Faster and smaller supercomputers ":http://www-03.ibm.com/press/us/en/pressrelease/22769.wss will be possible in the near future. This is cool stuff. I can't wait to see the first CPUs which use light for internal communication. Maybe we have to adjust Moore's Law a bit then :)
+
+There are a bunch of cool things coming out of research lately. Let's see when they really make into the market. I'm "still waiting":http://blog.hendrikvolkmer.de/2007/1/19/wann-sind-solid-state-disks-endlich-marktreif for solid state disks to become affordable...

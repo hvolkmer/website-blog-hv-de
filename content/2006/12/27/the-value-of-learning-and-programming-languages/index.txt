@@ -1,0 +1,27 @@
+--- 
+title: The value of learning and programming languages
+sections: 
+- english
+- coding
+- life
+tags: 
+- programming
+- learning
+- ruby
+- java
+- haskell
+filter: 
+- textile
+description: Some thoughts on learning itself and learning of new programming languages
+blog_post: true
+layout: post
+created_at: 2006-12-27 12:09:47.526917 +01:00
+---
+
+<p>Sometimes I wander around or take a shower and then it just strikes me. Something becomes absolutely clear in my mind and I begin to understand an idea or something I thought about for a long time.</p>
+<p>It happened again this morning when I was walking from the bus stop to the office. I thought about which new programming language I want to learn next year (Part of Tip 8 of "The Pragmatic Programmer" book) and about learning in general. I think I found the value of learning for myself. </p>
+<p>I want to learn a <a href="http://en.wikipedia.org/wiki/Functional_programming_language">functional programming language</a> next year, because I haven't learned one yet and some aspects of functional programming find their way into "everyday programming languages" (not meaning that there aren't functional programming languages which can't be used for "everyday tasks"). Closures, for example. I love blocks in Ruby! Unfortunately closures will find their way into Java in Java 7 at the earliest. There isn't even a JSR yet. It's on the <a href="http://blogs.sun.com/ahe/entry/java_se_7_wish_list">wish list</a> . But I'm loosing track.</p>
+<p>So I looked at <a title="Haskell" href="http://www.haskell.org">Haskell</a> which is a purely functional language. Then I found out that it has syntactically relevant white space, which is... let's say something you have to get used to (and I never really liked in <a href="http://www.python.org">Python</a> ). Another point which I found why not to choose Haskell was: There are no "real" applications out there written in Haskell. There are of course a lot of applications written in Haskell but they seem to be some fun or research projects and no "End user" application among them.</p>
+<p>So why learn something which I wouldn't be able to use "in real life". Alternatives I have considered are <a title="The Caml Language" href="http://caml.inria.fr/">OCaml</a> which is used in some "real" applications put it's not a purely functional language and <a href="http://erlang.org/">Erlang</a> which seems to be focused on concurrency and actually was created in a "real life" environment. There's even a Web framework for Erlang available now: <a href="http://erlyweb.org/">ErlyWeb</a> .</p>
+<p>Then I thought: OK. So I want to learn something about functional programming. Haskell is a purely functional Language so why should I care whether I can use the language for anything useful at all? The answer is: I shouldn't care! The learning process itself is the value I get out of it (and of course the functional way of thinking of programs)! And that's the main goal of this whole "learning a new language" experience, isn't it?</p>
+<p>That could be the whole point about learning in general. Of course it matters what I learn (if I want to use the knowledge or skills I learned). But if I learned nothing useful at all, I still learned something about learning. That may sound a bit self referential but I think that's what excites me about learning new things. That's a good motivation for learning. The process of learning something new is so interesting that it doesn't really matter what I learn.</p>

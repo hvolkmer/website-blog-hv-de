@@ -1,0 +1,27 @@
+--- 
+title: Ergonomisch, die Zweite
+sections: 
+- german
+tags: 
+- hardware
+- kinesis
+- ergonomic
+filter: 
+- textile
+description: "Ergonomische Hardware: Kinesis Advantage Pro USB Tastatur"
+blog_post: true
+layout: post
+created_at: 2006-04-25 13:09:47.526917 +02:00
+---
+
+Endlich ist sie da. Mein neue <a href="http://www.kinesis-ergo.com/advantage_pro.htm">Kinesis Advantage Pro USB Tastatur</a>. Naja... ganz neu ist sie nicht. Ich bin dem Tipp eines Kommentars einer Review-Seite gefolgt und habe ein "refurbished keyboard" gekauft und somit ca. 50$ gespart. Sieht trotzdem aus wie neu, funktioniert genau so und hat sogar Garantie. Für alle, die sich nun wundern, was eine Tastatur wohl kosten muss, damit man 50$ sparen kann: Weniger als so mancher für Grafikkarten ausgiebt, und mehr als das was normale Menschen für Tastaturen ausgeben ;-)
+
+Dabei habe ich mir die Tastatur extra aus den USA mitbringen lassen. Kinesis-Tastaturen sind in Europa nämlich quasi gar nicht zu haben und wenn dann nochmal zum doppelten Preis, vom dem was sie in den USA kosten. Und das ist dann wirklich jenseits von gut und böse.
+
+Das Schreiben war die ersten 2 Tage echt ungewohnt und ich kam mir vor wie beim "Adlersuchsystem". Mitterlweile geht es einigermaßen zügig, aber noch nicht so schnell wie auf einer normalen Tastatur. Da ich aufgrund der Tastenanordnung jedoch gezwungen bin mit 10 Fingern zu schreiben, tue ich das auch und benutze gerade die Finger Ringfinger und kleiner Finger deutlich öfter als bisher bei meinem 6-8 Finger-selbsterfunden-System. Die beigelegten "Adoption Excercises" habe ich noch nicht durchgemacht... wird mal Zeit.
+
+Da die Tastatur relativ hoch ist, liegt sie auf dem Schreibtisch eigentlich viel zu hoch. Da werde ich mir noch eine Alternative zur Befestigung ausdenken müssen. Ein Brett unter der Schreibtischplatte sollte da reichen.
+
+Bilder folgen.
+
+<a href="http://del.icio.us/ulkbold/kinesis">Meine del.icio.us-Links zur Kinesis-Tastatur</a>.

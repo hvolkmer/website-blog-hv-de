@@ -1,0 +1,71 @@
+--- 
+title: Sicherheit
+sections: 
+- german
+- politics
+tags: 
+- "1984"
+- tcpa
+- palladium
+filter: 
+- erb
+- textile
+description: Was bedeutet "Sicherheit" im Zusammenhang mit TCPA? Was bringt es dem Endbenutzer?
+blog_post: true
+layout: post
+created_at: 2002-07-09 13:09:47.526917 +02:00
+---
+
+h2. Eine kleine Geschichte als Einstieg
+
+Erstmal aufstehen... frühstücken und Zeitunglesen. Ich schalte also den tollen Tablet-PC ein auf dem schon das riesige MS Windows Symbol zu sehen ist. "20. Mai 2004 - Die Schlagzeilen". Naja. Nichts interessantes zu lesen. Kein Wunder. Bei dem Standard Abo... das Premium Ding war mir einfach zu teuer. Mist. Ich bin auf dem "Aus"-Knopf gekommen. Das wars mit den Nachrichten fuer heute. Dank dem tollen ach so sicherheitsbringenden DRM-System, darf ich diese Datei ja ganze 5 Minuten angucken und wenn man sie schließt, ist's vorbei. Nochmal öffnen geht nicht.
+
+Ich wollte ja heute die Bilder von der DigiCam zum entwickeln bringen, aussortieren der schlechten Bilder ist nicht mehr drin... alle schon 5x mal auf der Cam angeguckt. Mehr geht nicht. Warum lass ich mich auch immer überreden sie nochmal eben zu zeigen... Also Cam an den Rechner gesteckt, Bilder hochgeladen und ab übers Internet an den Druckservice... Ach Scheiße... keine DRM-Druck-Credits mehr. Ach war das damals noch schön, als man mit seinen Daten noch tun und lassen konnte, was man will...
+
+Zum Musik hören hab ich auch kein Geld mehr übrig... Hm. Ob ich es wagen soll, den alten mp3 Player in die Stadt mitzunehmen... 500 EUR Strafe pro nicht DRM bzw. TCPA zertfiziertes Digitalgerät plus die Gebüren für die Musik, die ich nachbezahlen müste sind halt schon happig... dabei hab ich die Musik doch zu Hause auf Vinyl. Naja... wenn die das wüssten. Dann wäre das auch gleich noch weg. Nicht-digitale Speicherung von Musik ist ja nicht mehr erlaubt... nur noch in Museen gestattet.
+
+h2. Nur eine Geschichte?
+
+Alles nur erfunden. Geht ja technisch gar nicht...? Bis jetzt. Technisch möglich ist diese Fiktion, die, wenn ich ehrlich bin, schon sehr an <a href="http://www.gnu.org/philosophy/right-to-read.de.html">"Das Recht zu lesen"</a> angelehnt ist. Und das ist nur ein kleiner Auszug von dem was mit TCPA alles möglich ist; nämlich die volle Kontrolle von digitalen Daten. Erstellen, speichern,  kopieren, lesen... alles das, was bisher ohne weiteres mit digitalen Daten problemlos möglich war, kann damit eingeschränkt, kontrolliert oder gar komplett umöglich gemacht werden. Freiheit und freie Meinungsäußerung  gehören dann der Vergangenheit an.
+
+Die Kontrolle liegt dann nicht mehr beim Menschen selbst, evtl. bei der Regierung, aber höchstwahrscheinlich bei den Mitgliedern des TCPA-Kartells. Durch erstellen, sperren oder verteilen von Zertifikaten wird bestimmt welche Software läuft, welche Daten gelesen oder geschrieben werden düfen. Die Macht über alle Informationen, die sich auf TCPA-Systemen befinden, liegen in einer Hand!
+
+Eingeführt wird die Hardware, ohne die das System nicht funktionieren kann, jetzt schon. Die Chips sind schon in den neuen IBM Thinkpad Modellen enthalten, bald werden sie in fast allen x86 Rechnern zu finden sein. Die neue Festplattenschnittstelle Serial ATA, die das alte Parallel ATA (also die normale IDE Schnittstelle) blösen soll, hat auf den Controllerchips auch schon TCPA Fähigkeiten integriert. Als tolles Sicherheitsfeature getarnt, wird das alles bald heimlich in jede neue Hardware integriert werden. Später wird keine Software mehr ohne diese Chips funktionieren. Die <a href="http://www.theregister.co.uk/content/4/28016.html">technischen Hintergründe</a> beschreibe ich an dieser Stelle nicht. 
+
+h2. Im Namen der Sicherheit
+
+Ganz vorne mit dabei im TCPA Kartell ist... wer hätte es gedacht... Microsoft mit ihrer Softwareseitigen Implementation des TCPA Systems namens Palladium. Das System soll laut MS die Sicherheit auf den Rechner erhöhen und keinesfalls als Content-Management System dienen. Wer das MS glaubt, glaubt wahrscheinlich auch noch an den Satz von Bill Gates "Who would *ever* want to use more than 640 KB of RAM", den er 198x irgenwann mal sagte.
+
+Was MS als Sicherheit verkaufen will ist absoluter Quatsch. Sicherheit gibt es nicht. Nirgends. Ein bißchen vielleicht, aber keine 100% und schon gar nicht als Produkt. Sei es Software oder Hardware. Sicherheit im Zusammenhang mit Computersystemen ist ein Konzept. Ein Versuch, das System _sicherer_ zu machen.
+
+Grundsätzlich kann ich ein System nur dann sicherer machen, wenn ich es kenne. "Security by Obscurity" funktioniert nicht. Closed Source Systeme scheiden also für ein sicheres System schon mal aus. Ich weiß bei diesem Systemen nicht, wer wo welche Daten verarbeitet, verschickt oder sonst was.
+
+Das T in TCPA steht ja offiziell für trustworthy also vertrauenswürdig. Dieses Sicherheitskonzept halte ich schon mal von vorneherein für total unsinnig. Wenn es um Sicherheitsfragen geht, dann traue ich höchstens einer Person und das bin ich selbst. Keiner Firma und keinem Hardwarehersteller. 
+
+Natürlich müsste ich mit so einer Einstellung alle sicherheitsrelevanten Teile des Systems selber erstellen oder zumindest nachprüfen, ob wirklich keine Backdoors eingebaut sind. Bei Closed Source Systemen oder TCPA Hardware habe ich diese Möglichkeit nicht. Das ist eine Art Black Box, in der ich nichts ändern oder gar nur anschauen kann. Und das soll dann sicher sein? Bei Open Source Systemen habe ich die Möglichkeit, das nachzuprüfen. Ansonsten vertraue ich eben auf die Community. Ich denke, die Wahrscheinlichkeit, dass mich ALLE reinlegen wollen ist wesentlich geringer und die Durchführung dieser Aktion ist wesentlich schwieriger, als wenn nur eine Firma etwas derartiges macht.
+
+Gehen wir mal von einem TCPA System mit MS Palladium aus. Grundsätzlich kann nun also nur noch TCPA zertifizierte Software ausgefürt werden. Keine Viren funktionieren. Alles ganz toll und sicher. Wie das tolle VBA-Scriptbare MS Office nun funktionieren soll, frag ich mich an dieser Stelle... muss ich dann jedes Script zertifizieren lassen, dass mir 20 Bilder in eine PowerPoint Präsentation einfügt? Könnte ja ein Virus sein. Antwort ist sicher: Script zertifiziert bei MS kaufen... Aber nun weiter im Szenario. Gehen wir weiter davon aus, dass das System an sich funktioniert. 
+
+Es also keine Umgehungsmöglichkeit gibt (wie z.B. bei dem verschlüsselten Dateisystem bei Win2K, bei dem man durch einen Bug auch ohne Passwörter an die Daten kommt. MS Sicherheit eh?). Das System wird sicher in einer Sprache geschrieben sein die Buffer Overflows erlaubt. Wenn ich nun einen solchen Bug in
+einer zertifizierten Software finden würde, einen Exploit schreibe, dann kann ich Code ausführen, ohne dass er zertifiziert wurde, da er ja aus dem zertifizierten Programm gestartet wurde und das System denkt, es handle sich um zertifizierten Code. (Ist eine rein theoretische Überlegung von mir. Falls das durch TCPA verhindert werden sollte, bitte eine Mail an mich...)
+
+Und selbst wenn das nun nicht ginge... MS ist ja nicht gerade dafür bekannt auf seine Zertifikate aufzupassen. So war vor ein paar Jahren mal ein MS Zertifkat im Umlauf mit dem dann jeder Fröhlich seine software als von MS Zertifiziert ausgeben konnte. Außerdem werden sich, sobald die komplette Kontrolle von Informationen auf eine (oder wenige) Systeme ausgeht, alle Hacker/Cracker (wie auch immer ;)) Angriffe auf diese Systeme ausrichten und es ist nur eine Frage der Zeit, bis gefälschte Zertifikate im Umlauf sind, mit denen dann Viren etc. zertifiziert und von jedem TCPA System ausgefürt werden.
+
+h2. Zusammenfassung
+
+Zusammengefasst kann man sagen, dass die von den Firmen als Marketingargument vorgebrachte Sicherheit der Systeme nichts mit wirklicher IT Sicherheit zu tun hat. TCPA, Palladium, DRM und Co. dienen einzig und alleine der Kontrolle von Informationen und Hardwaresystemen durch das TCPA Kartell. Die Sicherheit liegt alleine in den Gewinnen dieser Firmen, da sie jegliche Art von Information verkaufen können. Und zwar zu den Preisen, die sie wollen.
+
+h2. Was kann man tun?
+
+Es ist noch nicht zu spät. Noch ist TCPA nicht verbreitet und jeder kann über die von im erstellten digitalen Informationen selbst entscheiden. Da TCPA ganz offensichtlich heimlich bzw. als Sicherheitssystem (für die Benutzer, dass es, wie ich oben zeigte garantiert NICHT ist) eingeführt wird, ist der erste Schritt, so viele Leute wie möglich informieren. Homepages von Leuten und Organisationen, die sich mit dem Thema auseinadersetzen verlinken und die URLs Freunden und Bekannten weitergeben bzw. auch direkt auf das Thema ansprechen. Sonst wird den meisten die Gefahr erst dann bewußt, wenn sie vor ihrem Rechner sitzen und merken, dass sie nicht mehr alleine entscheiden, was darin vor sich geht. Außerdem sollte man auf keinen Fall Hardware von Herstellern kaufen, die potentielle TCPA Mitglieder sind. Offizielle Listen sind bis jetzt wenige bekannt. Sicher ist jedoch, dass z.b. IBM in den neuen Thinkpads bzw. Netvista PCs bereits TCPA kompatible Hardware einsetzt. Infineon hat auf ihrer Homepage auch schon TCPA fähige Chips vorgestellt. Wie oben schon erwänt sollte man auch Abstand von Serial ATA Geräten nehmen. Auch wenn diese Schnittstelle technisch einen Fortschritt darstellt, sollte man aufgrund der integrierten TCPA Hardware auf keinen Fall S/ATA Controller oder Festplatten kaufen. (Ich frage mich soweiso, wie die tollen 160 MB/s über nen 133 MB/s breiten PCI Bus laufen sollen... - Für heimuser reicht also weiterhin das normale ATA und für Server gibts SCSI und Fibre Channel. Hoffentlich noch lange ohne TCPA Chips). Auf die nächsten Intel und AMD CPUs sollte man auch ein besonderes Augenmerk haben. Diese Entwicklung ist btw. einer der vielen Gründe warum ich persönlich in Zukunft keine x86-Hardware (also "IBM PC kompatible" oder "Intel-System") mehr kaufen werde. Die bis jetzt so schön schnelle und billige Hardware könnte sich in Zukunft zum krassen Gegenteil entwicklen...
+
+h2. Links
+
+* <a href="http://moon.hipjoint.de/tcpa-palladium-faq-de.html">Deutsche TCPA/Palladium FAQ</a>
+* <a href="http://www.heise.de/newsticker/data/cp-30.06.02-001/">http://www.heise.de/newsticker/data/cp-30.06.02-001/</a>
+* <a href="http://www.heise.de/newsticker/data/cp-19.10.02-002/">http://www.heise.de/newsticker/data/cp-19.10.02-002/</a>
+* <a href="http://www.heise.de/ct/02/22/204/">http://www.heise.de/ct/02/22/204/</a>
+* <a href="http://www.lb.shuttle.de/apastron/noTCPAg.htm">http://www.lb.shuttle.de/apastron/noTCPAg.htm</a> 
+* <a href="http://antitcpa.alsherok.net/">http://antitcpa.alsherok.net/</a> 
+* <a href="http://www.notcpa.org/">http://www.notcpa.org/</a> 
+* <a href="http://www.againsttcpa.com/">http://www.againsttcpa.com/</a> 

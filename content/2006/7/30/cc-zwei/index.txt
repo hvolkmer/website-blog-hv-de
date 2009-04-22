@@ -1,0 +1,17 @@
+--- 
+decription: Der WDR Computerclub ist wieder da
+title: CC-Zwei
+tags: 
+- allgemeines
+filter: 
+- textile
+blog_post: true
+section: 
+- german
+layout: post
+created_at: 2006-07-30 13:09:47.526917 +02:00
+---
+
+eder da der Computerclub. Diesmal als Podcast. Er heißt "<a title="CC Zwei" href="http://www.cczwei.de/">CC Zwei</a>" Ich habe den WDR-Computerclub früher immer gerne geschaut. Weil die beiden Wolfgangs (oder wie immer man die mehrzahl von Wolfgang nennt) Sachverhalte immer einfach und verständlich erklärt haben. Außerdem war das die einzige Computer-Sendung im deutschen Fernsehen. Und nein, "Neues" ist keine Computer-Sendung gewesen. Das war höchstens eine MS-Werbesendung.
+
+Nun ist der Computer-Club wieder da - zunächst als Podcast. Erstmal nur Audio. Vielleicht ja auch bald wieder mit Video. Ich habe mir die erste Folge (wie wohl viele andere auch) gleich mal runtergeladen und angehört. War nett anzuhören. Allerdings war ich doch etwas überrascht von der (seltsamen) Qualität der Aufnahme an sich. Zumal das ganze in einem professionellen Tonstudio aufgezeichnet wurde. Also die Aufnahme der beiden Wolfgangs war ok und gut verständlich (bis auf den Anfang, da gibt's paar Störgeräusche oder sowas), aber die Einspielungen von den zwei Kommentaren war von der Lautstärke her deutlich leiser.

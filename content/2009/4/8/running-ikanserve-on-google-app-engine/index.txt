@@ -1,0 +1,99 @@
+--- 
+title: Running an Ioke web application on Google App Engine using Ikanserve
+sections: 
+- english
+- coding
+tags: 
+- ioke
+- webapp
+- appengine
+filter: 
+- erb
+- textile
+description: A small howto on how to run an Ioke web application on the Google App Engine
+blog_post: true
+created_at: 2009-04-08 13:09:47.526917 +02:00
+layout: post
+---
+
+I like to play around with interesting technologies. So what's on the table today?
+
+1. "Google App Engine":http://appengine.google.com/
+
+2. "Ioke E":http://www.ioke.org
+
+3. "Ikanserve":http://olabini.com/blog/2009/03/ikanserve-an-ioke-web-framework/
+
+Google App Engine allows you to run Java applications since a few days. But as no one writes web apps in Java anymore you could either use "JRuby on App Engine":http://olabini.com/blog/2009/04/jruby-on-rails-on-google-app-engine/ or try out another fine language on the JVM. (That's why I think the JVM kicks ass and I still like it after several years of programming mostly in Ruby: It's a great plattform to run things... not just Java programms but any language that's on the JVM. And there will be more...). But I digress...
+
+So, let's get into it:
+
+0. Create a temp dir to play in
+<pre class="prettyprint"><code>$ mkdir appgarage
+$ cd appgarage
+</code></pre>
+
+
+1. "Get an App Engine Account":http://appengine.google.com/
+
+2. Sign Up for the "Java App Engine Account":http://appengine.google.com/promo/java_signup - According to TechCrunch the first 10k developers get an account. So hurry up!
+
+3. Get ioke E
+
+You need git and java 1.6 to do that.
+<pre class="prettyprint"><code>$ git clone git://github.com/olabini/ioke.git
+$ cd ioke
+$ ant
+$ cd ..
+</code></pre>
+
+
+3. Get Ikanserve
+
+<pre class="prettyprint"><code>$ git clone git://github.com/olabini/ikanserve.git
+$ cd ikanserve
+$ ant
+$ cd ..
+</code></pre>
+
+4. "Get the Java App Engine SDK":http://code.google.com/appengine/downloads.html
+
+<pre class="prettyprint"><code>$ unzip appengine-java-sdk-1.2.0.zip
+$ cd appengine-java-sdk-1.2.0
+$ cd ..
+</code></pre>
+
+
+Optional: Try out the app engine demos and/or the ikanserve demo locally
+
+5. Merge Ikanserve with appengine 
+
+<pre class="prettyprint"><code>$ mkdir myikanserveengine
+$ cd myikanserveengine
+$ unzip ../ikanserve/jetty/webapps/root.war 
+$ cp ../ioke/lib/ioke.jar lib/
+$ cat > WEB-INF/appengine-web.xml 
+<appengine-web-app xmlns="http://appengine.google.com/ns/1.90">
+  <application>myikanserveengine</application>
+  <version>1</version>
+^D
+$ cd ..
+</appengine-web-app>
+</code></pre>
+
+
+A few explanations:
+You need to unzip the war file because app engine only takes war dirs not files. And you you need to copy the ioke jar because the ioke version supplied with ikanserve (at this point in time) doesn't work with appengine. The current Ioke version does work. 
+
+6. Deploy your application
+
+Go to the "App Engine Admin Interface":http://appengine.google.com/ log in and create an application with the same name you choose in your appengine-web.xml file (Here it was "myikanserveengine").
+
+<pre class="prettyprint"><code>$ cd appengine-java-sdk-1.2.0
+$ bin/appcfg.sh -e yourgoogleaccountemail@yourdomain.com update ../myikanserveengine
+</code></pre>
+
+Done.
+
+Goto "http://myikanserveengine.appspot.com":http://myikanserveengine.appspot.com and enjoy your first Ioke web application in the cloud. Try URLs like "foo":http://myikanserveengine.appspot.com/foo or "xxx":http://myikanserveengine.appspot.com/xxx to see some extra funky stuff ;-)
+

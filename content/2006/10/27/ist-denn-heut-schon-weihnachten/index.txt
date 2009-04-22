@@ -1,0 +1,19 @@
+--- 
+title: Ist denn heut' schon Weihnachten?
+sections: 
+- german
+tags: 
+- erlebtes
+filter: 
+- textile
+description: "Wundersame Dinge passieren in Kaufh\xC3\xA4usern"
+blog_post: true
+layout: post
+created_at: 2006-10-27 13:09:47.526917 +02:00
+---
+
+Das fragte sich vor einigen Jahren ein bekannter Herr aus Fussballkreisen in einem Werbespott fuer eine Mobilfunkfirma.
+
+Und ich frage mich das seit letzter Woche auch. Da geht man nichtsahnend Lebensmittel einkaufen und wird mit Angeboten von Weihnachtsartikeln nur so überhäuft. Adventskalender, Schokonikoläuse, Kugeln, Tannenzweige, Geschenkpapier, goldene Sterne, und so weiter.
+Fürs Protokoll: es ist Mitte/Ende Oktober. Das letzte Mal als ich nachgeschaut habe, war Weihnachten am 24./25. Dezember, was, wenn sich der Kalender nicht voellig geaendert hat, noch ca. 2 Monate entfernt sein dürfte.
+Warum ist nicht einfach jeden Monat Weihnachten? Und am besten noch Ostern! Dann könnte man von 1.-10. Osterhasen verkaufen und vom 10.-28. dann Weihnachtsmänner (28. damit man auch wirklich jeden Monat erwischt). Soweit kommt's bestimmt noch. Kranke Welt.

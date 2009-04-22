@@ -1,0 +1,20 @@
+--- 
+title: Wann sind Solid-State-Disks endlich marktreif?
+sections: 
+- german
+tags: 
+- hardware
+- ssd
+filter: 
+- textile
+description: SSDs marktreif und bezahlbar. Wann?
+blog_post: true
+layout: post
+created_at: 2007-01-19 12:09:47.526917 +01:00
+---
+
+
+
+
+<p>Das frage ich mich schon seit mindestens einem Jahr. Mit "marktreif" meine ich vor allem "für normalsterbliche Menschen bezahlbar". <a href="http://www.heise.de/newsticker/meldung/71100">Alle kündigen</a> <a title="Schnelle Flash-Disk als Festplattenersatz" href="http://www.heise.de/newsticker/meldung/83173">das Zeug an</a> und zu Festplattenpreisen sind die Dinger immer noch nicht zu haben. Und nur damit alles schön leise und schneller ist zahl ich nicht das 6-10 fache pro GB.</p>
+<p>Vielleicht wird's ja bald was mit <a title="SATA-Flash-Disk mit 64 GByte" href="http://www.heise.de/newsticker/meldung/83687">PQI</a>. <a href="http://www.dvhardware.net/article16337.html">Die Nachricht</a> ist zwar schon eine Woche alt, aber ich wurde gerade durch minutenlanges Rattern meiner Festplatte daran erinnert, dass ich so ein Teil brauche.</p>

@@ -1,0 +1,32 @@
+--- 
+title: Helmlos
+sections: 
+- german
+- life
+tags: 
+- berlin
+- fahrrad
+- fahren
+- helm
+filter: 
+- textile
+description: Wie kann man nur ohne Helm fahrradfahren... und dann seinem Kind einen aufsetzen?
+blog_post: true
+layout: post
+created_at: 2008-06-17 13:09:47.526917 +02:00
+---
+
+Ich fahre relativ viel Fahrrad hier in Berlin und mir ist aufgefallen, dass sehr wenige Leute Helme tragen. Der Kopf scheint wohl nicht von vielen als schützenswertes Körperteil angesehen zu werden.
+
+Heute morgen sah ich dann gleich zwei mal eine sehr skurrile Kombination. Einmal Mutter (ohne Helm) mit Kind (mit Helm) und einmal Vater (ohne Helm) mit Kind (mit Helm) - die Kinder jeweils im Kindersitz auf dem Gepäckträger.
+
+Ich fragte mich dann, wie die Eltern ihren Kindern erklären, warum die Kinder Helme tragen müssen, Erwachsene aber nicht...
+
+"Wenn du älter wirst, wird dein Kopf ganz hart und dann braucht man keinen Helm mehr."
+
+"Mami zieht keinen Helm auf, weil das doof aussieht, aber dir steht das echt gut."
+
+"Ein Helm ist wichtig, damit man bei einem Sturz nicht verletzt wird. Ich möchte nicht, dass du verletzt wirst. Mir ist es aber egal, wenn ich selbst verletzt werde."
+
+Das hab ich mir alles nur ausgedacht. Ich hab echt keine Ahnung, was die Leute ihren Kindern erzählen. Ich war kurz davor den einen Herren zu fragen... dachte aber dann: "Man muss die Leute ja nicht noch zusätzlich vor ihren Kindern blamieren..."
+

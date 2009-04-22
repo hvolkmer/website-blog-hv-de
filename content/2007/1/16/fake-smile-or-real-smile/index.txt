@@ -1,0 +1,20 @@
+--- 
+title: Fake smile or real smile
+sections: 
+- english
+- life
+tags: 
+- smile
+- test
+- life
+filter: 
+- textile
+description: Find out if you can distinguish a real smile from a fake one
+blog_post: true
+layout: post
+created_at: 2007-01-16 12:09:47.526917 +01:00
+---
+
+Can you spot the difference? Take the <a href="http://www.bbc.co.uk/science/humanbody/mind/surveys/smiles/index.shtml">test</a>! I got only four smiles wrong. I'm surprised because sometimes it seemed quite hard. It's a fun test and it makes you smile, too. =)
+
+via [<a href="http://headrush.typepad.com/creating_passionate_users/2007/01/whod_you_make_s.html">Kathy Sierra's Blog</a>]

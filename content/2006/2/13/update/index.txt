@@ -1,0 +1,19 @@
+--- 
+title: Update
+sections: 
+- german
+tags: 
+- meta
+filter: 
+- textile
+description: "Meta: Wordpress Update auf 2.0.1"
+blog_post: true
+layout: post
+created_at: 2006-02-13 12:09:47.526917 +01:00
+---
+
+Ich habe vor circa einer Woche mal das (relativ) neue Wordpress 2.0.1 installiert und gleich das K2-Theme dazu. Außerdem gibt's nun meine <a title="ulkbold's del.icio.us Tags" href="http://del.icio.us/ulkbold">del.icio.us</a>-<a title="Tag-Cloud" href="http://en.wikipedia.org/wiki/Tag_cloud">Tag-Cloud</a> an der Seite. Ich werde nun jeden Monat ein neues Titelbild hier einfügen. Und zwar immer - circa - am 1. des Monats. Mal schauen ob das hinhaut. Das Bild ist jeweils von mir selbst fotografiert und dann bearbeitet.
+
+Und neben dem Aussehen kommen nun regelmäßiger neue Inhalte auf die Seite. Ist ja schließlich ein Blog... oder so.
+
+Ich möchte noch kurz auf eine nette kleine <a title="AJAX Erklärung" href="http://de.wikipedia.org/wiki/Ajax_(Programmierung)">AJAX</a>-Spielrei hinweisen. Das Such-Feld ist nun mit einer Live-Search ausgestattet. Also einfach mal ein paar Buchstaben reintippen und schauen was passiert (- benötigt natürlich JavaScript). Da haben sich die Herren Theme-Gestalter beim <a title="K2 Wordpress Theme" href="http://binarybonsai.com/wordpress/k2/">K2</a> echt viel Mühe gegeben.

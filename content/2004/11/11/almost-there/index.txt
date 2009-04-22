@@ -1,0 +1,19 @@
+--- 
+title: Almost there...
+sections: 
+- german
+tags: 
+- meta
+filter: 
+- textile
+description: Neue Homepage ist fast online...
+blog_post: true
+layout: post
+created_at: 2004-11-11 12:09:47.526917 +01:00
+---
+
+Sodele. Heute habe ich mal versucht die Blog-Seite der restlichen Homepage anzupassen. Das ganze war eine wirre CSS und HTML Orgie. Nun sieht die Seite fast einheitlich aus. Das Copyright unten sieht noch nicht so aus, wie auf den anderen Seiten, aber das wird irgendwann noch mal richtig gemacht. Genau so wie das Menü rechts, was teilweise in den Text reinragt...  
+
+Wem das alles zu wirr ist kann ja einfach in seinem Browser auf "Basic Text Style" schalten. Dann wird die Seite ohne großes Markup in schicker old-school-HTML-Manier angezeigt. Die Seite ist dann trotzdem noch lesbar und weicht von der Struktur nicht viel von dem normalen Layout ab.
+
+Ach ja der Titel dieses Eintrags... Hang in there, kids. Almost there... die <a href="http://www.happytreefriends.com/">fröhnlichen Baumfreunde</a>! Viel Spaß!

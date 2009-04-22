@@ -1,0 +1,70 @@
+--- 
+title: "\xC3\x9Cberwachung"
+sections: 
+- german
+- politics
+tags: 
+- "1984"
+- politics
+description: "Die Folgen des 11. September 2001 sind weitreichender als man annimmt. Unter dem Vorwand der Terrorbek\xC3\xA4mpfung oder der Aufdeckung von Kinderpornographie wurden weltweit Gesetze verabschiedet, die freiheitliche Grundrechte weitgehend einschr\xC3\xA4nken."
+filter: 
+- textile
+blog_post: true
+layout: post
+created_at: 2002-07-22 13:09:47.526917 +02:00
+---
+
+
+Die Folgen des 11. September 2001 sind weitreichender als man annimmt. Unter dem Vorwand der Terrorbekämpfung oder der Aufdeckung von Kinderpornographie wurden weltweit Gesetze verabschiedet, die freiheitliche Grundrechte weitgehend einschränken.
+
+h2. Kameras
+
+An immer mehr öffentlichen Plätzen (Bahnhöfen, Flughäfen, etc.) werden Kameras installiert. 
+
+Dadurch werden jedoch kaum Verbrechen verhindert oder aufgeklärt. Zumindest auf Lange Sicht. Ganz dumm sind die Verbrecher ja nun auch nicht. Die Schauplätze von Verbrechen verlagern sich nur von der Innenstadt in die Vororte und Wohngebiete. Also genau dahin, wo man schon immer Verbrechen haben
+wollte: Auf den Straßen wo die Kinder spielen. Wieder ein astreiner, durchdachter Zug unserer Politiker.
+
+Eine Kamera bringt natürlich sehr viel, wenn jemand Überfallen wird. Man kann dann schön das Verbrechen aufklären... Eine echt tolle Logik. Mit dem Geld für die Kameras hätte man vielleicht eher Straßenbeleuchtung finanzieren sollen, oder Busse, die auch spät nachts noch fahren. Dann würden vielleicht viele Verbrechen gar nicht passieren. Siehe Artikel "Bessere Straßenbeleuchtung statt Überwachungskameras":http://www.heise.de/tp/deutsch/inhalt/te/12824/1.html
+
+Aber anstatt einen anderen Weg zu suchen wird es weitergehen und es werden Kameras in den Vororten installiert... Willkommen im totalen Überwachungsstaat. Sobald man das Haus verlässt wird man
+gefilmt, und wenn man dann, nachdem der komplette Weg verfolgt wurde, wieder zu Hause ist und an seinen PC geht, geht es gerade so weiter: 
+
+h2. Überwachung von Kommunikationswegen
+
+Am 31.05.2002 hat der Bundesrat den Gesetzesentwurf "zur Verbesserung der Ermittlungsmaßnahmen wegen des Verdachts sexuellen Missbrauchs von Kindern" angenommen. Es ist somit einfacher möglich Kommunikationsverbindungen (Internet, Telefon etc.) von Verdächtigen zu überwachen. Es darf auch das Handy zur Ortung von Personen genutzt werden (man kann mit bestimmten Techniken rausfinden, in welcher Funkzelle ein bestimmtes Handy zur Zeit aktiv, d.h. angeschaltet ist).
+
+Auch dies ist wieder ein total sinnloser Schritt. Terorristen oder professionelle Kinderpornohändler werden sowieso davon ausgehen, dass sie überwacht werden und ihre Nachrichten verschlüsseln
+oder mittels steganographischen Methoden übertragen, so dass die eigentlichen "Zielpersonen" von der Regelung gar nicht betroffen sind und im Endeffekt nur der einfache Bürger betroffen ist.
+
+Jetzt werden vielleicht viele sagen "Warum regt sich der so auf? Ist doch nur um Verbrechen aufzuklären... oder hat der etwas zu verbergen?". Die Antowort ist: Ja! Ich habe etwas zu verbergen. Etwas was keinen keinen außer mich was angeht. Und das ist meine Privatsphäre.
+
+h2. Privatsphäre
+
+Wer meint, er käme ohne Privatsphäre aus, dem sei mal der Text "We don't need no data protection":http://217.172.182.26/old-cms/print.php?lang=en&text=privatsphaere_texte_twister_nacht.txt empfohlen. Es reichen schon ein paar Spam Mails von entsrpechenden Pornoanbietern und man ist potentiell
+verdächtig mit Pornos zu handeln. Schon ist ein Grund für die Überwachung gegeben.
+
+Vielen ist das gar nicht bewußt oder sie denken "Mich kann man ja ruhig überwachen, ich habe ja nichts zu verbergen". Aha!? Warum wohnen die dann nicht in gläsernen Häusern oder lassen Türen und Fenster offen, damit alle reinschauen können? Wie in dem Text unter "We don't need no data protection":http://217.172.182.26/old-cms/print.php?lang=en&text=privatsphaere_texte_twister_nacht.txt beschrieben, kann es schneller gehen als man denkt, und man ist selbst verdächtig ohne
+etwas getan zu haben.
+
+Es darf nicht soweit kommen, dass Leute, die auf ihre Privatsphäre achten schon als potentielle Kriminelle eingestuft werden. "Wie, du verschlüsselst deine Mail... und sogar deine Festplatten!? Warum denn?  Hast du da was illegales drauf?" Das man Privatsphäre hat und sie schützt sollte der Normalfall sein und ist und wird hoffentlich auch niemals illegal! Es ist schon schlimm genug, dass man sie aktiv schüzten muss und dies nicht vom Staat sichergestellt ist.
+
+Alle, die meinen "ich habe nichts zu verbergen, mich kann man ruhig durchleuchten" tragen dazu bei, dass genau das obige Bild von Leuten entsteht, die auf ihre Privatsphäre achten.
+
+Und denkt daran: "Just because you aren't paranoid, it doesn't mean they're not out to get you..." (Nur weil du nicht paranoid bist, heißt das noch lange nicht, dass sie nicht hinter dir her sind...). Grundsätzlich kann man davon ausgehen, dass vieles was über die Datenleitungen des Internets fließt überwacht wird. Stichwort Datenspeicherung bei ISPs, Echelon, etc...
+
+h2. Wie kann man sich schützen?
+
+Die beste Möglichkeit den Webtraffic zu verschlüsseln, die ich kenne ist der "JAP-Dienst":http://anon.inf.tu-dresden.de/. Mit dem kleinen Hilfsprogramm wird der ganze Datenverkehr verschlüsselt zu einem sogennanten "Mix" übertragen und von dort aus weiter ins Internet. Das hat den Vorteil dass man anonym surft und die Speicherung der Verbindungsdaten sinnlos ist, weil quasi immer nur der Mix-Proxy als Adresse auftaucht. Von dort aus lässt sich der weitere Weg ins Netz nicht weiter verfolgen. Wie das genau funktioniert steht auf der JAP Webseite. Für Debian User gibt es die Proxy Software auch als "Debian Paket anon-proxy":http://packages.debian.org/unstable/web/anon-proxy.html 
+
+
+Zum Verschlüsseln von Emails empfiehlt sich "PGP":http://www.pgpi.org/ bzw. "GPG":http://gnupg.org. Zum verschlüsslen von Daten auf der Festplatte z.B. "ScramDisk":http://www.scramdisk.clara.net/ unter Windows bzw. das "Crypto Loopback Device unter Linux":http://encryptionhowto.sourceforge.net/. Warum man dafür z.B. nicht das bei Windows 2000 / XP mitgelieferte verschlüsselnde Dateisystem verwenden sollte, beschreibe ich bei meinem Artikel über "Sicherheit":/2002/7/9/sicherheit/.
+
+
+h2. Weitere Links zu dem Thema:
+
+* <a href="http://www.heise.de/tp/deutsch/inhalt/te/12824/1.html">
+http://www.heise.de/tp/deutsch/inhalt/te/12824/1.html</a>
+* <a href="http://www.heise.de/newsticker/data/jk-04.07.02-002/">http://www.heise.de/newsticker/data/jk-04.07.02-002/</a>
+* <a href="http://www.privacyinternational.org/survey/phr2002/">http://www.privacyinternational.org/survey/phr2002/</a>
+* <a href="http://www.rsf.org/IMG/doc-1274.pdf">http://www.rsf.org/IMG/doc-1274.pdf</a>
+* <a href="http://www.heise.de/tp/deutsch/special/ech/6723/1.html">http://www.heise.de/tp/deutsch/special/ech/6723/1.html</a

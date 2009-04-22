@@ -1,0 +1,23 @@
+--- 
+title: Predictably Irrational
+sections: 
+- german
+- life
+tags: 
+- book
+categories: english life
+filter: 
+- textile
+description: Humans are more irrational than you thought. The book 'Predictably Irrational' by DAn Ariely gives great insight into human behaviour.
+blog_post: true
+layout: post
+created_at: 2009-02-01 12:09:47.526917 +01:00
+---
+
+
+<object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/pbS9H-4ftAg&color1=0xb1b1b1&color2=0xcfcfcf&feature=player_embedded&fs=1"></param><param name="allowFullScreen" value="true"></param><embed src="http://www.youtube.com/v/pbS9H-4ftAg&color1=0xb1b1b1&color2=0xcfcfcf&feature=player_embedded&fs=1" type="application/x-shockwave-flash" allowfullscreen="true" width="425" height="344"></embed></object>
+
+
+I just finished reading "Predictably Irrational by Dan Ariely":http://www.amazon.de/gp/product/0007256523?ie=UTF8&tag=hendrvolkm-21 It's a fantastic book, very well written and super interesting. I highly recommend reading it to get some insight in irrational human behaviours.
+
+More about the book and behavioural economics on the website "predicatbly Irrational":http://www.predictablyirrational.com/

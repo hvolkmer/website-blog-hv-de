@@ -1,0 +1,41 @@
+--- 
+title: DHL vs. UPS
+sections: 
+- english
+- life
+tags: 
+- dhl
+- ups
+- delivery
+filter: 
+- textile
+description: Delivery service shootout. Who's better? DHL or UPS? My experience with those services.
+blog_post: true
+layout: post
+created_at: 2008-08-10 13:09:47.526917 +02:00
+---
+The package was shipped from its source about 400km from its destination on July, 24th and the tracking system showed that it was on its way to Berlin and should have been there on July, 28th. But then I saw the message "Receipient unknown" in the tracking system. I was sure that I supplied the correct adress when I ordered and confirmed that. It was indeed the correct address. 
+
+It only showed the adress but not the full receipient name. The adress is correct, by the way. That's the office building I wanted the package to be delivered to. So I called their customer support and asked, what went wrong. They couldn't tell me. In fact, they said they cannot access more address information than I was seeing on the web page and that the package would be sent back. What? Are you kidding me?
+
+So I mailed the company that I ordered the product from. They said they talked to DHL and they would change the address and redeliver it, without sending it back.
+
+Which didn't work. A few days later the package arrived back at the sender and they had do resend it. How stupid of DHL was that?
+
+They finally managed to deliver the package... at August, 5th. Or so I thought, after reading this:
+
+
+!http://blog.hendrikvolkmer.de/assets/2008/8/10/dhl_1.png!
+
+but it took them two days after it arrived in Berlin in their central warehouse. The message on the tracking system said something like that:
+
+!http://blog.hendrikvolkmer.de/assets/2008/8/10/dhl_2.png!
+
+Which means "due to vacation, public holidays or company holidays the package will be stored in the warehouse.". It was delivered the next day which was August, 6th. As it turned out there wasn't enough space on the truck the day before. WTF?
+
+Ok. Now a similar story with a UPS package delivery. There was also a problem with the address. This time I messed up and forgot to add the company name (I think that was the same problem with the DHL delivery...). So I got an E-Mail from UPS, telling me that they weren't able to deliver the package and that I should call their customer support. Which I did. They changed the address and delivered the package the next day. Easy. That's how it's supposed to work.
+
+Let's assume the problem was indeed the missing company name and they had no idea at which company the receipient "Hendrik Volkmer" would work. They could have called the sender and ask if they have additional information. Either when they were standing in the lobby of the building or second best, when they returned to the local warehouse. Or they could have asked the receptionist in the office building to call the secretary of the biggest company in the building (which would have failed) and then the second biggest (which would have succeeded). Or they could have provided a better web tracking system which would show the complete address, so that I could have seen a problem with the address and provide them with the correct information. First I thought that not showing the complete address is some kind of privacy protection thing. But that cannot be true, as you can see in the screenshots: At different times the full address details will be shown. Also: After entring a 20 digit tracking number and a zip code I should be authorized to see the details.
+
+I can hardly believe that sending the package back was the cheapest option for them. And even if it was... it was the worst option for the customer.
+

@@ -1,0 +1,25 @@
+--- 
+title: Really Adobe? Really?
+tags: 
+- adobe
+- software
+sections: 
+- english
+- life
+- sysadm
+filter: 
+- textile
+description: "Come on Adobe. It's 2008. This can't be true: You cannot install Photoshop on a case sensitive HFS filesystem"
+blog_post: true
+layout: post
+created_at: 2008-10-09 13:09:47.526917 +02:00
+---
+
+
+
+
+I just encountered "this problem":http://kb.adobe.com/selfservice/viewContent.do?externalId=kb400587&sliceId=2 and I can totally understand this blog post: "If Adobe were a man, i would punch him":http://www.wemakepretty.com/2007/04/24/if-adobe-were-a-man-i-would-punch-him/
+
+Let me remind you: This is a product that costs about 1K EUR and it's the year 2008.
+
+So "Dear Adobe":http://dearadobe.com/ : Please fix your products!

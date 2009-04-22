@@ -1,0 +1,23 @@
+--- 
+title: Hug a developer
+sections: 
+- english
+- coding
+- life
+tags: 
+- developer
+- hug
+filter: 
+- textile
+description: Developers need hugs. Badly. Go and help them!
+blog_post: true
+layout: post
+created_at: 2008-08-29 13:09:47.526917 +02:00
+---
+
+
+<embed src="http://blip.tv/play/gYwjwZJqjdEh" type="application/x-shockwave-flash" width="503" height="312" allowscriptaccess="always" allowfullscreen="true"></embed>
+
+via [ "Marcel":http://www.marcelscherf.com ] via [ juixie "hug a developer":http://www.juixe.com/techknow/index.php/2008/08/28/hug-a-developer/ ]
+
+And indeed: It's funny because it's so true.

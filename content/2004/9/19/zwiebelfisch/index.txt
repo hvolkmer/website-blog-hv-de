@@ -1,0 +1,18 @@
+--- 
+title: Zwiebelfisch
+description: "Der Dativ ist dem Genitiv sein Tod. Exzellentes, lustiges und leerreiches Buch!"
+sections: 
+- german
+tags: 
+- allgemeines
+- book
+filter: 
+- textile
+blog_post: true
+layout: post
+created_at: 2004-09-19 13:09:47.526917 +02:00
+---
+
+Heute bin ich mit dem Zwiebelfisch-Buch namens "Der Dativ ist dem Genitiv sein Tod" von Bastian Sick fertig geworden. Es war sehr interessant, lehrreich und lustig :) Was will man mehr?
+
+Es war ertaunlich, was man alles so falsch schreibt und spricht, wo man doch denkt, dass man seiner Muttersprache mächtig ist.

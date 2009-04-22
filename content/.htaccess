@@ -1,0 +1,13 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule ^/sysadm$ /category/sysadm/$1 [R=301,L]
+  RewriteRule ^/life$ /category/life/$1 [R=301,L]
+  RewriteRule ^/art-and-design$ /category/art-and-design/$1 [R=301,L]
+  RewriteRule ^/english$ /category/english/$1 [R=301,L]
+  RewriteRule ^/german$ /category/german/$1 [R=301,L]
+  RewriteRule ^/politics$ /category/politics/$1 [R=301,L]
+  RewriteRule ^/coding$ /category/coding/$1 [R=301,L]
+  
+  RewriteRule ^/archives/(.*)$ /$1 [R=301,L]
+</IfModule>

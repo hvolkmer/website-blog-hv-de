@@ -1,0 +1,19 @@
+--- 
+title: (Home?)-NAS Hardware-Plattform
+sections: 
+- german
+- sysadm
+tags: 
+- allgemeines
+- hardware
+- news
+filter: 
+- textile
+description: "Neues MIPS-Board von Movidis. Idal f\xC3\xBCr Home-NAS?"
+blog_post: true
+layout: post
+created_at: 2006-08-15 13:09:47.526917 +02:00
+---
+
+Ich bin schon länger auf der Suche nach einer stromsparenden Plattform für ein kleines Home-NAS-Serverchen. <a href="http://www.movidis.com/products/nap.asp">Das</a> hört sich ideal an: 16 MIPS CPUs, 50 W Stromverbrauch, 8x GbE onboard, SATA/SAS-Controller onboard, normales ATX-Board, Unterstützung für Verschlüsselung und läuft unter Linux.. Genau richtig. Nur den Preis findet man nirgends. Wenn das noch für einen 3-stelligen Betrag zu haben sein sollte, steht einem Home-NAS nix mehr im Weg. Allerdings wird das vermutlich nur an OEMs verkauft werden und somit für den Privatmann nicht zur Verfügung stehen - egal zu welchem Preis :( - Schade eigentlich.
+[via <a href="http://www.heise.de/newsticker/meldung/76816">heise</a>]

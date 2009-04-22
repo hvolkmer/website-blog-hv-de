@@ -1,0 +1,26 @@
+--- 
+title: Verabreden gestern und heute
+sections: 
+- german
+- life
+tags: 
+- erlebtes
+filter: 
+- textile
+description: "Beobachtung wie Handys unsere Welt und unser Verhalten ver\xC3\xA4ndern"
+blog_post: true
+layout: post
+created_at: 2006-11-01 12:09:47.526917 +01:00
+---
+
+Da stand ich letzte Woche abends an der Bushaltestelle und wollte abends von der Arbeit nach Hause fahren und sehe diesen ca. 13 jährigen Jungen neben mir stehen.
+
+Er telefoniert - offensichtlich mit seiner Mutter. "Ich bin dann etwa in 20 Minuten zu Hause...". Als er auflegt, sehe ich, dass er ein <a href="http://www.motorola.com/motoinfo/product/details.jsp?globalObjectId=69">Motorola V3 Razr</a> in der Hand hält. Vielleicht war es auch der Vorgänger. Jedenfalls ein Handy für viel Geld.
+
+Richtig überrascht oder geschockt war ich nicht. Eher verwundert, dass er nicht noch 'ne SMS danach geschrieben hat oder ein neues Spiel ausprobiert hat, sondern das Handy gleich weggesteckt hat. Schien gut erzogen zu sein der Junge.
+
+Diese Handy-Allgegenwärtigkeit geht mir langsam auf den Keks. In gewissen Situtationen ist ein Handy durchaus hilfreich und auch sinnvoll. Aber irgendwie ist es auch traurig, dass man sich kaum mehr verabreden kann, in dem man sagt "Wir treffen uns um 20:00 am Schloßplatz bei den Treppen beim Wittwer" und dann sind einfach alle, die da sein wollen da. Heute sagt man "kommt mal 20:00 in die Stadt, wir telefonieren dann nochmal."
+
+Ich frage mich, ob der junge Mann von der Bushaltestelle sich jemals ohne Handy wird verabreden (können)? Er wird sich sicher ohne Handy nackt fühlen - und ich tue es teilweise auch. Aber eben auch nur, weil alle davon ausgehen, dass man es immer dabei hat. Man muss sich fast schon rechtfertigen, warum man sein Handy nicht dabei hat.
+
+Komischerweise konnte man sich früher auch ohne Handy verabreden. Man war nicht ganz so flexibel, aber irgendwie auch zuverlässiger. Man wußte, wenn ich nicht da bin, dann ist der/die andere umsonst angereist. Da hatte man mehr Verantwortung zu tragen.

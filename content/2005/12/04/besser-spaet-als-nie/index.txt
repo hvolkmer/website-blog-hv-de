@@ -1,0 +1,25 @@
+--- 
+title: "Besser sp\xC3\xA4t als nie"
+sections: 
+- german
+- life
+tags: 
+- "1984"
+- erlebtes
+filter: 
+- textile
+description: Ich habe eine Datenschutzauskunft von Amazon.de angefordert und Informationen erhalten.
+blog_post: true
+layout: post
+created_at: 2005-12-04 12:09:47.526917 +01:00
+---
+
+Anfang Oktober habe ich aufgrund von <a href="http://www.heise.de/newsticker/meldung/61183">verschiedenen</a> <a href="http://www.heise.de/newsticker/meldung/63280">Nachrichten</a> entschieden, mein Konto bei "Amazon.de" löschen zu lassen und eine Auskunft über die über mich gespeicherten Daten zu verlangen, wie es das Bundesdatenschutzgesetz vorsieht. Dazu habe ich - wie das Gesetz es ebenso vorsieht - eine Frist gesetzt, die Ende Oktober / Anfang November abgelaufen ist. Mein Account war bis dahin gelöscht. Allerdings wartete ich vergeblich auf die Datenauskunft. Ein ToDo-Eintrag mit "Beschwerde bezügl. Datenschutz Amazon.de GmbH" gab es seit dem bei mir schon. Ich hatte nur noch nicht die Zeit gefunden, sie zu verfassen.
+
+Am 25.11.2005 ist dann doch die erwünschte Auskunft eingetroffen. Laut dieser Auskunft speichert Amazon lediglich Daten,   "die helfen, das Einkaufserlebnis bei Amazon.de individuell zu gestalten und zu verbessern". Das ist übrigens exakt der gleiche Text wie in der obigen Newsmeldung.  Als Auflistung erhielt ich grob gesagt dann meine Adress- und Kontodaten sowie alle bisher gekauften Artikel und verbrauchte Gutscheine. Und den Hinweis "Kontakte keine". Hier wären dann noch alle persönlichen Emails von und zu Amazon registriert gewesen. Siehe hier zu den <a href="http://www.daten-speicherung.de/untern.htm#amazon">Artikel bei daten-speicherung.de</a>. Zu den in den News erwähnten Clickstreams steht dort natürlich nichts, obwohl Amazon anscheinend ja zugegeben hat, dass sie die genaue Abfolge von Seitenaufrufen durch (eingeloggte) Kunden aufzeichnen und als "gängige Marketingpraxis im Internet" bezeichnen. Ich werde mal überlegen, ob ich mir die Mühe mache und da nachhake. Diese Informationen werden wahrscheinlich tief in irgendwelchen Datenbanken drinstecken. Ob die die Daten nun so ad hoc pro Kunde abrufen können, weiß ich nicht. Gespeichert werden sie wohl... Vgl. oben genannten Artikel bei daten-speicherung.de.
+
+Als positives Beispiel was Datenauskunft angeht, kann ich "BSW Bonus & Club" nennen. Der Verein ist zwar ziemlich penetrant, was Werbung angeht (auch zurückschicken hilft hier wenig). Nach der Bitte um Auskunft, die innerhalb der Frist beantwortet wurde, kam jedoch nichts mehr.
+
+Noch ausstehend ist meine Anfrage bei "DAILING.de". Damals (vor ca. 4-5 Jahren) konnte man dort kostenlos SMS über das Internet verschicken. Mittlerweile ist das kostenpflichtig und man kann da jamba-like Klingeltöne erwerben. Ich habe mich auf der Internetseite mind. 2x abgemeldet und bekomme immer noch SMS- und Email-Spam. Hier wird demnächst eine Beschwerde bei der <a href="http://www.datenschutz.rlp.de/kontrolle/privat.html">Aufsichtsbehörde für Datenschutz im nicht-öffentlichen Bereich</a> fällig.
+
+Fazit: Deutsche Unternehmen nehmen das BDSG unterschiedlich ernst. Die EU-Regierung würde es am liebsten abschaffen (oder ist schon dabei es zu tun). Das ist aber ein <a href="http://www.heise.de/newsticker/meldung/66927">anderes Thema</a>. Interessant wird die Datenschutzerklärung von Firmen, wenn es sich um internationale Firmen handelt. In den USA gehören Daten, die über Kunden gespeichert werden z. B. grundsätzlich der Firma. Diese Daten können dann verkauft und verteilt werden, wie es den Firmen so passt (grob gesagt). In Deutschland gehören mir meine Daten (noch!) selbst. Die Frage ist nur, wie lange das noch so bleibt.

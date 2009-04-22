@@ -1,0 +1,18 @@
+--- 
+title: Mathematics in current education systems
+sections: 
+- english
+- life
+tags: 
+- allgemeines
+filter: 
+- textile
+description: The way mathematics is presented in current education systems just sucks. Really.
+blog_post: true
+layout: post
+created_at: 2006-11-06 12:09:47.526917 +01:00
+---
+
+This is funny: Incidentally I read <a href="http://steve-yegge.blogspot.com/2006/03/math-for-programmers.html">two</a> <a href="http://headrush.typepad.com/creating_passionate_users/2006/11/why_does_engine.html">blog posts</a> about our (they actually mean the U.S. but I think it's the same in Germany) education system and how it sucks regarding math or science subjects in general.
+
+Kathy Sierra mentioned the <a href="http://www.ted.com/tedtalks/tedtalksplayer.cfm?key=ken_robinson&amp;flashEnabled=1">TED talk by Sir Ken Robinson</a>. It's brilliant. You definitely have to check it out!

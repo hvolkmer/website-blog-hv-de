@@ -1,0 +1,21 @@
+--- 
+title: Weblog wieder online
+sections: 
+- german
+tags: 
+- meta
+filter: 
+- textile
+description: Movable Type macht seine eigene DB kaputt und ich muss es fixen
+blog_post: true
+layout: post
+created_at: 2004-11-01 12:09:47.526917 +01:00
+---
+
+Der ganze Oktober war quasi blogfrei. Warum? Ich hatte erstens nicht viel Zeit, etwas zu schreiben und außerdem wollte mich mein Movable Type nicht mehr rein lassen. Das Passwort war garantiert richtig, aber nee "Invalid Login".
+
+Eine Anfrage beim Provider, ob die da was an den Berkeley DB Versionen gedreht haben (was dann zu diesem Verhalten führen kann) ergab, dass dem nicht so ist. Also habe ich heute kurzerhand <a href="http://wordpress.org">Wordpress</a> installiert. Ich muss sagen, dass ich bis jetzt echt begeistert bin. Es hat keine so komische Lizenz wie MT und ist irgendwie in sich logischer aufgebaut (finde ich). Die integrierte "Links"-Spalte finde ich auch recht praktisch.
+
+Die alten Blog-Einträge habe ich von Hand rüberkopiert (ich kam ja ins MT nicht mehr rein, um etwas zu exportieren). Das waren zum Glück ja nicht so viele. Und die Kommentare sind  weggefallen. Bis auf einen ernsthaften Kommentar war da eh nur Spam drin. :/
+
+Nun ist das Homepagedesign natürlich mal wieder nicht schlüssig. Das werde ich aber heute nicht mehr anpassen. Da muss ich mich nun erstmal wieder bissle in die Templates einarbeiten.

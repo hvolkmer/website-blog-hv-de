@@ -1,0 +1,15 @@
+--- 
+title: About this blog
+description: "Meta information about my blog"
+filter: 
+- textile
+created_at: 2009-04-15 13:09:47.526917 +02:00
+---
+
+h2. This is my blog
+
+... there are many like it, but this one is mine!
+
+h2. Colophon
+
+This blog was created on a "Apple MacBook Pro":http://apple.com/macbookpro/ using "TextMate":http://macromates.com, vim and "Aquaemacs":http://www.aquaemacs.org/. Its source is versioncontrolled by "git":http://git-scm.com and is only a bunch of text files which are then transformed into XHTML by "webby":http://webby.rubyforge.org

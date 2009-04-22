@@ -1,0 +1,18 @@
+--- 
+title: Morgens halb 11 in Deutschland
+sections: 
+- german
+tags: 
+- erlebtes
+- windows
+filter: 
+- textile
+description: Windows macht komische Dinge. Immer. Aber auch zwischendurch.
+blog_post: true
+layout: post
+created_at: 2006-11-14 12:09:47.526917 +01:00
+---
+
+Windows XP entschließt sich spontan meinen USB-Hub (des Monitors) neu zu finden und zu installieren. Es erscheinen lustige USB-Sybmole im System-Tray und schlußendlich eine gelbe Info-Sprechblase: "Die Hardware ist nun eingerichtet und kann benutzt werden". Fantastisch. War zwar vorher auch so, aber wenigstens ist nix kaputt.
+
+Manchmal passieren hier komische Dinge.

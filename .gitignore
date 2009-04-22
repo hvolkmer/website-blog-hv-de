@@ -1,0 +1,4 @@
+output/*
+content/????/index.txt
+.DS_Store
+content/????/*/index.txt

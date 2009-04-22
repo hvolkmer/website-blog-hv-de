@@ -1,0 +1,18 @@
+--- 
+title: "M\xC3\xA4rz"
+sections: 
+- german
+tags: 
+- allgemeines
+- meta
+filter: 
+- textile
+description: "Neues Titelbild f\xC3\xBCr M\xC3\xA4rz ist online"
+blog_post: true
+layout: post
+created_at: 2006-03-02 12:09:47.526917 +01:00
+---
+
+Schon wieder ein Monat rum... so schnell kann's gehen.
+
+Das neue Titelbild ist online. Zu sehen ist ein Kanal im Hamburger Hafen. Blogeinträge gab's im Februar leider keine. Aber bald gibt's wieder ein paar neue...

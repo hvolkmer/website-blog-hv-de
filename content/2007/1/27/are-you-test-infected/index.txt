@@ -1,0 +1,22 @@
+--- 
+title: Are you test infected?
+sections: 
+- english
+- coding
+tags: 
+- testing
+filter: 
+- textile
+description: Find out if you're test infected. I am.
+blog_post: true
+layout: post
+created_at: 2007-01-27 12:09:47.526917 +01:00
+---
+
+
+I certainly am. There's an interesting article over at "Developer testing":http://www.developertesting.com/archives/month200701/20070126-developer%20testing%20test-infected%20gene.html .
+I think I have the T1 testing gene which is described as follows:
+
+bq. T1 - Very susceptible to test infection. Show them a single JUnit example and they get it immediately - and start using it regularly and with great fervor. When time pressure hits, they fight hard for enough time to test and would rather quit than produce code without tests. They often have framed pictures of Kent Beck on their desk :-).
+
+I haven't got a framed picture of Kent Beck at my desk... yet. ;-) 

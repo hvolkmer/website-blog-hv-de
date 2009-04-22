@@ -1,0 +1,34 @@
+--- 
+title: Small differences that matter
+sections: 
+- english
+- life
+tags: 
+- mac
+- windows
+- differences
+filter: 
+- textile
+description: Small things I like about Mac OS X that Windows doesn't have
+blog_post: true
+layout: post
+created_at: 2007-05-10 13:09:47.526917 +02:00
+---
+
+Almost everybody who knows me knows that I like Macs and Mac OS X. So being able to work on a Mac again I discovered some small differences which make the work on these machince even more enjoyable.
+
+First, there's "Magsafe":http://de.wikipedia.org/wiki/MagSafe. One of the best inventions since the invention of laptops. A small change with huge impact. The load status indicator LED on the power plug is a nice feature, too.
+
+Another thing I noticed is the "low power" warning message. On windows, if your laptop runs out of power, you get a warning message. And if you don't put the power plug in, the computer goes to sleep mode which is fine. But if you reopen the lid and Windows comes to life again, you still get these warning messages. It doesn't matter if you've put the power plug back in or not. It still says "I need power. Put the plug in or I'll die!". On the Mac however, the moment you put the plug in the message automatically disappears. That's a small, litte thing but very convenient and it just makes sense.
+
+Multi-Monitor Mode. Ok, this one really sucks on Windows. I don't know if this has to do with the fact, that the monitor on the MacBook is plugged in via DVI (which isn't possible on most PC laptops due to the lack of an DVI port) or if it's just Windows itself. I guess it's the latter.
+
+So you have a second Monitor plugged into your WinXP Laptop. Unplug it, and all the windows which where on the second monitor just stay there (in the phantom monitor, if you will) and you cannot access them properly. On the Mac (again, I think this has to do with DVI somehow) all the open windows are just moved to the laptop screen, so you can access all the windows.
+
+Also, WinXP forgets about the alignment of the monitors every now and then. So normally the second one on the left (I configured it this way). But sometimes, Windows decides that the monitor is now on the right. Or even better, it throws all my desktop icons on the second monitor.
+
+Have you ever tried to set different wallpapers for your two monitors in XP? Without any additional software? It's impossible. Or if it's not, then it's not intuitive to find. With Mac OS X, you get a selection box for the wallpaper on the monitor you want to set the wallpaper (so one dialog on every monitor). It's the same for the screen resolution setup: One dialog on every monitor. 
+
+Another nice thing about the MacBook is the position of the fan outtakes: They are in front of the display, behind the keyboard. As far as I know the Mac laptops are the only ones which fold the display like they do. Hard to explain. If you don't know what I mean check out some pictures ;-). So the warm air flows up the display. What's the advantage of that? Well, ever put a "normal" laptop in your bed or some other thing where it could "sink in"? If the outtakes are on the side or even worse, the bottom, they will be blocked and bad things will happen.
+
+So that aren't mission critical things (or maybe some of them are) but to me it shows how Apple seems to think more about the acutal user experience than Microsoft. Granted that Apple has the advantage of creating their own hardware and therefore beeing able to fine tune the setup.

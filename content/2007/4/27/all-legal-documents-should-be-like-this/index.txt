@@ -1,0 +1,27 @@
+--- 
+title: All legal documents should be like this...
+sections: 
+- english
+- life
+tags: 
+- sla
+- legal
+- document
+- red
+- hat
+filter: 
+- textile
+description: Cool Red Hat SLA
+blog_post: true
+layout: post
+created_at: 2007-04-27 13:09:47.526917 +02:00
+---
+
+
+
+
+This is awesome: "Red Hat's new one page SLA":http://enterpriselinuxlog.blogs.techtarget.com/2007/03/22/red-hats-new-one-page-sla/
+
+[via "SvN":http://www.37signals.com/svn/posts/401-red-hat-if-we-ship-it-we-support-it ]
+
+If only all legal documents could be as short as this one. Unfortenately they are not. Trust me, if seen some in the last months... 

@@ -1,0 +1,142 @@
+--- 
+title: Deploying a Rails application on OpenSolaris with passenger aka modrails
+sections: 
+- english
+- coding
+- sysadm
+tags: 
+- rails
+- opensolaris
+- passenger
+filter: 
+- textile
+description: A howto on how to deploy a Rails application on the latest OpenSolaris 2008.11 operating system with modrails aka passenger
+blog_post: true
+layout: post
+created_at: 2009-01-29 12:09:47.526917 +01:00
+---
+
+
+!http://blog.hendrikvolkmer.de/assets/2009/1/29/opensolaris.png! !http://blog.hendrikvolkmer.de/assets/2009/1/29/modrails.png!
+
+Two technologies I wanted to play around with for some time are "OpenSolaris":http://www.opensolaris.org and "passenger":http://www.modrails.com. OpenSolaris because of "ZFS":http://opensolaris.org/os/community/zfs/, "Zones":http://opensolaris.org/os/community/zones/, "SMF":http://opensolaris.org/os/community/smf/ and the latest addition "IPS":http://opensolaris.org/os/project/pkg/ and passenger because it seems to be the new default Rails deployment model and is really easy to configure.
+
+So I deceided to combine those to and get started. Here's what I did. Maybe it's useful for someone who's trying to do the same.
+
+I grabbed the "OpenSolaris 2008.11 Virtualbox image":http://virtualboximages.com/OpenSolaris-2008.11 from virtualboximages.com and booted it in VirtualBox.
+
+I wanted to make sure to have the latest updates so I updated the image (all commands are executed as root):
+<pre class="prettyprint"><code># pfexec pkg image-update</code></pre>
+
+
+A reboot later I installed the necessary parts for a Rails environment:
+
+<pre class="prettyprint"><code># pfexec pkg install SUNWruby18
+# pfexec pkg install gcc-dev
+</code></pre>
+
+SUNWruby18 installes ruby 1.8.6p287 which is exactly what I needed. 
+
+The mysql installation was a bit harder:
+
+<pre class="prettyprint"><code># pfexec pkg install SUNWmysql5
+# /usr/mysql/5.0/bin/mysql_db_install
+# chown -R mysql:mysql /var/mysql/5.0/data
+</code></pre>
+
+I needed to manually chown the data dir. Otherwise mysql wouldn't start.
+
+You can confirm that your mysql is running via:
+<pre class="prettyprint"><code># svcs -l mysql
+</code> </pre>
+
+The logfile gives further information if something goes wrong.
+
+To access mysql try:
+<pre class="prettyprint"><code># /usr/mysql/5.0/bin/mysql
+</code> </pre>
+
+
+The "5.0" in the path is important because there's also a mysql version 4 installed. This will be of interest when installing the mysql ruby gem. The command to correctly install the gem is:
+<pre class="prettyprint"><code># pfexec gem install mysql -- --with-mysql-lib=/usr/mysql/5.0/lib/mysql --with-mysql-include=/usr/mysql/5.0/include
+</code> </pre>
+
+Thanks to Amanda Waite for "this hint":http://blogs.sun.com/mandy/entry/segmentation_fault_when_running_rails.
+
+
+The next installation step is Apache:
+<pre class="prettyprint"><code># pfexec pkg install SUNWapach22</code> </pre>
+
+
+Make sure it starts via svcadm:
+<pre class="prettyprint"><code># svcadm start apache22</code> </pre>
+
+
+Check that it runs:
+<pre class="prettyprint"><code># svcs -l apache22</code> </pre>
+
+(or just type http://localhost in your browser)
+
+I needed memcached, so I installed it:
+<pre class="prettyprint"><code># pfexec pkg install SUNWmemcached</code></pre>
+
+
+It didn't start right away, though. There are some changes you have to apply to run "memcached in solaris":http://blogs.sun.com/trond/entry/memcached_in_solaris
+
+<pre class="prettyprint"><code># svccfg
+svc:> select memcached
+svc:/application/database/memcached> setprop memcached/options=("-u" "nobody" "-m" "2048")
+svc:/application/database/memcached> quit
+# svcadm refresh memcached
+</code></pre>
+
+
+Of course we need rails:
+
+<pre class="prettyprint"><code>pfexec gem install rails
+</code></pre>
+
+The current stable version of passenger doesn't support Solaris but the egde version does. So I downloaded the "passenger edge Version":http://github.com/FooBarWidget/passenger/downloads/master off github.
+
+It didn't compile right away. There are some compiler flags that aren't supported in Solaris so I used "these changes":http://github.com/farra/passenger/commit/b1af92376e150471c4e825957f145fe0b0dc527d to make passenger compile. 
+
+Commandwise this looked like this: I unpacked the tarball into /opt/passenger and then did a
+
+<pre class="prettyprint"><code># cd /opt/passenger
+# vi lib/passenger/platform_info.rb # see above
+# bin/passenger-install-apache2-module
+# chown -R webservd /opt/passenger
+</code></pre>
+
+
+Add the mentioned config snippet to /etc/apache2/httpd.conf and restart apache 
+<pre class="prettyprint"><code># svcadmin restart apache2</code> </pre>
+
+
+Now were all set to create a new rails app. I created a seperate ZFS partition to serve the apps. Just because it's so easy to do with ZFS and it gives you more control on how much space is used by your apps etc.
+
+<pre class="prettyprint"><code># zfs create rpool/apps</code></pre>
+
+
+Now it's time for the demo app:
+
+<pre class="prettyprint"><code># cd /rpool/apps
+# rails demo
+# chown -R webservd demo</code></pre>
+
+
+I added the DocumentRoot of the app to the apacheconfig (<code>DocumentRoot /rpool/apps/demo/public</code>) and restarted apache again (<code>svcadm restart apache2</code> - you know the drill by now).
+
+And that's it. A http://localhost gave me the demo welcome page. Nice.
+
+Later I wanted do deploy a rails app via capistrano so I needed git. There isn't a IPS package for git yet, so I decided to take the standard compile route. I downloaded git and compiled it like this:
+
+<pre class="prettyprint"><code># ./configure --prefix=/opt/git
+# make install
+# ln -s /opt/git/bin/git /usr/bin/git
+</code></pre>
+
+
+I used the symlink because capistrano wasn't able to find git otherwise - setting scm_command didn't work.
+
+If anyone tries this recipe and it works or it doesn't work... just let me know. Have fun with OpenSolaris. It's worth checking out.

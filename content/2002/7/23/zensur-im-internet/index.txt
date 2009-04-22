@@ -1,0 +1,36 @@
+--- 
+title: Zensur im Internet
+tags: 
+- "1984"
+filter: 
+- textile
+description: Zensur findet in Deutschland laut GG nicht statt. Im Internet scheint das Grundgesetz jedoch nicht zu gelten. Oder anders. Oder man definiert Zensur neu...
+blog_post: true
+layout: post
+created_at: 2002-07-23 13:09:47.526917 +02:00
+---
+
+h2. Zensur im Internet
+
+Gewisse Bezirksregierungen scheint zur Zeit Freude daran zu haben uns immer mehr Grundrechte zu berauben. In Art. 5 GG steht in Abs. 1 "... Eine Zensur findet nicht statt." In NRW scheint das jedoch nicht mehr so ganz zuzutreffen. Internetprovider müssen dort einige von der Regierung festgelegte Seiten filtern (also zensieren).
+
+Das ist eine Unverschämtheit! Hier wird eindeutig das GG außer Kraft gesetzt und das Recht zur Bildung der eigenen Meinung unterdrückt! Bei den gefilterten Seiten handelt es sich um Seiten die rechtsradikale Inhalte bereitstellen. Ich will so etwas nicht unterstützen! Es sollte jedoch jedem Bürger selber überlassen sein, ob er Zugang zu solchen Angeboten hat oder nicht. Desweiteren werden solche Seiten durch eine Zensur nicht verschwinden, sie werden in Zukunft einfach besser versteckt. Ob das Sinn der Sache ist, wage ich zu bezweifeln. Wenn solche Inhalte als verfassungsfeindlich oder gesetzeswidrig erachtet werden, dann sollen die Server vom Netz genommen werden. Eine Filterung ist jedoch eindeutig Zensur und nicht mit dem GG vereinbar!
+
+Heute sind es noch Seiten Rechtsradikaler, morgen werden dann Seiten vielleicht gefiltert, die sich kritisch über die derzeitige Regierung äußern...
+
+Eine weitere Dreistigkeit der Regierung ist es, die Filterlisten nicht zu veröffentlichen. Man hat also keine Kontrolle über das was gefiltert wird und was nicht.
+
+Wie einfach durch zwangsproxies eine Zensur im Internet statt finden kann, kann jeder selber testen:<a href="http://www.odem.org/insert_coin/"> Odem - Insert Coin</a>
+
+Aber nicht nur in Deutschland gibt es derartige Bemühungen. In Spanien ist vor kurzem ein neues Gesetz in Kraft getreten, was den auftritt von "gewerblichen Internetseiten" regelt. Dass dieses Gesetz aber quasi fast alle Webseitenbetreiber betrifft und mit den Forderungen quasi einer Zensur gleichkommt, kann man <a href="http://stop1984.com/index2.php?lang=de&text=hello_kampagne_lssi.txt">hier</a> nachlesen. Es macht unter anderem das Recht auf eine anonyme Äußerung der Meinung unmöglich. Ein Recht, dass jedem in dem Menschenrechten zugesichert wird. (vgl. <a href="http://www.epic.org/privacy/intl/lssi.html#conventions">epic LSSI page</a>).
+
+h2. Zensur von "Killerspielen"
+
+Gerade nach dem sogenannten Amoklauf (es war eigentlich keiner. Amokläufe sind was anderes) in dem Erfurter Gymnasium schreien viele danach "Killerspiele" zu verbieten. Das vielleicht nicht unbedingt die Spiele daran Schuld sind ist egal. Es gibt einen Grund und das Problem ist einfach zu beheben: Weg mit dem Spielen. Einfach verbieten. Fertig. Tolle Logik. Anscheinend hat die Regierung durch diese Aktion doch etwas gelernt: Schüler, die nach der 10. Klasse vom Gymnasium abgehen sollen ab jetzt einen anerkannten Abschluss erhalten. Schade, dass dafür 22 Menschen sterben mussten.
+
+Ein ziemlich guter Text zu diesem Thema ist wie ich finde diesen hier. (Alle Leute, die von Zynismus und Satire nix halten, sollten ihn vielleicht nicht lesen).
+
+h2. Links
+
+<a href="http://www.odem.org">Online Demonstration</a>
+<a href="http://www.stop1984.org">Stop 1984! </a>

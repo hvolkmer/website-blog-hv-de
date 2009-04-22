@@ -1,0 +1,28 @@
+--- 
+title: Zusammenfassung zum Webmontag
+sections: 
+- german
+- life
+tags: 
+- allgemeines
+filter: 
+- textile
+description: Bericht vom Webmontag in Stuttgart vom 23.10.2006
+blog_post: true
+layout: post
+created_at: 2006-10-24 13:09:47.526917 +02:00
+---
+
+Ich bin ziemlich genau um 20 Uhr in der <a href="http://www.hdm-stuttgart.de/">HdM</a> gewesen und musste feststellen, dass der erste Vortrag schon begonnen hatte. Wie ich später herausgefunden habe, ging es wohl schon um 19:50 mit den Vorträgen los. Richtig begeistert von dieser "Überpünktlichkeit" war ich nun nicht, aber ich hätte ja auch früher kommen können.  Dem Vortrag von Prof. Capurro konnte ich nur teilweise geistig folgen. Vielleicht, weil ich die ersten Minuten verpasst hatte, vielleicht aber auch, weil für mich wenig Greifbares gesagt wurde. Es ging um Hermeneutik und Semantik. Ein durchaus Interessantes Thema, natürlich auch im Bezug auf das Internet und neue Medien. Aber was nun wirklich die Aussage war, außer "Es ist nicht einfach" und "Das Internet hat alles nochmal verändert", habe ich nicht erfassen können.
+
+Es folgte die Vorstellung eines Web-Log-Projekts von <a href="http://www.theofel.de/plog/">Jan Theofel</a> - Das WM-Rezept-Blog. Eine sehr nette Idee, wie ich finde. Hier war für mich schon mehr mitzunehmen. Am interessantesten war die Tatsache, aus Bloggen ein Projekt zu machen bzw. für bestimmte Events gezielt Blog-Einträge vorzusehen. In diesem Falle Rezepte aus den Ländern der gegeneinanderspielenden Mannschaften. Mir ist gestern zum ersten mal diese Art des Bloggens bewußt geworden und mir sind gleich ein paar Beispiele eingefallen, wo ich so etwas selbst schon, unbewußt, des Öfteren beobachtet habe - wenn auch nicht in dieser Größe.
+
+Was ich etwas beunruhigend fand, war die Folie, wo durchgemachte Nächte am Ende des Projektes zu "Standard-IT-Vorgehen" erklärt wurden ("... das gehört dazu, ist eben ein IT-Projekt"). Das hört sich für mich so an, als ob alle IT-Projekte zu <a href="http://en.wikipedia.org/wiki/Death_march_(software_development)">Death March</a> - Projekten verdammt wären - quasi per Definition. Ich hoffe, dass das eher als Spaß gemeint war und trotz den vielen Rezepten noch Zeit zum schlafen war. ;-)
+
+Der geplante dritte Vortrag fand nicht statt, weil <a rel="nofollow" onkeypress="return svchk()" onclick="return svchk()" title="http://www.lightwerk.com/" target="_blank" class="urlextern" href="http://www.lightwerk.com/">Veikko Wünsche</a> nicht da war.
+
+Danach kam nun Max Völkel mit seinem Vortrag über <a href="http://ontoworld.org/index.php/Semantic_MediaWiki">Semantic Wikipedia</a>. Ein sehr interessanter Vortrag. Es ging im Grunde darum, wie man Wikipedia/Mediawiki erweitern könnte, um Links bzw. Fakten Bedeutung zu geben und somit sinnvoller Informationen abfragen zu können und Redundanzen zu vermeiden. Eine Demo ist unter <a rel="nofollow" onkeypress="return svchk()" onclick="return svchk()" title="http://ontoworld.org" target="_blank" class="urlextern" href="http://ontoworld.org/">http://ontoworld.org</a>  zu sehen.  Evtl. wird wohl dieses Jahr noch eine Demo-Version innerhalb  von Wikipedia gestartet.
+
+Generell fand ich die Anzahl der Vorträge deutlich angenehmer als letztes Mal. Es war mehr Zeit für Diskussionen, die allerdings kaum genutzt wurde. Nur beim Thema "Gibt es ein Urheberrecht auf Kochrezepte" gingen die Meinungen kurz auseinander. Richtig ausdiskutiert wurde das Thema jedoch nicht. Schade.
+
+Ich bin gespannt auf den nächsten Webmontag. Mal sehen, ob sich jemand den Tipp, Namenschilder nicht zum Anheften in "Badges" (wie heißt so ein Ding auf deutsch?) sondern einfach als Ettikett zum Aufkleben zu gestalten, zu Herzen nimmt. Das hätte den großen Vorteil, dass man die Schilder beim gemütlichen Zusammensitzen einfach behalten könnte. Und man muss die Schilder nicht extra in die Plastikhülle stecken. Also deutlich weniger Aufwand und höherer Nutzen. :)

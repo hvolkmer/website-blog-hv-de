@@ -1,0 +1,18 @@
+--- 
+title: Der neue G5 iMac
+sections: 
+- german
+tags: 
+- hardware
+- mac
+filter: 
+- textile
+description: Meine Meinung zum neuen G5 iMac
+blog_post: true
+layout: post
+created_at: 2004-08-31 13:09:47.526917 +02:00
+---
+
+So sieht er nun aus. Der neue G5 Imac... mir persönlich gefällt er nicht so sehr. Es fehlt irgendwie das gewisse Etwas. Da finde ich den Kugel-(Lampen)-Imac schon besser oder den Alu-Design Powermac G5. Der neue Imac sieht einfach zu gewöhnlich aus. Aber vielleicht kommt das auch erst mit der Zeit... das man ihn toll findet ;-)
+
+Von der technischen Seite her ist er ganz ok. G5, Serial Ata Platte, und 8X AGP Grafikkarte. Fragt sich nur wie leise der dann wirklich ist...

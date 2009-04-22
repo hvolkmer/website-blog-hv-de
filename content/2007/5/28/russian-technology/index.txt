@@ -1,0 +1,66 @@
+--- 
+title: Russian technology
+sections: 
+- english
+- coding
+- sysadm
+tags: 
+- nginx
+- config
+- yaml
+- generator
+- rails
+filter: 
+- erb
+- textile
+description: "nginx config via 'nginx config generator' plus bonus: feed redirects for feedburner"
+blog_post: true
+layout: post
+created_at: 2007-05-28 13:09:47.526917 +02:00
+---
+
+I've been using "russian technology":http://nginx.net/ for about a week now and it works really well with Rails and is easy to set up in general.
+
+I'd like to thank "err":http://errtheblog.com for his "nginx config generator":http://errtheblog.com/post/3908 and "Ezra":http://www.brainspl.at/ for making me aware of nginx and his "config file":http://brainspl.at/nginx.conf.txt. This combination got me up and runing with ngnix in about 5 minutes. 
+
+However, I needed to modify the generated config file a bit to fit the standard debian file paths and users. So I modified the ERB template which is used to generate the config file. It should be fully backwards compatible, so if you don't need all of these modifications you could use it and just use the modifications you need. Here's the "template with my modifications":http://pastie.caboo.se/65434
+
+My YAML file looks like this:
+
+user: www-data
+group: www-data
+
+pid_path: /var/run/
+config_path: /etc/nginx/
+log_path: /var/log/nginx_
+
+# This defines the default roots and alternate roots.
+# The name (or key) of your site will be sprintf'd with
+# the below root, right.
+root: 
+  blog:  /srv/hendrikvolkmer.de/blog/public
+  www: /var/www
+  
+# All your vhosts.
+sites: 
+  blog:
+    upstream: 
+      - 127.0.0.1:3000
+      - 127.0.0.1:3001
+
+    server_name: blog.hendrikvolkmer.de
+
+    # I added a special feeds config which generates the 
+    # if ($http_user_agent !~ FeedBurner)  line before the actual rewrite 
+    # line. Works fine with Mephisto and, of course Feedburner, YMMV
+    feeds:
+      - ^/feed/atom.xml http://feeds.feedburner.com/hendrikvolkmer
+      - ^/feed/all_comments.xml http://feeds.feedburner.com/hendrikvolkmer_comments
+   
+    root: blog
+
+  www:
+    root: www
+    server_name: hendrikvolkmer.de
+
+Also, it's really easy to compile nginx 0.5.20 for Debian: Just download the source, make the necessary modifications to the current deb file specifications and compile. :)

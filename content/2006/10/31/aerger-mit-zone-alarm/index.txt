@@ -1,0 +1,24 @@
+--- 
+title: "\xC3\x84rger mit Zone Alarm"
+sections: 
+- german
+tags: 
+- erlebtes
+- windows
+filter: 
+- textile
+description: "Zone Alarm macht nur \xC3\x84rger unter Windows. Personal Firewalls stinken."
+blog_post: true
+layout: post
+created_at: 2006-10-31 12:09:47.526917 +01:00
+---
+
+Auf meinem Firmenlaptop ist seit kurzem eine neue <a title="Zone Alarn" href="http://www.zonelabs.com/">Zone-Alarm</a> Version installiert, die nur noch nervt. Ich bin sowieso kein Fan von "<a href="http://de.wikipedia.org/wiki/Personal_Firewall">Personal-Firewalls</a>", weil sie eigentlich <a title="Personal Firewalls austricksen" href="http://home.arcor.de/nhb/pf-austricksen.html">gegen echte Angreifer relativ nutzlos sind</a>.
+
+Nichtsdestotrotz will man sich natürlich an die vorgegebenen Firmen-Sicherheitsrichtlinen halten. Aber diese Version nervt nur noch. Erstmal löscht sie spontan Session-Cookies der lokalen Websphere-Testumgebung, so dass man quasi nie Zugriff auf eine Session hat. Bestimmt gibt es irgendwo 'ne Einstellung, das zu deaktivieren. Man müsste sicher nur etwa 5 Stunden suchen.
+
+Außerdem fragt das Teil bei wirklich jeder Aktion, die irgendein Programm macht, nach ob dieses Programm das wirklich darf. "XY ist potentiell Böse, es überwacht Maus und Tastaturbewegungen". "Task Manager will ein Programm beenden. Darf der das?". (Ja, darf er... das ist der Haupteinsatzzweck dieses Programmes... zumindest bei mir.) Ich weiß nicht welche System-APIs von Zone Alarm da überwacht werden, aber eins weiß ich sicher: Als Angreifer würde ich zunächst mal Zone Alarm angreifen und könnte dann schön alle Programme überwachen.
+
+Die typische Reaktion bei zu vielen "Sind sie sicher?"-Dialogen ist: Ignorieren bzw. einfach das tun, was einen weiter arbeiten lässt. Mit Tausend "sind sie sicher?"-Fragen funktioniert Sicherheit einfach nicht. Im Linux-Magazin war zu diesem Thema vor ein paar Monaten mal ein netter (und technisch fundierter) Artikel. (Vielleicht such ich ihn noch raus).
+
+Und irgendwie häufen sich die Berichte, dass diese ganze "Sind sie sicher?"-Dialoggeschichte in <a href="http://www.37signals.com/svn/posts/84-web-developers-microsoft-has-no-idea-whats-going-on">Windows Vista nicht besser wird</a>.

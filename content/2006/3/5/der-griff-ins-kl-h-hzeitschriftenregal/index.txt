@@ -1,0 +1,26 @@
+--- 
+title: Der Griff ins Kl^H^HZeitschriftenregal
+sections: 
+- german
+- life
+tags: 
+- allgemeines
+- erlebtes
+filter: 
+- textile
+description: Kauft keine Zeitschriften mit DVDs drin, wenn ihr Originalton wollt...
+blog_post: true
+layout: post
+created_at: 2006-03-05 12:09:47.526917 +01:00
+---
+
+Bei Spiegel-Online gibt es seit längerem regelmäßig einen Artikel über Beilage DVDs diverser Zeitschriften. Da bekommt man für 3 - 7 EUR (oder so) eine Zeitschrift plus vollwertige Original-DVD. Teilweise sogar mit nettem Einband. Ich habe also zufällig in der Mittagspause diesen <a href="http://www.spiegel.de/netzwelt/netzkultur/0,1518,400538,00.html">Artikel</a> gelesen, wo <a href="http://www.imdb.com/title/tt0181865/">Traffic</a> als Beilage bei HomeVision angepriesen wird. Also im nächsten Zeitschriftenladen die Zeitschrift geholt (4,90 €) und über den tollen Kauf gefreut.
+
+Als ich dann den mitgelieferten DVD-Einband genauer durchgelesen habe, war die Freude schnell vorbei. Die Tonspurauswahl bietet die fantastischen Wahlmöglichkeiten "Deutsch" und "Deutsch". Genauer gesagt steht hinten nur "Deutsch 5.1" drauf. Man kann im VLC dann aber 2x Deutsch auswählen. (Den genauen Unterschied habe ich noch nicht rausgefunden).
+Ganz klasse. Da kauft man sich mal ne DVD und darf den Film dann auf Deutsch gucken. Ob da für die Englische-Tonspur kein Platz mehr war? Oder gab's da wieder irgendwelche lizenztechnischen Schwierigkeiten?
+
+Man sieht hier mal wieder: Der ehrliche Mensch, der sich ne DVD wirklich kaufen möchte, bekommt irgend ein verkrüpeltes Etwas. Der "böse Schelm", der sich die Filme bei diversen Tauschbörsen im Internet besorgt, hat die große Auswahl an verschiedenen Qualitätssufen, Sprachen, etc.
+
+Komische Welt...
+
+Wobei mir da gerade einfällt, dass ich im Nachhinhein erstaunt bin, dass bei meinem letzten Kinobesuch gar keine "Ihr seid alle böse Raubkopierer"-Spots gesehen habe und ich kann mich auch nicht an "Abfilmen verboten ..." anzeigen erinnern. Es besteht also noch Hoffnung - oder mein kopfinterner Spamfilter hat das schon rausgefiltert.

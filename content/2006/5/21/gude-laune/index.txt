@@ -1,0 +1,16 @@
+--- 
+title: Gude Laune
+sections: 
+- german
+tags: 
+- allgemeines
+- music
+filter: 
+- textile
+description: "'Gude Laune' mit Sven V\xC3\xA4th"
+blog_post: true
+layout: post
+created_at: 2006-05-21 13:09:47.526917 +02:00
+---
+
+http://www.timobenz.de">Timo</a> hat mir heut diese lustigen Links geschickt: "<a href="http://www.maingold.com/2006/04/19/this-is-all-about-gude-laune/">Its al about gude Laune</a>" und da ganze noch interaktiv bei "<a href="http://www.theshrine.de/">The shrine</a>". Ist zwar schon ueber nen Monat her und nicht mehr top-aktuell, aber lustig isses allemal und immer dran denken: "The message is gude Laune" ;-)

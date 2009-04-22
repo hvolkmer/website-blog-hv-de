@@ -1,0 +1,22 @@
+--- 
+title: Der "Mausarm" bei SPON
+sections: 
+- german
+- life
+tags: 
+- allgemeines
+- hardware
+- ergonomic
+filter: 
+- textile
+description: Interessanter Artikel zum Mausarm bei Spiegel Online
+blog_post: true
+layout: post
+created_at: 2006-05-15 13:09:47.526917 +02:00
+---
+
+<a href="http://www.spiegel.de/netzwelt/technologie/02C15182C4162662C00.html">Mit Dehnübungen gegen den "Mausarm"</a>
+
+Interessanter Artikel... komisch nur, dass hier gar nicht auf Alternativen zur Maus bzw. ergonomische Maeuse eingegangen wird. Weiterhin fehlt mit in dem Artikel die Erwaehnung von Tastaturbefehlen. Viele Dinge kann man bequemer und deutlich schneller als mit der Maus per Shortcut mit der Tastatur erledigen.
+
+Ich finde die Mausbewegung mittlerweile sehr unangnehm bzw. ungewohnt seit ich zu Hause einen Trackball benutze. Beim Arbeiten verwende ich fast immer den "Nippel" des Notebooks. Arbeiten mit der Kinesis-Tastatur ist noch nicht moeglich... dazu bin ich beim Tippen noch zu lahm. Bessert sich aber langsam - Übung macht den Meister.

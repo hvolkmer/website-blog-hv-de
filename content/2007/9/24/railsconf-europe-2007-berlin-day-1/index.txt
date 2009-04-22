@@ -1,0 +1,22 @@
+--- 
+title: Railsconf Europe 2007 Berlin - Day -1
+sections: 
+- life
+- coding
+- english
+tags: 
+- railsconfeurope07
+- bratwurst-on-rails
+filter: 
+- textile
+description: "Railsconf Europe 2007 Berlin - Pre-First-Day day summary: Bratwurst on Rails"
+blog_post: true
+layout: post
+created_at: 2007-09-24 13:09:47.526917 +02:00
+---
+
+*Bratwurst on rails*
+
+Railsconf started with the "Bratwurst on rails":http://www.bratwurst-on-rails.com/ event organized by the "Berlin Ruby User Group":http://www.rug-b.com/wiki/show/HomePage. Free Bratwurst for everyone :)
+
+Talking to interesting, intelligent people form all over the world has been a great experience. One thing which stuck in my mind was one guy from the UK (I am so bald with names...) who referred to himself as a "agile convert". Having been in the software business for about 20 years he couldn't believe that "this agile thing would work". And now he doesn't want to do anything else :)

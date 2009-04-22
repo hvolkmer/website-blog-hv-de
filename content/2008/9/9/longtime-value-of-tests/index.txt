@@ -1,0 +1,30 @@
+--- 
+title: Longtime value of tests
+tags: 
+- testing
+- value
+- longterm
+filter: 
+- textile
+description: What is the immediate value of tests? What is their long term value? Does it pay off to invest time in writing and maintaining test code?
+blog_post: true
+layout: post
+created_at: 2008-09-09 13:09:47.526917 +02:00
+---
+
+
+I wrote back in January 2007 that "I'm test infected":http://blog.hendrikvolkmer.de/2007/1/27/are-you-test-infected and that is still true. But sometimes, as with all things, I forget about the value of tests - at least in some contexts and then I find the value again.
+
+Last week I attended "Jay Fields'":http://blog.jayfields.com/ talk about "functional testing lessons learned":http://en.oreilly.com/railseurope2008/public/schedule/detail/2424 and he really gave some interesting insights on the value of tests. Do you need tests for everything? Certainly not. 100% code coverage? Bad idea. Do you always need tests? Maybe. As always: it depends. What Jay Fields said was: If you intend to use the code again and want to change it sometime, you better have tests.
+
+And if you think about it: That's almost always the case. The last weekend I ported two small applications to new releases of some libraries (one was a "merb app":http://blog.hendrikvolkmer.de/2008/9/9/java-like-experiences-with-merb, the other one was a Rails app + some internal "imedo":http://www.imedo.de libraries). Those two applications where nothing like "business critical" - they were indeed some kind of testing/prototyping application to try some things out. So did I write tests back when I wrote them? No. Because I didn't see value in writing tests, when I wrote these application. It just seemed like some additional work and well, those apps where so simple and just used to try some stuff: Why do you need tests for them?
+
+In retrospective I think rather different about those two apps. You don't even need to change your own code to get vaue out ouf tests. What if you upgrade to some newer version of a library or some external service changed their API? How do you notice that those changed? Maybe they haven't. Maybe the API is still the same, but its behavoir is different - This shouldn't be the case, but who knows? How do you know that those changes don't brake your application in the weirdest ways you can think of. Maybe it's some strange edge case that almost never happens but it just happens to be the case that you excercise this edge case. 
+
+Or there was a bug in the library which you thought of as a feature (as in "every behaviour of a library - intended or not - is a feature"...) used it and now it got "fixed" which for you means: it breaks your app. And trust me, it's very frustrating to hunt down bugs in your application which then turn out to be caused by changes in external libraries/services. Without tests you have no idea, if it's your fault or "theirs".
+
+How do you know what's going on under the hood, if you don't have tests? This doesn't meant that you should write tests for the external libraries (although that sometimes is indeed a good idea), it means you should be sure which beavhiour is caused by your app and which isn't.
+
+This, to me, showed again the value of tests. And that for the most part it manifests itself later in the project, not necessarily when you're writing them. I don't talk about TDD (or BDD) here. That's another thing (which you can see value in). It's the value of tests in the long term. That's why "test code is as important as application code" (to quote Jay Fields again).
+
+So there's absolutely now excuse to write no tests for valuable code. Be it backend code that uses databases, external services, your own business logic, or JavaScript based frontend code. If the code is of value to the user, you better have tests for it.

@@ -1,0 +1,24 @@
+--- 
+title: Oh Schreck, es schneit!
+tags: 
+- weather
+- winter
+- chaos
+filter: 
+- textile
+description: "Ja sowas!? Es ist Winter und es schneit. F\xC3\xBCr manche kommt das wohl \xC3\xBCberraschend..."
+blog_post: true
+layout: post
+created_at: 2007-01-24 12:09:47.526917 +01:00
+---
+
+<p>Und das mitten im Januar! Im Winter! Wer hätte das erwartet? Klar, dass es dann ein Chaos geben muss.</p>
+<p>Folgende Nachricht findet sich z.B. auf der Seite des <a href="http://vvs.de/">VVS</a>:</p>
+<blockquote>
+<p> Beeinträchtigung im Schienen- und Busverkehr</p>
+<p>Witterungsbedingt kommt es im S-Bahn- und im SSB-Schienenbereich durch starken Schneefall und Weichenstörungen zu Verspätungen von bis zu 60 Minuten. Der Busbetrieb ist im gesamten VVS-Gebiet fast vollständig eingestellt bis die Fahrbahnen wieder geräumt sind. Die wenigen rollenden Busse fahren quasi ohne Fahrplan.</p></blockquote>
+<p>Autobahnen werden gesperrt, es gibt Unfälle und bestimmte auch Leute, die noch mit Sommerreifen am Auto unterwegs sind. Ist es wirklich so verwunderlich, dass es im Winter mal schneit, dass nun so ein Chaos ausbricht?</p>
+<p>OK, es hat über Nacht mal eben 25cm geschneit. Was für Stuttgart recht viel ist, aber in den letzten Jahren auch schon öfters mal vorgekommen ist. Und wirklich überraschend war's irgendwie nicht. Laut Wetterprognose sollte es diese Woche schneien.</p>
+<p>Ein gewisses Chaos wird sich wohl nie vermeiden lassen, aber irgendwie kommt mir das alles so vor, als ob alle (Verkehrsbetriebe, Straßenwacht, Autofahrer, etc.) total überrascht sind von der Tatsache, dass es im Januar, im Winter, schneit.</p> 
+<p>Update:<br>
+Apropos überraschte Autofahrer: Ein Kollege erzählte mir gestern, er hätte morgens Autofahrer gesehen, die hektisch die Winterreifen aufgzogen haben... Sorry, aber da fällt mir echt nix mehr zu ein.</p>

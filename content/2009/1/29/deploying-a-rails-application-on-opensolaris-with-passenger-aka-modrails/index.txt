@@ -14,6 +14,7 @@ description: A howto on how to deploy a Rails application on the latest OpenSola
 blog_post: true
 layout: post
 created_at: 2009-01-29 12:09:47.526917 +01:00
+updated_at: 2009-05-31 12:09:47.526917 +01:00
 ---
 
 
@@ -65,11 +66,11 @@ Thanks to Amanda Waite for "this hint":http://blogs.sun.com/mandy/entry/segmenta
 
 
 The next installation step is Apache:
-<pre class="prettyprint"><code># pfexec pkg install SUNWapach22</code> </pre>
+<pre class="prettyprint"><code># pfexec pkg install SUNWapch22</code> </pre>
 
 
 Make sure it starts via svcadm:
-<pre class="prettyprint"><code># svcadm start apache22</code> </pre>
+<pre class="prettyprint"><code># svcadm enable apache22</code> </pre>
 
 
 Check that it runs:

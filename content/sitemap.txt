@@ -3,13 +3,14 @@ filter: erb
 layout: nil
 extension: xml
 base_url: http://blog.hendrikvolkmer.de
+dirty: true
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <% all_articles_last_updated_first.each do |page| %>
    <url>
       <loc><%= @page.base_url %><%= page.url %></loc>
-      <lastmod><%= page.created_at.xmlschema %></lastmod> <%# # updated_at - later %>
+      <lastmod><%= page.updated_at ? page.updated_at.xmlschema : page.created_at.xmlschema %></lastmod> <%# # updated_at - later %>
    </url>
   <% end %>
 </urlset>

@@ -8,7 +8,7 @@ tags:
 categories: english life
 filter: 
 - textile
-description: Humans are more irrational than you thought. The book 'Predictably Irrational' by DAn Ariely gives great insight into human behaviour.
+description: Humans are more irrational than you thought. The book 'Predictably Irrational' by Dan Ariely gives great insight into human behaviour.
 blog_post: true
 layout: post
 created_at: 2009-02-01 12:09:47.526917 +01:00

@@ -1,0 +1,72 @@
+<p><img src="http://blog.hendrikvolkmer.de/assets/2009/1/29/opensolaris.png" alt="" /> <img src="http://blog.hendrikvolkmer.de/assets/2009/1/29/modrails.png" alt="" /></p>
+<p>Two technologies I wanted to play around with for some time are <a href="http://www.opensolaris.org">OpenSolaris</a> and <a href="http://www.modrails.com">passenger</a>. OpenSolaris because of <a href="http://opensolaris.org/os/community/zfs/"><span class="caps">ZFS</span></a>, <a href="http://opensolaris.org/os/community/zones/">Zones</a>, <a href="http://opensolaris.org/os/community/smf/"><span class="caps">SMF</span></a> and the latest addition <a href="http://opensolaris.org/os/project/pkg/"><span class="caps">IPS</span></a> and passenger because it seems to be the new default Rails deployment model and is really easy to configure.</p>
+<p>So I deceided to combine those to and get started. Here&#8217;s what I did. Maybe it&#8217;s useful for someone who&#8217;s trying to do the same.</p>
+<p>I grabbed the <a href="http://virtualboximages.com/OpenSolaris-2008.11">OpenSolaris 2008.11 Virtualbox image</a> from virtualboximages.com and booted it in VirtualBox.</p>
+<p>I wanted to make sure to have the latest updates so I updated the image (all commands are executed as root):<br />
+<pre class="prettyprint"><code># pfexec pkg image-update</code></pre></p>
+<p>A reboot later I installed the necessary parts for a Rails environment:</p>
+<pre class="prettyprint"><code># pfexec pkg install SUNWruby18
+# pfexec pkg install gcc-dev
+</code></pre>
+<p>SUNWruby18 installes ruby 1.8.6p287 which is exactly what I needed.</p>
+<p>The mysql installation was a bit harder:</p>
+<pre class="prettyprint"><code># pfexec pkg install SUNWmysql5
+# /usr/mysql/5.0/bin/mysql_db_install
+# chown -R mysql:mysql /var/mysql/5.0/data
+</code></pre>
+<p>I needed to manually chown the data dir. Otherwise mysql wouldn&#8217;t start.</p>
+<p>You can confirm that your mysql is running via:<br />
+<pre class="prettyprint"><code># svcs -l mysql
+</code> </pre></p>
+<p>The logfile gives further information if something goes wrong.</p>
+<p>To access mysql try:<br />
+<pre class="prettyprint"><code># /usr/mysql/5.0/bin/mysql
+</code> </pre></p>
+<p>The &#8220;5.0&#8221; in the path is important because there&#8217;s also a mysql version 4 installed. This will be of interest when installing the mysql ruby gem. The command to correctly install the gem is:<br />
+<pre class="prettyprint"><code># pfexec gem install mysql -- --with-mysql-lib=/usr/mysql/5.0/lib/mysql --with-mysql-include=/usr/mysql/5.0/include
+</code> </pre></p>
+<p>Thanks to Amanda Waite for <a href="http://blogs.sun.com/mandy/entry/segmentation_fault_when_running_rails">this hint</a>.</p>
+<p>The next installation step is Apache:<br />
+<pre class="prettyprint"><code># pfexec pkg install SUNWapch22</code> </pre></p>
+<p>Make sure it starts via svcadm:<br />
+<pre class="prettyprint"><code># svcadm enable apache22</code> </pre></p>
+<p>Check that it runs:<br />
+<pre class="prettyprint"><code># svcs -l apache22</code> </pre></p>
+<p>(or just type http://localhost in your browser)</p>
+<p>I needed memcached, so I installed it:<br />
+<pre class="prettyprint"><code># pfexec pkg install SUNWmemcached</code></pre></p>
+<p>It didn&#8217;t start right away, though. There are some changes you have to apply to run <a href="http://blogs.sun.com/trond/entry/memcached_in_solaris">memcached in solaris</a></p>
+<pre class="prettyprint"><code># svccfg
+svc:&gt; select memcached
+svc:/application/database/memcached&gt; setprop memcached/options=("-u" "nobody" "-m" "2048")
+svc:/application/database/memcached&gt; quit
+# svcadm refresh memcached
+</code></pre>
+<p>Of course we need rails:</p>
+<pre class="prettyprint"><code>pfexec gem install rails
+</code></pre>
+<p>The current stable version of passenger doesn&#8217;t support Solaris but the egde version does. So I downloaded the <a href="http://github.com/FooBarWidget/passenger/downloads/master">passenger edge Version</a> off github.</p>
+<p>It didn&#8217;t compile right away. There are some compiler flags that aren&#8217;t supported in Solaris so I used <a href="http://github.com/farra/passenger/commit/b1af92376e150471c4e825957f145fe0b0dc527d">these changes</a> to make passenger compile.</p>
+<p>Commandwise this looked like this: I unpacked the tarball into /opt/passenger and then did a</p>
+<pre class="prettyprint"><code># cd /opt/passenger
+# vi lib/passenger/platform_info.rb # see above
+# bin/passenger-install-apache2-module
+# chown -R webservd /opt/passenger
+</code></pre>
+<p>Add the mentioned config snippet to /etc/apache2/httpd.conf and restart apache <br />
+<pre class="prettyprint"><code># svcadmin restart apache2</code> </pre></p>
+<p>Now were all set to create a new rails app. I created a seperate <span class="caps">ZFS</span> partition to serve the apps. Just because it&#8217;s so easy to do with <span class="caps">ZFS</span> and it gives you more control on how much space is used by your apps etc.</p>
+<pre class="prettyprint"><code># zfs create rpool/apps</code></pre>
+<p>Now it&#8217;s time for the demo app:</p>
+<pre class="prettyprint"><code># cd /rpool/apps
+# rails demo
+# chown -R webservd demo</code></pre>
+<p>I added the DocumentRoot of the app to the apacheconfig (<code>DocumentRoot /rpool/apps/demo/public</code>) and restarted apache again (<code>svcadm restart apache2</code> &#8211; you know the drill by now).</p>
+<p>And that&#8217;s it. A http://localhost gave me the demo welcome page. Nice.</p>
+<p>Later I wanted do deploy a rails app via capistrano so I needed git. There isn&#8217;t a <span class="caps">IPS</span> package for git yet, so I decided to take the standard compile route. I downloaded git and compiled it like this:</p>
+<pre class="prettyprint"><code># ./configure --prefix=/opt/git
+# make install
+# ln -s /opt/git/bin/git /usr/bin/git
+</code></pre>
+<p>I used the symlink because capistrano wasn&#8217;t able to find git otherwise &#8211; setting scm_command didn&#8217;t work.</p>
+<p>If anyone tries this recipe and it works or it doesn&#8217;t work&#8230; just let me know. Have fun with OpenSolaris. It&#8217;s worth checking out.</p>

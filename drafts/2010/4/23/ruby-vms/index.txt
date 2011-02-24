@@ -1,0 +1,17 @@
+
+1.8.7 fuckup (I call it "crack release" because someone must have smoked crack and then backported some features from 1.9 to 1.8)
+
+Strange behaviour (or let's say error messages): http://www.stephensykes.com/blog_perm.html?152
+
+Patchlevels braking strange stuff (e.g. Marshal format) http://redmine.ruby-lang.org/issues/show/2597#note-3 - this is "patchlevel" - not even minor release.
+
+Fixed on 04/20/2010 - no new release... since then.
+
+=> Back to ruby-1.8.7-p174
+
+
+Matz (inventor of the language) not running tests http://www.ruby-forum.com/topic/189053#825556
+
+we're talking about "running" not even "writing".
+
+JRuby / Rubinius -> RubySpec

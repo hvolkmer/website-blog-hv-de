@@ -1,0 +1,70 @@
+<p><img src='http://www.sundevil.de/hendrik/pics/WRT54Gl.jpg' alt='WRT54G 1.0' align="left"/><br />
+<img src='http://www.sundevil.de/hendrik/pics/arcordslwlanmodem100.gif' alt='Arcor-DSL WLAN-Modem 100' align="right" /><br />
+Ich habe es nun endlich geschafft eine stabile kabellose Verbindung zwischen meinem Arcor Router (basiert auf Zyxel Prestige 660HW-67) und dem kabelbasiertem Netz hinbekommen. Dazu habe ich meinen <a href="http://www.linksys.com/international/product.asp?coid=8&ipid=455">Linksys WRT54G </a><acronym title="Wireless Local Area Network" lang="en"><span class="caps">WLAN</span></acronym>-Router mit <a href="http://openwrt.org/">OpenWRT</a> geflasht und beim ersten Versuch probiert das ganze  <acronym title="Local Area Network" lang="en"><span class="caps">LAN</span></acronym> einfach per Wireless-Bridge anzschließen. Das ging jedoch nicht so gut. Die Verbindung war zwar da &#8211; pings gingen durch &#8211; aber surfen war nur teilweise möglich. War irgendwie nicht sehr stabil. Rumspielen mit txpower etc. hat auch nichts gebracht.</p>
+<p>Also habe ich versucht den Router im &#8220;echten&#8221; Client-Modus zu betreiben und zu routen. Zum Glück beherrscht der Arcor Router  <acronym title="Routing Information Protocol" lang="en"><span class="caps">RIP</span></acronym>. Eine statische Route ins interne Netz hätte es auch getan, aber die kann man &#8211; zumindest auf dem Webinterface nicht einstellen. Über das Telnet interface ist das vielleicht möglich, aber ich habe mich für <acronym title="Routing Information Protocol" lang="en"><span class="caps">RIP</span></acronym> entschieden.</p>
+<p>Auf dem WRT54g (Version 1.0 &#8211; die Version mit den vielen <acronym title="Light Emitting Diode" lang="en"><span class="caps">LED</span></acronym>s) habe ich quagga zebra installiert. Dazu habe ich den Router erstmal per <acronym title="Wide Area Network" lang="en"><span class="caps">WAN</span></acronym>-Interface ins Netz gehangen:<br />
+<pre><br />
+nvram set wan_ipaddr=192.168.50.253<br />
+nvram set wan_gateway=192.168.50.254 # Das ist mein Arcor router<br />
+nvram set wan_dns=192.168.50.1              # Das ist core<br />
+nvram commit<br />
+reboot<br />
+</pre></p>
+<p>Dann erstmal die <acronym title="Wireless Local Area Network" lang="en"><span class="caps">WLAN</span></acronym>-Verbindung zwischen den Routern herstellen:<br />
+<pre><br />
+nvram set wl0_mode=wet    # sta wäre eigentlich Station-Mode, damit hatte ich aber keinen Erfolg&#8230;<br />
+nvram set lan_ipaddr=192.168.40.1<br />
+nvram set security_mode=wep<br />
+nvram set wl0_wep=on<br />
+nvram set wl0_key=5576F62595178EA5585790DFDD # Nein, das ist nicht mein echter <span class="caps">WEP</span> key<br />
+nvram commit <br />
+reboot<br />
+</pre></p>
+<p>Ping auf den anderen Router. Geht.</p>
+<p>Nach dem reboot dann Zebra installieren:<br />
+<pre><br />
+ipkg install quagga-ripd<br />
+</pre></p>
+<p>Wenn man nun zebra testweise starten möchte erhält man die Meldung:<br />
+<pre><br />
+(Zebra)privs_init: could not lookup user root<br />
+</pre></p>
+<p>Das liegt daran, dass standardmäßig auf dem OpenWRT keine User installiert sind. Ich habe daraufhin den dropbear -ssh-Server installiert, was angesichts der unsicheren telnetverbindung sowieso eine gute Idee ist. Bei der Installation wird dann automatisch der User &#8220;root&#8221; angelegt.<br />
+/etc/quagga/zebra.conf<br />
+<pre><br />
+hostname rigel<br />
+password geheim<br />
+enable password geheim<br />
+!<br />
+! Interface&#8217;s description. <br />
+!<br />
+interface lo<br />
+  description Loopback<br />
+interface br0<br />
+  description ethernet-wireless<br />
+!<br />
+! Static default route sample.<br />
+!<br />
+ip route 0.0.0.0/0 192.168.40.254<br />
+!<br />
+</pre><br />
+/etc/quagga/ripd.conf<br />
+<pre><br />
+hostname rigel<br />
+!<br />
+router rip<br />
+  network 192.168.50.0/24<br />
+  network 192.168.40.0/24<br />
+</pre></p>
+<p>Nun noch die Startup Files anlegen:<br />
+<pre><br />
+cat &gt;/etc/init.d/S95zebra<br />
+#!/bin/sh<br />
+/sbin/zebra -d -f /etc/quagga/zebra.conf<br />
+^D<br />
+cat &gt;/etc/init.d/S95ripd<br />
+#!/bin/sh<br />
+/sbin/ripd -d -f /etc/quagga/ripd.conf<br />
+^D<br />
+</pre></p>
+<p>Dann hab ich noch die <acronym title="Internet Protocol" lang="en">IP</acronym>-Adresse des Arcor Routers auf 192.168.40.254 umgestellt und <acronym title="Routing Information Protocol" lang="en"><span class="caps">RIP</span></acronym> aktiviert, die default routes auf den Clients im 50er Netz geändert, einmal rundum gepingt, ob sich alle Rechner sehen können und schon ging&#8217;s über den Wireless Link ins Internet.</p>

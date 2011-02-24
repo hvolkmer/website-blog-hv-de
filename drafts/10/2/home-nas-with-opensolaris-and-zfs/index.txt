@@ -1,0 +1,33 @@
+--- 
+title: Home NAS with OpenSolaris and ZFS
+sections: 
+- english
+- sysadmin
+tags: 
+- nas
+- opensolaris
+- zfs
+filter: 
+- erb
+- textile
+description: How to choose Hardware and setup a Home NAS system with OpenSolaris using external USB drives
+blog_post: true
+layout: post
+created_at: 2009-10-02 08:02:47.526917 +02:00
+---
+
+
+http://www.greenm3.com/2009/10/opensolaris-green-home-server-low-power-and-small.html
+Low Power atom http://blogs.sun.com/PotstickerGuru/entry/solaris_running_on_intel_atom
+http://breden.org.uk/2008/03/02/home-fileserver-zfs-hardware/
+
+AMD Athlon II X2 240e
+http://blogs.sun.com/constantin/entry/a_small_and_energy_efficient
+
+http://blog.brosowski.biz/2009-02/blackboxchen-2-zwischenstand/ (German)
+
+Jetway NC62K
+am3 mini itx
+
+http://www.adamretter.org.uk/blog/entries/diy-nas-software_and_hardware.xml
+energy efficient appliance http://www.teo-shop.eu/index.php?s=3000&k=140

@@ -5,6 +5,8 @@ source:      .
 destination: ./_site
 includes:    ./_includes
 
+paginate: 10
+
 permalink:   /:year/:month/:day/:title
 base_url: http://blog.hendrikvolkmer.de
 
@@ -14,5 +16,5 @@ root_desc: "Blog of Hendrik Volkmer - articles about technologies like Rails and
 rdiscount:
   extensions: []
     
-exclude: ['Rakefile', 'README.markdown', 'config.rb']
+exclude: ['Rakefile', 'TODO', 'config.rb']
 

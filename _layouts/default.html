@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>  {{ page.title }} - Hendrik Volkmer</title>
+  <meta name="author" content="Hendrik Volkmer" />
+  {% if page.description %}
+  <meta name="description" content="{{ page.description}}" />
+  {% else %}
+  <meta name="description" content="{{ site.description}}" />
+  {% endif %}
+  <link href="http://feeds.feedburner.com/hendrikvolkmer" rel="alternate" title="Hendrik Volkmer" type="application/atom+xml" />
+
+   <link rel="stylesheet" href="/css/coderay.css" type="text/css" />
+
+  <!-- Homepage CSS - used with permission of Ryan Tomayko -->
+  <link rel="stylesheet" href="/css/tomayko.css" type="text/css" media="screen, projection" />
+</head>
+<body>
+  <div id="container">
+    <div class='entry' id='content'>
+
+      <div id='header'>
+        {% if page.title %}
+          <h1 id='title'>{{ page.title }}</h1>
+        {% else %}
+          <h1 id='title'>Refactoring life. Mercilessly.</h1>
+        {% endif %}
+        {% if page.created_at %}
+          <p class='date'> {{ page.created_at }}</p>
+        {% else %}
+          <p class='date'> {{ site.time }}</p>
+        {% endif %}
+        <p>
+          <a href='/about' rel='me author'>Hendrik Volkmer</a>
+        </p>
+      </div>
+
+      {{ content }}
+
+    </div>
+    <div id='footer'>
+      <p>
+        <a href='/' title="Back to homepage" >Home</a> <a href='http://www.hendrikvolkmer.de/impressum.html' rel="nofollow">Impressum</a>
+      </p>
+      <p class='rights'>
+        Copyright
+        <a href="http://creativecommons.org/licenses/by-sa/2.5/" rel="license" title="Creative Commons 2.5 Copyright notice">&copy;</a>
+        2002-2011
+        by
+        <a href='/about' rel='me author' title="Author: Hendrik Volkmer">Hendrik Volkmer</a>
+      </p>
+    </div>
+  </div>
+  <script type="text/javascript">
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+  <script type="text/javascript">
+  try {
+  var pageTracker = _gat._getTracker("UA-1443055-1");
+  pageTracker._trackPageview();
+  } catch(err) {}</script>
+  <noscript><p>Google Analytics</p></noscript>
+</body>
+</html>

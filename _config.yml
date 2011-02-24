@@ -1,0 +1,18 @@
+markdown: rdiscount
+pygments: true
+
+source:      .
+destination: ./_site
+includes:    ./_includes
+
+permalink:   /:year/:month/:day/:title
+base_url: http://blog.hendrikvolkmer.de
+
+description: "Hendrik Volkmer"
+root_desc: "Blog of Hendrik Volkmer - articles about technologies like Rails and OpenSolaris, Programming languages in general, agile software development, testing, design and life"
+
+rdiscount:
+  extensions: []
+    
+exclude: ['Rakefile', 'README.markdown', 'config.rb']
+

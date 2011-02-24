@@ -7,7 +7,7 @@ includes:    ./_includes
 
 paginate: 10
 
-permalink:   /:year/:month/:day/:title
+permalink:   /:year/:month/:day/:title/
 base_url: http://blog.hendrikvolkmer.de
 
 description: "Hendrik Volkmer"

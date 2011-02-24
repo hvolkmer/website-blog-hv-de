@@ -32,5 +32,5 @@ end
 
 desc "deploy"
 task :deploy => [:generate, :old_redirects] do 
-  sh "s3cmd sync _site/* s3://blog.hendrikvolkmer.de"
+  sh "s3cmd sync _site/* s3://blog.hendrikvolkmer.de/"
 end

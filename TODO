@@ -1,6 +1,5 @@
 Jekyll
 
-- Pagination
 - Categories
 - Tags
 
@@ -17,7 +16,7 @@ Jekyll
 
 - Rewrite Rules:
 
-ewriteRule ^/2008/8/12/umkleidekabinen-hack-in-kaufhäusern$ /2008/8/12/umkleidekabinen-hack-in-kaufhaeusern/$1 [R=301,L]
+RewriteRule ^/2008/8/12/umkleidekabinen-hack-in-kaufhäusern$ /2008/8/12/umkleidekabinen-hack-in-kaufhaeusern/$1 [R=301,L]
 RewriteRule ^/2002/7/14/microsoft-geschäftspraktiken$ /2002/7/14/microsoft-geschaeftspraktiken/$1 [R=301,L]
 RewriteRule ^/2002/7/22/Überwachung$ /2002/7/22/ueberwachung/$1 [R=301,L]
 RewriteRule ^/2005/12/04/besser-spät-als-nie$ /2005/12/04/besser-spaet-als-nie/$1 [R=301,L]
@@ -39,7 +38,6 @@ RewriteRule ^/2008/8/7/do-you-like-?$ /2008/8/7/do-you-like-apple/$1 [R=301,L]
   RewriteRule ^/archives/(.*)$ /$1 [R=301,L]
 
 ====== OLD
-
 
 [ ] optional (Comments) -> app engine app
 [ ] mephisto to webby script/converter/raketask (=> fork webby on github + pull req)

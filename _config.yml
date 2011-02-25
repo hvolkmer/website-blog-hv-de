@@ -16,5 +16,5 @@ root_desc: "Blog of Hendrik Volkmer - articles about technologies like Rails and
 rdiscount:
   extensions: []
     
-exclude: ['Rakefile', 'TODO', 'config.rb']
+exclude: ['Rakefile', 'TODO']
 

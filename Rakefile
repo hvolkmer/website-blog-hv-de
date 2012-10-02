@@ -26,6 +26,7 @@ task :old_redirects => :generate do
   end
 end
 
+desc 'generate'
 task :generate do
   sh "jekyll"
 end

@@ -1,0 +1,31 @@
+---
+layout: nil
+---
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+  <title>Refactoring life. Mercilessly.</title>
+  <link href="http://blog.hendrikvolkmer.de/"/>
+  <link type="application/atom+xml" rel="self" href="http://blog.hendrikvolkmer.de/atom.xml"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>http://blog.hendrikvolkmer.de/</id>
+  <author>
+    <name>Hendrik Volkmer</name>
+    <email>hvolkmer@gmail.com</email>
+  </author>
+
+  {% for post in site.posts %}
+  <entry>
+    <id>http://blog.hendrikvolkmer.de{{ post.id }}</id>
+    <link type="text/html" rel="alternate" href="http://blog.hendrikvolkmer.de{{ post.url }}"/>
+    <title>{{ post.title | xml_escape }}</title>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <author>
+      <name>Hendrik Volkmer</name>
+      <uri>http://blog.hendrikvolkmer.de</uri>
+    </author>
+    <content type="html">{{ post.content | xml_escape }}</content>
+  </entry>
+  {% endfor %}
+ 
+</feed>

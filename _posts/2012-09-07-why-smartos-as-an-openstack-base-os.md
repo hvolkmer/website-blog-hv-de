@@ -2,6 +2,8 @@
 title: Why SmartOS as an OpenStack base operating system?
 description: A brief overview over the SmartOS feature that make it a good fit as an OpenStack base operating system
 layout: post
+category: OpenStack
+created_at: 2012-09-07 08:02:13 +0100
 ---
 
 When SmartOS was first announced about a year ago, I downloaded the ISO, booted it in VMware, logged in and then… nothing. What is this? It's small, it is not supposed to be installed on disk. What do I do with it? What is so special about it? It is just an Illumos distro - a small and strange one. I did not get it.

@@ -2,6 +2,8 @@
 title: Deploying OpenStack with Crowbar at scale
 description: Lessons learned while deploying a 100 node cluster with crowbar
 layout: post
+category: OpenStack
+created_at: 2012-09-26 08:55:53 +0100
 --- 
 
 I've been working with [@ehaselwanter](http://www.twitter.com/ehaselwanter) on an OpenStack deployment with Crowbar for a project we are currently doing for [T-Labs](http://www.laboratories.telekom.com). 

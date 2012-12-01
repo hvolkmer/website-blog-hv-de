@@ -2,6 +2,7 @@
 title: Things to OmniFocus
 description: How to migrate your tasks and projects from Things to OmniFocus
 layout: post
+created_at: 2012-11-07 08:37:13 +0100
 ---
 
 I've been using [Things][things] for about three years now and it's great. After re-reading [GTD][gtd] a few weeks ago I realised why the system is not working for me as good as it used to: 

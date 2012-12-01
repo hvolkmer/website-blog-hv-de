@@ -2,6 +2,8 @@
 title: Nuking a big cluster with PXE boot, DBAN and Crowbar
 description: Cleaning up a test install is easy using DBAN, PXE boot and Crowbar. This post shows how to set up a cluster wide hard drive wipe
 layout: post
+category: OpenStack
+created_at: 2012-10-05 07:53:37 +0100
 --- 
 
 When you are deploying clusters on real hardware - again and again - to test the deployment - it is quite helpful to have the hardware in a clean state. Unfortunately there is no real "Factory reset" button on hard drives. 

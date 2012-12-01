@@ -2,6 +2,8 @@
 title: Status of the SmartOS OpenStack Port
 description: Update on the current status of the SmartOS port
 layout: post
+category: OpenStack
+created_at: 2012-11-06 08:17:28 +0100
 --- 
 
 Since the first blog post about the SmartOS port and after my lightning talk at the Grizzly Summit, several people have asked me about the status of the port. So here's an update.

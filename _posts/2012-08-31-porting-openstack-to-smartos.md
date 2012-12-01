@@ -2,6 +2,8 @@
 title: Porting OpenStack to SmartOS
 description: First post of a blog series describing the addition of SmartOS as a OpenStack hypervisor
 layout: post
+category: OpenStack
+created_at: 2012-08-31 08:40:03 +0100
 ---
 
 ## General idea

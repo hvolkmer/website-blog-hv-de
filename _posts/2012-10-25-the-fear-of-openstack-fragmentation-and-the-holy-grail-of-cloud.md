@@ -2,6 +2,8 @@
 title: The fear of OpenStack fragmentation and the holy grail of cloud
 description: To fight fragmentation the OpenStack foundation - not vendors - needs to step up and provide an interop certification framework
 layout: post
+category: OpenStack
+created_at: 2012-10-25 08:15:24 +0100
 ---
 Last week I was at the OpenStack Grizzly Summit and one thing was clear from the beginning: OpenStack generates a lot of interest in all kinds of businesses: Hosting, Enterprise IT, Development shops. All kinds of people want to use cloud infrastructure in one way or another to get the benefits of a more flexible infrastructure.
 

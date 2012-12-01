@@ -2,6 +2,8 @@
 title: Reducing development-production parity for OpenStack development with SmartOS zones
 description: Thinking about deployment at development time pays off. SmartOS zones help a lot.
 layout: post
+category: OpenStack
+created_at: 2012-09-14 07:55:43 +0100
 --- 
 Reducing [Dev/prod parity](http://www.12factor.net/dev-prod-parity) has several advantages that are listed and explained at the linked page. Without a useful reduction of the parity [Continuous delivery](http://continuousdelivery.com/) is impossible or at least akin to madness.
 

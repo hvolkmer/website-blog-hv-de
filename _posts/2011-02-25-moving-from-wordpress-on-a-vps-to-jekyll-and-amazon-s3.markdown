@@ -2,6 +2,7 @@
 title: Moving from Wordpress on a VPS to Jekyll and Amazon S3
 description: How and why to move your blog from Wordpress to a static webpage that is hosted on Amazon S3 using the new website hosting feature
 layout: post
+created_at: 2011-02-25 13:19:35 +0100
 ---
 
 ## What and Why?

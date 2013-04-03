@@ -22,8 +22,8 @@ So let's cook:
 
 ## Checkout the Chef cookbooks and Vagrantfile
 
-    git clone https://www.github.com/cloudbau/openstack-chef-repo.get
-    librarian-chef update    
+    git clone https://www.github.com/cloudbau/openstack-chef-repo.git
+    librarian-chef update
 
 ## Set up Chef server environment
 
@@ -37,11 +37,11 @@ Using hosted chef is the easiest way to get started, but you can of course use y
 
 ## Deploy
 
-Now deploy Openstack! 
+Now deploy Openstack!
 
     vagrant up
 
-Get a coffee, tea or whatever you like while it's cooking… 
+Get a coffee, tea or whatever you like while it's cooking…
 
 ## Use it
 

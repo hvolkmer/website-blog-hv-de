@@ -30,7 +30,7 @@ Why does this matter? Because making stateless services resilient/available is i
 
 >> Side note: One property of resilient systems that surfaces here is the client knowledge of more than one endpoint. Think of multiple DNS entires for a domain that hosts a webpage. In the routing example this is not that obvious but if you look at IPv6 you can see multiple routing entries on the client side.
 
-So making stateless services resilient just means: replicate all the data and serve it from multiple endpoints and let the client know about multiple endpoints. There are several possibilities on how to do that but from an architecture standpoint. Choose one you like and you're done. Easy.
+So making stateless services resilient just means: replicate all the data and serve it from multiple endpoints and let the client know about multiple endpoints. There are several possibilities on how to do that from an architectural standpoint. Choose the one you like and you're done. Easy.
 
 The interesting part - which was left out of the presentation - is resilience of stateful services. And - while most services can actually be designed to be stateless - you have to store your data somewhere and be able to change it. Otherwise this whole information business would be kind of boring and useless.
 

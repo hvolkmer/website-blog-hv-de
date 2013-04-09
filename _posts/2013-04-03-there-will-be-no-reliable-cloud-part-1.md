@@ -43,7 +43,7 @@ Let's look at them in detail.
 
 ### Non-distributed base system with HA on top
 
-This is the classic "HA" case: Take some stateful service that is not distributed in itself like NFS (which is not distributed on the server side) or MySQL add some [Pacemaker](http://www.linux-ha.org/wiki/Pacemaker) magic with some [DRBD](http://www.drbd.org/) mixed in and your good. Or miserable.
+This is the classic "HA" case: Take some stateful service that is not distributed in itself like NFS (which is not distributed on the server side) or MySQL add some [Pacemaker](http://www.linux-ha.org/wiki/Pacemaker) magic with some [DRBD](http://www.drbd.org/) mixed in and you're good. Or miserable.
 
 If you look into the details, most of the time your basically cheating your way out of the [CAP theorem](http://en.wikipedia.org/wiki/CAP_theorem) by denying the existence of network partitions through a second network/heartbeat link.
 Also these kinds of setups are *cause* of failures more often than not. For example several github outages were caused by these kind of HA-failures: [Github Mysql failover failure](https://github.com/blog/1261-github-availability-this-week), [Github MLAG failure](https://github.com/blog/1364-downtime-last-saturday).
@@ -100,3 +100,4 @@ So the idea of "let's just make that part more reliable - and get rid of this in
 
 I'll show you why this approach won't make sense (business and availability wise) in the next part. Feel free to comment, question and fight my thoughts and ideas. They can only get better by attacking them!
 
+[Read part 2](http://blog.hendrikvolkmer.de/2013/04/09/there-will-be-no-reliable-cloud-part-2/)

@@ -6,7 +6,7 @@ category: OpenStack
 created_at: 2013-04-09 10:35:13 +0100
 ---
 
-In while the [first part](blog.hendrikvolkmer.de/2013/04/03/there-will-be-no-reliable-cloud-part-1/) was more basic information and technical, the second part will be about why I think it is impossible and not viable business wise to aim for high availability of the cloud in the infrastructure layer. Part 3 will then go into why this actually isn't that bad an we can still use this "crappy infrastructure" to build systems that are available to the end user.
+In while the [first part](http://blog.hendrikvolkmer.de/2013/04/03/there-will-be-no-reliable-cloud-part-1/) was more basic information and technical, the second part will be about why I think it is impossible and not viable business wise to aim for high availability of the cloud in the infrastructure layer. Part 3 will then go into why this actually isn't that bad an we can still use this "crappy infrastructure" to build systems that are available to the end user.
 
 I just want to make the following point:
 
@@ -54,7 +54,7 @@ The basic heuristic for reliability of systems is:
 
 And this is not a linear dependency. As soon as you introduce a dependency like a central service of any kind (think network filesystem, SAN, the network itself) you add a dependency.
 
-So if you consider this and now think of a cloud system that uses say 1000 compute nodes which, for normal operation, cloud be rather independent. Then you add some crazy HA-failover logic to your cloud management software that is supposed to fail over VMs via live migration from any node to any node. Well, congratulations, you just *decreased* the reliability of your overall system and *increased* the risk and impact of failure (total system failure!) by orders of magnitude because you just tied all compute nodes to each other.
+So if you consider this and now think of a cloud system that uses say 1000 compute nodes which, for normal operation, could be rather independent. Then you add some crazy HA-failover logic to your cloud management software that is supposed to fail over VMs via live migration from any node to any node. Well, congratulations, you just *decreased* the reliability of your overall system and *increased* the risk and impact of failure (total system failure!) by orders of magnitude because you just tied all compute nodes to each other.
 
 An example that shows up again and again are failures of AWS EBS as a common source of AWS AZ failure, [like the one around christmas last year](http://www.forbes.com/sites/kellyclay/2012/06/30/aws-power-outage-questions-reliability-of-public-cloud/). The Elastic LB had a dependency on EBS. EBS fails. Now the whole region is down.
 

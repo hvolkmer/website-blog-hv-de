@@ -40,7 +40,7 @@ There are two main aspects to configuration (system behaviour and connection to 
 
 <img title="Configuration matrix" src="/assets/2013/10/Configmatrix.png" alt="Configuration matrix" width="400" height="400">
 
-As you can see, most of the "boot up" config parameters also make sense to tweak at run time. This cloud be done either by changing config files and restarting the process or directly via API. All of the "boot up"/"behaviour" parts cloud be statically compiled into your application, because you wouldn't want to change them at run time anyway. 
+As you can see, most of the "boot up" config parameters also make sense to tweak at run time. This could be done either by changing config files and restarting the process or directly via API. All of the "boot up"/"behaviour" parts cloud be statically compiled into your application, because you wouldn't want to change them at run time anyway.
 
 >> If this is so simple, why does config files exist anyway? The compile statically into your application part just did not make sense in older delivery models. With fast build times and the possibility to bake everything together and re-deploy in seconds or at least minutes, this approach becomes a valid option to explore.
 
@@ -110,9 +110,9 @@ Stripped down operating system approach (either new kernel or Linux based):
 
 - [OSv](http://www.osv.io/) - Kernel + TCP/IP + ZFS to run Java or  other app stack
 - [CoreOS](http://coreos.com/) - Stripped down Linux + distributed config management
-- [Docker](http://docker.io) - LXC containers + management of containers for app deployment 
+- [Docker](http://docker.io) - LXC containers + management of containers for app deployment
 - [SmartOS](http://smartos.org/) - Illumos Kernel + Zones (or KVM)
-- [Returninfinity](http://www.returninfinity.com/) - Minimum OS kernels for HPC optimized for x86-64bit 
+- [Returninfinity](http://www.returninfinity.com/) - Minimum OS kernels for HPC optimized for x86-64bit
 - [ZeroVM](http://zerovm.org/wiki/The_Cloud_Hypervisor) - A cloud hypervisor - somewhere between BareMetalOS and docker
 
 ### Advantages of the cloud operating system approach
@@ -127,7 +127,7 @@ Stripped down operating system approach (either new kernel or Linux based):
 
 - Monitoring: You cannot use standard monitoring tools, on the other hand you'd probably don't need them. Just use in App monitoring and metering
 - Debugging: Your application has to provide some remote debugging interface, because the layer beneath might not have it (e.g. no ssh)
-- Security: The attack surface is minimized but that does not mean everything is solved. You still have to secure your app  
+- Security: The attack surface is minimized but that does not mean everything is solved. You still have to secure your app
 - Current System APIs might not be there: Depending on the approach you might not have POSIX-APIs or higher level Linux-APIs for lower level stuff.
 
 ## Conclusion

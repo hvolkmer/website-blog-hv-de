@@ -1,0 +1,8 @@
+language: ruby
+rvm: 2.2.0
+script: "./_scripts/build.sh"
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+  - secure: "Zu7GaWG1vVI+KzuHsE2P4Dob67S9nws6qRzXjUXRdz+bg8KeE4m0iw8hHSDYPUEajck3fU/mwKDoBbpGw1umSvRKV/Vu5SuF6tUKynw+pg0HkgNd5E9gTDlwodW9aSH6l1XPPD4sNfV+sPCMsGmQXIdO0SPSPSrya3L3LGoSc0A="
+  - secure: "EZDADi9vWDkKTJ3l4lPJ0+PsgxMFtVRBS48cHMepM3i0+YLw7tdKO3C1iMZL+gxg28+3Bfr2UxKN+74vNtUZnbFQN1bpC8F8RtI5Gp273Iv2r2yUK66RzGjJTWdGftmCeRd8jNuSWZXNQmNmO7k22nDN3ozy5sJv0wK44UrYKs8="

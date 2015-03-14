@@ -37,20 +37,3 @@ RewriteRule ^/2008/8/7/do-you-like-?$ /2008/8/7/do-you-like-apple/$1 [R=301,L]
   
   RewriteRule ^/archives/(.*)$ /$1 [R=301,L]
 
-====== OLD
-
-[ ] optional (Comments) -> app engine app
-[ ] mephisto to webby script/converter/raketask (=> fork webby on github + pull req)
-[ ] validate external links (jquery open in other browser)
-[ ] assets
-[ ] feed urls => feedburner
-
-
-
-ContentTODO:
-- solaris memcached rails
-- memcached gem solaris 
-
-- nas hardware  
-- bullet points
-- monome

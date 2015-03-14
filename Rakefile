@@ -1,7 +1,7 @@
 task :default => :deploy
 
 
-task :old_redirects => :generate do
+task :old_redirects => :build do
   require 'fileutils'
   Dir.chdir("_site/") do 
     # /page2/ -> /2/
@@ -26,12 +26,21 @@ task :old_redirects => :generate do
   end
 end
 
-desc 'generate'
-task :generate do
-  sh "jekyll"
+require 'html/proofer'
+
+task :default => :publish
+
+desc "Deploy to S3"
+task :publish => [:build, :old_redirects] do
+  sh "s3_website push"
 end
 
-desc "deploy"
-task :deploy => [:generate, :old_redirects] do 
-  sh "s3cmd sync _site/* s3://blog.hendrikvolkmer.de/"
+task :build do
+  sh "bundle exec jekyll build"
+end
+
+task :test => [:build, :old_redirects] do
+  HTML::Proofer.new("./_site",
+    :timeout => 15 # seconds
+  ).run
 end

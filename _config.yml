@@ -1,20 +1,17 @@
-markdown: rdiscount
-pygments: true
-
-source:      .
-destination: ./_site
-includes:    ./_includes
-
 paginate: 10
 
 permalink:   /:year/:month/:day/:title/
 base_url: http://blog.hendrikvolkmer.de
 
+# Config for: https://bitbucket.org/MrWerewolf/jekyll-category-feeds/src
+url: http://blog.hendrikvolkmer.de
+name: "Refactoring life. Mercilessly."
+author: "Hendrik Volkmer"
+
+markdown: kramdown
+base_url: http://blog.hendrikvolkmer.de
+
 description: "Hendrik Volkmer"
 root_desc: "Blog of Hendrik Volkmer - articles about technologies like Rails and OpenSolaris, Programming languages in general, agile software development, testing, design and life"
-
-rdiscount:
-  extensions: []
     
-exclude: ['Rakefile', 'TODO']
-
+exclude: ['Rakefile', 'vendor', "Gemfile", "Gemfile.lock", "s3_website.yml"]
